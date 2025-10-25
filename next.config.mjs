@@ -62,6 +62,13 @@ const nextConfig = {
     unoptimized: true,
   },
 
+
+
+  // ✅ Add these for GitHub Pages
+  basePath: '/github-datatroops-ai',   // repo name
+  assetPrefix: '/github-datatroops-ai', // load CSS/JS correctly
+
+
   webpack(config) {
     // Grab the existing rule that handles SVG imports
     const fileLoaderRule = config.module.rules.find((rule) =>
