@@ -1,0 +1,178 @@
+{
+  "version": 4,
+  "routes": {
+    "/sitemap/sitemap.xml": {
+      "initialHeaders": {
+        "cache-control": "public, immutable, no-transform, max-age=31536000",
+        "content-type": "application/xml",
+        "x-next-cache-tags": "_N_T_/layout,_N_T_/sitemap/layout,_N_T_/sitemap/sitemap.xml/layout,_N_T_/sitemap/sitemap.xml/route,_N_T_/sitemap/sitemap.xml/"
+      },
+      "experimentalBypassFor": [
+        { "type": "header", "key": "Next-Action" },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/sitemap/sitemap.xml",
+      "dataRoute": null
+    },
+    "/contact-us": {
+      "experimentalBypassFor": [
+        { "type": "header", "key": "Next-Action" },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/contact-us",
+      "dataRoute": "/contact-us.rsc"
+    },
+    "/technologies": {
+      "experimentalBypassFor": [
+        { "type": "header", "key": "Next-Action" },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/technologies",
+      "dataRoute": "/technologies.rsc"
+    },
+    "/about-us": {
+      "experimentalBypassFor": [
+        { "type": "header", "key": "Next-Action" },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/about-us",
+      "dataRoute": "/about-us.rsc"
+    },
+    "/healthcare-solutions": {
+      "experimentalBypassFor": [
+        { "type": "header", "key": "Next-Action" },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/healthcare-solutions",
+      "dataRoute": "/healthcare-solutions.rsc"
+    },
+    "/ai-chatbot": {
+      "experimentalBypassFor": [
+        { "type": "header", "key": "Next-Action" },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/ai-chatbot",
+      "dataRoute": "/ai-chatbot.rsc"
+    },
+    "/favicon.ico": {
+      "initialHeaders": {
+        "cache-control": "public, max-age=0, must-revalidate",
+        "content-type": "image/x-icon",
+        "x-next-cache-tags": "_N_T_/layout,_N_T_/favicon.ico/layout,_N_T_/favicon.ico/route,_N_T_/favicon.ico/"
+      },
+      "experimentalBypassFor": [
+        { "type": "header", "key": "Next-Action" },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/favicon.ico",
+      "dataRoute": null
+    },
+    "/blog/how-to-choose-perfect-ai-chatbot-for-your-business": {
+      "experimentalBypassFor": [
+        { "type": "header", "key": "Next-Action" },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/blog/how-to-choose-perfect-ai-chatbot-for-your-business",
+      "dataRoute": "/blog/how-to-choose-perfect-ai-chatbot-for-your-business.rsc"
+    },
+    "/solutions/generative-ai": {
+      "experimentalBypassFor": [
+        { "type": "header", "key": "Next-Action" },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/solutions/generative-ai",
+      "dataRoute": "/solutions/generative-ai.rsc"
+    },
+    "/": {
+      "experimentalBypassFor": [
+        { "type": "header", "key": "Next-Action" },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/",
+      "dataRoute": "/index.rsc"
+    },
+    "/solutions": {
+      "experimentalBypassFor": [
+        { "type": "header", "key": "Next-Action" },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/solutions",
+      "dataRoute": "/solutions.rsc"
+    },
+    "/solutions/workflow-automation": {
+      "experimentalBypassFor": [
+        { "type": "header", "key": "Next-Action" },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/solutions/workflow-automation",
+      "dataRoute": "/solutions/workflow-automation.rsc"
+    }
+  },
+  "dynamicRoutes": {},
+  "notFoundRoutes": [],
+  "preview": {
+    "previewModeId": "a00a2d8aa6cf20f74da2fd9bba5d834d",
+    "previewModeSigningKey": "e1596a84dcc12512346dd7d0156549682b9b874abad0c3bb4974273185de4082",
+    "previewModeEncryptionKey": "3320fbcfcb5fc534c629cc59aa1c3439715bce1057c0f41ecd554240b1c698a4"
+  }
+}

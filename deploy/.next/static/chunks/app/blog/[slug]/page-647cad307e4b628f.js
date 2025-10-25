@@ -1,0 +1,558 @@
+(self.webpackChunk_N_E = self.webpackChunk_N_E || []).push([
+  [308],
+  {
+    1831: function (e, s, t) {
+      Promise.resolve().then(t.bind(t, 62795));
+    },
+    62795: function (e, s, t) {
+      "use strict";
+      t.r(s),
+        t.d(s, {
+          default: function () {
+            return _;
+          },
+        });
+      var l = t(57437),
+        a = t(95137),
+        r = t(24241),
+        i = t(52022),
+        c = t(51475),
+        m = t(87138),
+        x = t(68132);
+      t(2265);
+      var n = t(51077),
+        d = t(11240),
+        o = t(53225),
+        h = t(20500),
+        b = t(55430),
+        g = t(24258),
+        p = t(97589),
+        u = t(35231),
+        j = t(25974),
+        f = t(2842),
+        N = t(9542),
+        w = t(45745),
+        v = t(23909),
+        k = t(85369),
+        y = t(68295),
+        Z = t(52612);
+      let D = {
+        DollarSign: n.Z,
+        Users: d.Z,
+        TrendingUp: o.Z,
+        Shield: h.Z,
+        Zap: b.Z,
+        Settings: g.Z,
+        Database: p.Z,
+      };
+      var C = (e) => {
+          let { content: s } = e,
+            t = (e, s) => {
+              var t, a, r, i;
+              switch (e.type) {
+                case "heading":
+                  return (0, l.jsx)(
+                    "h2",
+                    {
+                      className:
+                        "text-2xl sm:text-3xl lg:text-4xl font-bold mb-4 sm:mb-6 text-black border-b-2 border-black pb-2",
+                      children: e.content,
+                    },
+                    s,
+                  );
+                case "subheading":
+                  return (0, l.jsx)(
+                    "h3",
+                    {
+                      className:
+                        "text-xl sm:text-2xl lg:text-3xl font-semibold mb-3 sm:mb-4 text-black",
+                      children: e.content,
+                    },
+                    s,
+                  );
+                case "paragraph":
+                  return (0, l.jsx)(
+                    "p",
+                    {
+                      className:
+                        "text-gray-800 mb-4 sm:mb-6 leading-relaxed text-base sm:text-lg",
+                      children: e.content,
+                    },
+                    s,
+                  );
+                case "list":
+                  return (0, l.jsx)(
+                    "ul",
+                    {
+                      className:
+                        "list-disc list-inside mb-4 sm:mb-6 space-y-2 px-2 sm:px-0",
+                      children:
+                        null === (t = e.items) || void 0 === t
+                          ? void 0
+                          : t.map((e, s) =>
+                              (0, l.jsx)(
+                                "li",
+                                {
+                                  className:
+                                    "text-gray-800 leading-relaxed text-base sm:text-lg",
+                                  children: e,
+                                },
+                                s,
+                              ),
+                            ),
+                    },
+                    s,
+                  );
+                case "icon-list":
+                  return (0, l.jsx)(
+                    "div",
+                    {
+                      className: "grid gap-3 sm:gap-4 mb-6 sm:mb-8",
+                      children:
+                        null === (a = e.items) || void 0 === a
+                          ? void 0
+                          : a.map((e, s) => {
+                              let t = [h.Z, b.Z, g.Z, p.Z],
+                                a = t[s % t.length];
+                              return (0, l.jsx)(
+                                Z.Zb,
+                                {
+                                  className: "border-2 border-black",
+                                  children: (0, l.jsxs)(Z.aY, {
+                                    className:
+                                      "p-3 sm:p-4 flex items-start space-x-3 sm:space-x-4",
+                                    children: [
+                                      (0, l.jsx)("div", {
+                                        className:
+                                          "bg-black p-2 rounded-lg flex-shrink-0",
+                                        children: (0, l.jsx)(a, {
+                                          className:
+                                            "h-5 w-5 sm:h-6 sm:w-6 text-white",
+                                        }),
+                                      }),
+                                      (0, l.jsx)("p", {
+                                        className:
+                                          "text-gray-800 leading-relaxed flex-1 text-sm sm:text-base",
+                                        children: e,
+                                      }),
+                                    ],
+                                  }),
+                                },
+                                s,
+                              );
+                            }),
+                    },
+                    s,
+                  );
+                case "bibliography":
+                  return (0, l.jsx)(
+                    "div",
+                    {
+                      className: "mb-6 sm:mb-8",
+                      children: (0, l.jsx)("ol", {
+                        className: "list-none space-y-2 sm:space-y-3",
+                        children:
+                          null === (r = e.items) || void 0 === r
+                            ? void 0
+                            : r.map((e, s) =>
+                                (0, l.jsx)(
+                                  "li",
+                                  {
+                                    className:
+                                      "text-gray-800 leading-relaxed text-xs sm:text-sm bg-gray-50 p-2 sm:p-3 rounded border-l-4 border-black",
+                                    children: e,
+                                  },
+                                  s,
+                                ),
+                              ),
+                      }),
+                    },
+                    s,
+                  );
+                case "stats":
+                  return (0, l.jsx)(
+                    "div",
+                    {
+                      className:
+                        "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 mb-6 sm:mb-8",
+                      children:
+                        null === (i = e.statsData) || void 0 === i
+                          ? void 0
+                          : i.map((e, s) => {
+                              let t = D[e.icon] || o.Z;
+                              return (0, l.jsx)(
+                                Z.Zb,
+                                {
+                                  className:
+                                    "border-2 border-black text-center",
+                                  children: (0, l.jsxs)(Z.aY, {
+                                    className: "p-4 sm:p-6",
+                                    children: [
+                                      (0, l.jsx)("div", {
+                                        className:
+                                          "bg-black p-2 sm:p-3 rounded-full inline-block mb-3 sm:mb-4",
+                                        children: (0, l.jsx)(t, {
+                                          className:
+                                            "h-6 w-6 sm:h-8 sm:w-8 text-white",
+                                        }),
+                                      }),
+                                      (0, l.jsx)("div", {
+                                        className:
+                                          "text-2xl sm:text-3xl lg:text-4xl font-bold text-black mb-1 sm:mb-2",
+                                        children: e.value,
+                                      }),
+                                      (0, l.jsx)("div", {
+                                        className:
+                                          "text-gray-700 font-medium text-sm sm:text-base",
+                                        children: e.label,
+                                      }),
+                                    ],
+                                  }),
+                                },
+                                s,
+                              );
+                            }),
+                    },
+                    s,
+                  );
+                case "chart":
+                  if (!e.chartData) return null;
+                  let c = ["#000000", "#666666", "#999999", "#CCCCCC"];
+                  return (0, l.jsx)(
+                    Z.Zb,
+                    {
+                      className: "border-2 border-black mb-6 sm:mb-8",
+                      children: (0, l.jsxs)(Z.aY, {
+                        className: "p-4 sm:p-6",
+                        children: [
+                          (0, l.jsx)("h4", {
+                            className:
+                              "text-lg sm:text-xl lg:text-2xl font-semibold mb-3 sm:mb-4 text-black text-center",
+                            children: e.chartData.title,
+                          }),
+                          (0, l.jsx)("div", {
+                            className: "h-48 sm:h-64 lg:h-80 w-full",
+                            children: e.chartData.title.includes(
+                              "Market Growth",
+                            )
+                              ? (0, l.jsx)(u.h, {
+                                  width: "100%",
+                                  height: "100%",
+                                  children: (0, l.jsxs)(j.v, {
+                                    data: e.chartData.data,
+                                    margin: {
+                                      top: 5,
+                                      right: 5,
+                                      left: 5,
+                                      bottom: 5,
+                                    },
+                                    children: [
+                                      (0, l.jsx)(f.K, {
+                                        dataKey: "name",
+                                        stroke: "#000",
+                                        fontSize: 12,
+                                        tick: { fontSize: 10 },
+                                        interval: 0,
+                                        angle: -45,
+                                        textAnchor: "end",
+                                        height: 60,
+                                      }),
+                                      (0, l.jsx)(N.B, {
+                                        stroke: "#000",
+                                        fontSize: 10,
+                                        tick: { fontSize: 10 },
+                                      }),
+                                      (0, l.jsx)(w.$, {
+                                        dataKey: "value",
+                                        fill: "#000000",
+                                      }),
+                                    ],
+                                  }),
+                                })
+                              : (0, l.jsx)(u.h, {
+                                  width: "100%",
+                                  height: "100%",
+                                  children: (0, l.jsx)(v.u, {
+                                    children: (0, l.jsx)(k.b, {
+                                      data: e.chartData.data,
+                                      cx: "50%",
+                                      cy: "50%",
+                                      outerRadius: "60%",
+                                      dataKey: "value",
+                                      label: (e) => {
+                                        let { name: s, value: t } = e;
+                                        return window.innerWidth < 640
+                                          ? "".concat(t, "%")
+                                          : "".concat(s, ": ").concat(t, "%");
+                                      },
+                                      labelLine: !1,
+                                      fontSize: 10,
+                                      children: e.chartData.data.map((e, s) =>
+                                        (0, l.jsx)(
+                                          y.b,
+                                          { fill: c[s % c.length] },
+                                          "cell-".concat(s),
+                                        ),
+                                      ),
+                                    }),
+                                  }),
+                                }),
+                          }),
+                        ],
+                      }),
+                    },
+                    s,
+                  );
+                case "table":
+                  if (!e.tableData) return null;
+                  return (0, l.jsx)(
+                    Z.Zb,
+                    {
+                      className:
+                        "border-2 border-black mb-6 sm:mb-8 overflow-hidden",
+                      children: (0, l.jsx)(Z.aY, {
+                        className: "p-0",
+                        children: (0, l.jsx)("div", {
+                          className: "overflow-x-auto",
+                          children: (0, l.jsxs)("table", {
+                            className: "w-full min-w-full",
+                            children: [
+                              (0, l.jsx)("thead", {
+                                className: "bg-black text-white",
+                                children: (0, l.jsx)("tr", {
+                                  children: e.tableData.headers.map((e, s) =>
+                                    (0, l.jsx)(
+                                      "th",
+                                      {
+                                        className:
+                                          "p-2 sm:p-4 text-left font-semibold text-xs sm:text-sm lg:text-base whitespace-nowrap",
+                                        children: e,
+                                      },
+                                      s,
+                                    ),
+                                  ),
+                                }),
+                              }),
+                              (0, l.jsx)("tbody", {
+                                children: e.tableData.rows.map((e, s) =>
+                                  (0, l.jsx)(
+                                    "tr",
+                                    {
+                                      className:
+                                        s % 2 == 0 ? "bg-gray-50" : "bg-white",
+                                      children: e.map((e, s) =>
+                                        (0, l.jsx)(
+                                          "td",
+                                          {
+                                            className:
+                                              "p-2 sm:p-4 border-b border-gray-200 text-xs sm:text-sm lg:text-base",
+                                            children: (0, l.jsx)("div", {
+                                              className:
+                                                "break-words text-black",
+                                              children: e,
+                                            }),
+                                          },
+                                          s,
+                                        ),
+                                      ),
+                                    },
+                                    s,
+                                  ),
+                                ),
+                              }),
+                            ],
+                          }),
+                        }),
+                      }),
+                    },
+                    s,
+                  );
+                case "quote":
+                  return (0, l.jsx)(
+                    Z.Zb,
+                    {
+                      className:
+                        "border-2 border-black bg-black text-white mb-6 sm:mb-8",
+                      children: (0, l.jsx)(Z.aY, {
+                        className: "p-4 sm:p-6 lg:p-8 text-center",
+                        children: (0, l.jsxs)("blockquote", {
+                          className:
+                            "text-base sm:text-lg lg:text-xl italic font-medium leading-relaxed",
+                          children: ["“", e.content, "”"],
+                        }),
+                      }),
+                    },
+                    s,
+                  );
+                default:
+                  return null;
+              }
+            };
+          return (0, l.jsx)("div", {
+            className:
+              "prose prose-sm sm:prose-base lg:prose-lg max-w-none px-4 sm:px-6 lg:px-0",
+            children: s.map((e, s) => t(e, s)),
+          });
+        },
+        S = (e) => {
+          let s = c.n.find((s) => s.slug === e.title);
+          return s
+            ? (0, l.jsx)(l.Fragment, {
+                children: (0, l.jsxs)("article", {
+                  className: "w-full pb-16 bg-white",
+                  children: [
+                    (0, l.jsxs)("div", {
+                      className:
+                        "banner-container h-96 sm:h-[450px] md:h-[500px] lg:h-[550px] relative overflow-hidden",
+                      children: [
+                        s.imageUrl &&
+                          (0, l.jsx)("img", {
+                            src: s.imageUrl,
+                            alt: s.title,
+                            className:
+                              "absolute inset-0 w-full h-full object-cover",
+                          }),
+                        (0, l.jsx)("div", {
+                          className: "absolute inset-0 bg-black/70",
+                        }),
+                        (0, l.jsx)("div", {
+                          className:
+                            "absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-black/70",
+                        }),
+                        (0, l.jsx)("div", {
+                          className: "banner-overlay relative z-10",
+                          children: (0, l.jsx)("div", {
+                            className:
+                              "container mx-auto px-4 sm:px-6 lg:px-8 w-full h-full flex items-center justify-start md:justify-center",
+                            children: (0, l.jsxs)("div", {
+                              className:
+                                "w-full max-w-4xl mx-auto text-left md:text-center",
+                              children: [
+                                (0, l.jsxs)(m.default, {
+                                  href: "/blog",
+                                  className:
+                                    "pt-16 inline-flex items-center text-white/90 hover:text-white mb-4 transition-colors text-sm font-medium",
+                                  children: [
+                                    (0, l.jsx)(a.Z, {
+                                      className: "mr-2 h-3 w-3",
+                                    }),
+                                    "Back to Blog",
+                                  ],
+                                }),
+                                (0, l.jsx)("h1", {
+                                  className:
+                                    "text-white text-xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-4 sm:mb-6 leading-tight break-words max-w-full drop-shadow-lg",
+                                  children: s.title,
+                                }),
+                                (0, l.jsxs)("div", {
+                                  className:
+                                    "flex flex-col gap-3 text-white/90 mb-4 sm:mb-6",
+                                  children: [
+                                    (0, l.jsxs)("div", {
+                                      className:
+                                        "flex flex-col sm:flex-row sm:items-center sm:justify-start md:justify-center gap-2 sm:gap-6",
+                                      children: [
+                                        (0, l.jsxs)("div", {
+                                          className:
+                                            "flex items-center text-xs sm:text-base",
+                                          children: [
+                                            (0, l.jsx)(r.Z, {
+                                              className:
+                                                "mr-2 h-3 w-3 sm:h-4 sm:w-4 flex-shrink-0",
+                                            }),
+                                            (0, l.jsx)("span", {
+                                              className: "drop-shadow-md",
+                                              children: s.date,
+                                            }),
+                                          ],
+                                        }),
+                                        (0, l.jsxs)("div", {
+                                          className:
+                                            "flex items-center text-xs sm:text-base",
+                                          children: [
+                                            (0, l.jsx)(i.Z, {
+                                              className:
+                                                "mr-2 h-3 w-3 sm:h-4 sm:w-4 flex-shrink-0",
+                                            }),
+                                            (0, l.jsx)("span", {
+                                              className: "drop-shadow-md",
+                                              children: "DataTroops.ai",
+                                            }),
+                                          ],
+                                        }),
+                                      ],
+                                    }),
+                                    (0, l.jsx)("div", {
+                                      className:
+                                        "flex justify-start md:justify-center",
+                                      children: (0, l.jsx)("div", {
+                                        className:
+                                          "px-3 py-1 sm:px-4 sm:py-2 bg-white/25 backdrop-blur-sm rounded-full text-xs sm:text-sm font-medium border border-white/30 text-white shadow-lg",
+                                        children: "Technology",
+                                      }),
+                                    }),
+                                  ],
+                                }),
+                                (0, l.jsx)("p", {
+                                  className:
+                                    "text-white/95 text-sm sm:text-lg md:text-xl leading-relaxed max-w-3xl mx-auto font-light drop-shadow-md",
+                                  children: s.excerpt,
+                                }),
+                              ],
+                            }),
+                          }),
+                        }),
+                      ],
+                    }),
+                    (0, l.jsx)("div", {
+                      className:
+                        "container mx-auto px-4 py-8 sm:py-12 md:py-16",
+                      children: (0, l.jsx)("div", {
+                        className: "max-w-4xl mx-auto",
+                        children: (0, l.jsx)(C, { content: s.content }),
+                      }),
+                    }),
+                  ],
+                }),
+              })
+            : (0, l.jsx)(l.Fragment, {
+                children: (0, l.jsxs)("div", {
+                  className: "container mx-auto px-4 py-16 text-center",
+                  children: [
+                    (0, l.jsx)("h1", {
+                      className: "text-4xl font-bold mb-4",
+                      children: "Post Not Found",
+                    }),
+                    (0, l.jsx)("p", {
+                      className: "text-gray-600 mb-8",
+                      children:
+                        "The blog post you're looking for doesn't exist.",
+                    }),
+                    (0, l.jsx)(m.default, {
+                      href: "/blog",
+                      children: (0, l.jsxs)(x.z, {
+                        variant: "outline",
+                        children: [
+                          (0, l.jsx)(a.Z, { className: "mr-2 h-4 w-4" }),
+                          "Back to Blog",
+                        ],
+                      }),
+                    }),
+                  ],
+                }),
+              });
+        },
+        z = t(16463),
+        _ = () => {
+          let { slug: e } = (0, z.useParams)();
+          return (0, l.jsx)(S, { title: e });
+        };
+    },
+  },
+  function (e) {
+    e.O(0, [138, 164, 985, 609, 971, 23, 744], function () {
+      return e((e.s = 1831));
+    }),
+      (_N_E = e.O());
+  },
+]);

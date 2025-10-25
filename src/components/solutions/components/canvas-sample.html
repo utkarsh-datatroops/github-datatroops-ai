@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Futuristic AI Hero Canvas</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: "Inter", sans-serif;
+        background: linear-gradient(to bottom right, #0f0c29, #302b63, #24243e);
+        overflow: hidden;
+      }
+
+      .hero-canvas {
+        position: relative;
+        height: 100vh;
+        width: 100%;
+        background: radial-gradient(
+          circle at center,
+          rgba(0, 0, 0, 0.5),
+          rgba(0, 0, 0, 0.9)
+        );
+      }
+
+      .ai-brain {
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 180px;
+        height: 180px;
+        background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Artificial_intelligence_brain.png/600px-Artificial_intelligence_brain.png")
+          no-repeat center/contain;
+        filter: drop-shadow(0 0 30px #00f0ff);
+      }
+
+      .node {
+        position: absolute;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        background-color: #ffffff11;
+        border: 1px solid #00f0ff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 28px;
+        color: #00f0ff;
+        font-weight: bold;
+        box-shadow: 0 0 12px #00f0ff55;
+      }
+
+      .node.finance {
+        top: 10%;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+      .node.healthcare {
+        top: 25%;
+        left: 80%;
+      }
+      .node.ecommerce {
+        top: 75%;
+        left: 80%;
+      }
+      .node.education {
+        top: 90%;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+      .node.travel {
+        top: 75%;
+        left: 10%;
+      }
+      .node.entertainment {
+        top: 25%;
+        left: 10%;
+      }
+
+      .line {
+        position: absolute;
+        width: 2px;
+        background: #00f0ff;
+        transform-origin: top;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="hero-canvas">
+      <div class="ai-brain"></div>
+
+      <div class="node finance">$</div>
+      <div class="node healthcare">❤</div>
+      <div class="node ecommerce">🛒</div>
+      <div class="node education">📘</div>
+      <div class="node travel">🌍</div>
+      <div class="node entertainment">🎬</div>
+    </div>
+  </body>
+</html>

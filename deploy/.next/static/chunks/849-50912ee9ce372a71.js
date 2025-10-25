@@ -1,0 +1,467 @@
+"use strict";
+(self.webpackChunk_N_E = self.webpackChunk_N_E || []).push([
+  [849],
+  {
+    1691: function (e, t, a) {
+      a.d(t, {
+        Q: function () {
+          return i;
+        },
+      });
+      let i = [
+        {
+          id: 1,
+          title: "Financial Services",
+          image:
+            "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+          gradient: "from-amber-500/20 to-black/80",
+          points: [
+            "Real-time fraud detection and prevention systems",
+            "AI for credit scoring and risk assessment",
+            "Automated financial advisory and robo-advisors",
+            "Customer service automation with conversational AI",
+            "Predictive analytics for loan default and churn",
+          ],
+        },
+        {
+          id: 2,
+          title: "Healthcare",
+          image:
+            "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+          gradient: "from-purple-400/30 to-purple-900/80",
+          points: [
+            "AI-assisted diagnostics and medical imaging",
+            "Patient triaging with intelligent chatbots",
+            "Predictive analytics for disease outbreak & risk scoring",
+            "NLP-powered documentation and medical records automation",
+            "Drug discovery acceleration using machine learning",
+          ],
+        },
+        {
+          id: 3,
+          title: "Manufacturing",
+          image:
+            "https://images.unsplash.com/photo-1587293852726-70cdb56c2866?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+          gradient: "from-black/100 to-orange-500/20",
+          points: [
+            "Automated quality control and defect detection",
+            "Optimized production planning and scheduling",
+            "Predictive maintenance for machinery",
+            "Supply chain optimization",
+            "Robotics integration for efficiency",
+          ],
+        },
+        {
+          id: 4,
+          title: "Energy",
+          image:
+            "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+          gradient: "from-blue-400/30 to-blue-900/80",
+          points: [
+            "AI-driven grid optimization and smart energy management",
+            "Predictive analytics for energy demand and supply",
+            "Automated fault detection and repair in energy infrastructure",
+            "Renewable energy forecasting and integration",
+            "Smart metering and consumption analysis",
+          ],
+        },
+        {
+          id: 5,
+          title: "Retail & E-Commerce",
+          image:
+            "https://images.unsplash.com/photo-1563013544-824ae1b704d3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+          gradient: "from-black/80 to-amber-500/20 ",
+          points: [
+            "Personalized product recommendations to boost sales",
+            "AI-driven demand forecasting and inventory management",
+            "Intelligent chatbots for real-time customer support",
+            "Visual search and image-based product discovery",
+            "Sentiment analysis on customer reviews",
+          ],
+        },
+        {
+          id: 6,
+          title: "Transportation",
+          image:
+            "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+          gradient: "from-black/80 to-black/20",
+          points: [
+            "Autonomous vehicle navigation and safety systems",
+            "Route optimization and traffic management",
+            "Predictive maintenance for fleet management",
+            "Smart logistics and supply chain automation",
+            "Real-time monitoring and analytics",
+          ],
+        },
+      ];
+    },
+    82448: function (e, t, a) {
+      var i = a(57437),
+        r = a(48059),
+        s = a.n(r),
+        n = a(2265),
+        o = a(14950),
+        l = a(1691);
+      t.Z = (e) => {
+        let {
+            data: t = l.Q,
+            title: a = "AI solutions for the world’s most complex industries",
+            backgroundColor: r = "bg-white",
+          } = e,
+          c = (0, n.useRef)(null),
+          [d, m] = (0, n.useState)(0),
+          [u, x] = (0, n.useState)(0),
+          [h, p] = (0, n.useState)(0);
+        return (
+          (0, n.useLayoutEffect)(() => {
+            let e = () =>
+                c.current && c.current.children.length > 0
+                  ? c.current.children[0].offsetWidth + 24
+                  : 344,
+              a = () => {
+                c.current && (p(e()), x(Math.max(1, t.length - 1)));
+              };
+            return (
+              a(),
+              window.addEventListener("resize", a),
+              () => window.removeEventListener("resize", a)
+            );
+          }, [t.length]),
+          (0, i.jsxs)("section", {
+            className:
+              "jsx-e4c0ee4aadd7f829 " +
+              "w-full ".concat(r, " py-20 overflow-hidden"),
+            children: [
+              (0, i.jsxs)("div", {
+                className: "jsx-e4c0ee4aadd7f829 max-w-7xl mx-auto px-6",
+                children: [
+                  (0, i.jsxs)("div", {
+                    className:
+                      "jsx-e4c0ee4aadd7f829 flex justify-between items-start mb-16",
+                    children: [
+                      (0, i.jsx)(o.E.h2, {
+                        initial: { opacity: 0, y: 20 },
+                        whileInView: { opacity: 1, y: 0 },
+                        viewport: { once: !0, amount: 0.3 },
+                        transition: { duration: 0.6 },
+                        className:
+                          "text-4xl md:text-5xl lg:text-6xl font-normal leading-tight max-w-3xl ".concat(
+                            "bg-white" === r ? "text-gray-900" : "text-white",
+                          ),
+                        children: a,
+                      }),
+                      (0, i.jsxs)("div", {
+                        className: "jsx-e4c0ee4aadd7f829 flex space-x-3 mt-4",
+                        children: [
+                          (0, i.jsx)("button", {
+                            onClick: () => {
+                              c.current &&
+                                h &&
+                                c.current.scrollTo({
+                                  left: c.current.scrollLeft - h,
+                                  behavior: "smooth",
+                                });
+                            },
+                            disabled: 0 === d,
+                            className:
+                              "jsx-e4c0ee4aadd7f829 " +
+                              "p-3 rounded-full border transition-all duration-200 ".concat(
+                                0 === d
+                                  ? "text-transparent border-gray-200 cursor-not-allowed"
+                                  : "text-gray-600 border-gray-300 hover:text-gray-900 hover:border-gray-400",
+                              ),
+                            children: (0, i.jsx)("svg", {
+                              fill: "none",
+                              stroke: "currentColor",
+                              viewBox: "0 0 24 24",
+                              className: "jsx-e4c0ee4aadd7f829 w-5 h-5",
+                              children: (0, i.jsx)("path", {
+                                d: "M15 19l-7-7 7-7",
+                                strokeWidth: 2,
+                                className: "jsx-e4c0ee4aadd7f829",
+                              }),
+                            }),
+                          }),
+                          (0, i.jsx)("button", {
+                            onClick: () => {
+                              c.current &&
+                                h &&
+                                c.current.scrollTo({
+                                  left: c.current.scrollLeft + h,
+                                  behavior: "smooth",
+                                });
+                            },
+                            disabled: d >= u - 1,
+                            className:
+                              "jsx-e4c0ee4aadd7f829 " +
+                              "p-3 rounded-full border transition-all duration-200 ".concat(
+                                d >= u - 1
+                                  ? "text-transparent border-gray-200 cursor-not-allowed"
+                                  : "text-gray-600 border-gray-300 hover:text-gray-900 hover:border-gray-400",
+                              ),
+                            children: (0, i.jsx)("svg", {
+                              fill: "none",
+                              stroke: "currentColor",
+                              viewBox: "0 0 24 24",
+                              className: "jsx-e4c0ee4aadd7f829 w-5 h-5",
+                              children: (0, i.jsx)("path", {
+                                d: "M9 5l7 7-7 7",
+                                strokeWidth: 2,
+                                className: "jsx-e4c0ee4aadd7f829",
+                              }),
+                            }),
+                          }),
+                        ],
+                      }),
+                    ],
+                  }),
+                  (0, i.jsx)("div", {
+                    className: "jsx-e4c0ee4aadd7f829 relative",
+                    children: (0, i.jsx)("div", {
+                      ref: c,
+                      onScroll: () => {
+                        if (!c.current || u <= 0) return;
+                        let e = Math.round(
+                          (c.current.scrollLeft /
+                            (c.current.scrollWidth - c.current.offsetWidth)) *
+                            u,
+                        );
+                        m(Math.min(u, e));
+                      },
+                      style: {
+                        scrollbarWidth: "none",
+                        msOverflowStyle: "none",
+                      },
+                      className:
+                        "jsx-e4c0ee4aadd7f829 flex gap-6 overflow-x-auto scrollbar-hide py-4",
+                      children: t.map((e) => {
+                        var t;
+                        return (0, i.jsxs)(
+                          o.E.div,
+                          {
+                            initial: { opacity: 0, y: 0 },
+                            whileInView: { opacity: 1, y: 0 },
+                            viewport: { once: !0, amount: 0.2 },
+                            transition: { duration: 0.5 },
+                            className:
+                              "flex-shrink-0 w-80 h-96 rounded-3xl relative overflow-hidden group cursor-pointer",
+                            children: [
+                              e.image
+                                ? (0, i.jsx)("img", {
+                                    src: e.image,
+                                    alt: e.title || "Industry",
+                                    className:
+                                      "jsx-e4c0ee4aadd7f829 absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110",
+                                  })
+                                : (0, i.jsx)("div", {
+                                    className:
+                                      "jsx-e4c0ee4aadd7f829 absolute inset-0 bg-gray-200",
+                                  }),
+                              (0, i.jsx)("div", {
+                                className:
+                                  "jsx-e4c0ee4aadd7f829 " +
+                                  "absolute inset-0 bg-gradient-to-t ".concat(
+                                    e.gradient ||
+                                      "from-black/70 to-transparent",
+                                    " opacity-80 group-hover:opacity-100 transition-opacity duration-300",
+                                  ),
+                              }),
+                              (0, i.jsxs)("div", {
+                                className:
+                                  "jsx-e4c0ee4aadd7f829 absolute inset-0 flex flex-col justify-end p-8",
+                                children: [
+                                  e.title &&
+                                    (0, i.jsx)("h3", {
+                                      className:
+                                        "jsx-e4c0ee4aadd7f829 text-white text-center text-2xl font-semibold mb-2",
+                                      children: e.title,
+                                    }),
+                                  (
+                                    null === (t = e.points) || void 0 === t
+                                      ? void 0
+                                      : t.length
+                                  )
+                                    ? (0, i.jsx)("ul", {
+                                        className:
+                                          "jsx-e4c0ee4aadd7f829 text-white text-sm space-y-1 mt-3 opacity-0 group-hover:opacity-100 transition-all duration-300 translate-y-4 group-hover:translate-y-0",
+                                        children: e.points
+                                          .slice(0, 3)
+                                          .map((e, t) =>
+                                            (0, i.jsxs)(
+                                              "li",
+                                              {
+                                                className:
+                                                  "jsx-e4c0ee4aadd7f829 flex items-start",
+                                                children: [
+                                                  (0, i.jsx)("span", {
+                                                    className:
+                                                      "jsx-e4c0ee4aadd7f829 w-1 h-1 bg-white rounded-full mt-2 mr-2 flex-shrink-0",
+                                                  }),
+                                                  e,
+                                                ],
+                                              },
+                                              t,
+                                            ),
+                                          ),
+                                      })
+                                    : null,
+                                ],
+                              }),
+                            ],
+                          },
+                          e.id,
+                        );
+                      }),
+                    }),
+                  }),
+                  (0, i.jsx)("div", {
+                    className:
+                      "jsx-e4c0ee4aadd7f829 flex justify-center space-x-2 mt-12",
+                    children: Array.from({ length: u }).map((e, t) =>
+                      (0, i.jsx)(
+                        "div",
+                        {
+                          className:
+                            "jsx-e4c0ee4aadd7f829 " +
+                            "h-1 rounded-md transition-all duration-300 ".concat(
+                              d === t ? "w-8 bg-purple-600" : "w-4 bg-gray-300",
+                            ),
+                        },
+                        t,
+                      ),
+                    ),
+                  }),
+                ],
+              }),
+              (0, i.jsx)(s(), {
+                id: "e4c0ee4aadd7f829",
+                children:
+                  ".scrollbar-hide.jsx-e4c0ee4aadd7f829::-webkit-scrollbar{display:none}",
+              }),
+            ],
+          })
+        );
+      };
+    },
+    44458: function (e, t, a) {
+      var i = a(57437),
+        r = a(2265),
+        s = a(14950),
+        n = a(41942),
+        o = a(96164);
+      let l = (e) => {
+        let { question: t, answer: a, isOpen: r, onClick: l } = e;
+        return (0, i.jsxs)(s.E.div, {
+          initial: !1,
+          animate: { backgroundColor: r ? "#3F0071" : "#240046" },
+          className: (0, o.m6)(
+            "rounded-md overflow-hidden cursor-pointer",
+            r ? "shadow-md" : "",
+          ),
+          onClick: l,
+          children: [
+            (0, i.jsxs)("div", {
+              className: "flex items-center justify-between p-3 md:p-4 !pb-2",
+              children: [
+                (0, i.jsx)("h3", {
+                  className: "text-md md:text-lg font-semibold text-white",
+                  children: t,
+                }),
+                (0, i.jsx)(s.E.div, {
+                  initial: !1,
+                  animate: { rotate: r ? 180 : 0 },
+                  children: r
+                    ? (0, i.jsx)(n.s$2, {
+                        className: "text-purple-400 text-base",
+                      })
+                    : (0, i.jsx)(n.RiI, {
+                        className: "text-gray-400 text-base",
+                      }),
+                }),
+              ],
+            }),
+            (0, i.jsx)(s.E.div, {
+              initial: { height: 0, opacity: 0 },
+              animate: { height: r ? "auto" : 0, opacity: r ? 1 : 0 },
+              transition: { duration: 0, ease: "easeInOut" },
+              className: "px-3 md:px-4 pb-2",
+              children: (0, i.jsx)("p", {
+                className: "text-gray-300 leading-relaxed text-sm md:text-base",
+                children: a,
+              }),
+            }),
+          ],
+        });
+      };
+      t.Z = (e) => {
+        let { title: t, description: a, faqs: n } = e,
+          [o, c] = (0, r.useState)(null),
+          d = (e) => {
+            c(o === e ? null : e);
+          };
+        return (0, i.jsx)("section", {
+          className: "w-full text-white py-16",
+          children: (0, i.jsxs)("div", {
+            className: "max-w-4xl mx-auto px-4",
+            children: [
+              (0, i.jsxs)(s.E.div, {
+                initial: { opacity: 0, y: 20 },
+                whileInView: { opacity: 1, y: 0 },
+                viewport: { once: !0, amount: 0.3 },
+                transition: { duration: 0.6 },
+                className: "text-center mb-6",
+                children: [
+                  (0, i.jsx)("h2", {
+                    className:
+                      "text-3xl md:text-4xl font-light mb-4 text-white leading-tight",
+                    children: t,
+                  }),
+                  (0, i.jsx)("p", {
+                    className: "text-base text-gray-300 max-w-2xl mx-auto",
+                    children: a,
+                  }),
+                ],
+              }),
+              (0, i.jsx)("div", {
+                className: "space-y-2",
+                children: n.map((e, t) =>
+                  (0, i.jsx)(
+                    l,
+                    {
+                      question: e.question,
+                      answer: e.answer,
+                      isOpen: o === t,
+                      onClick: () => d(t),
+                    },
+                    t,
+                  ),
+                ),
+              }),
+            ],
+          }),
+        });
+      };
+    },
+    56726: function (e, t, a) {
+      var i = a(57437);
+      t.Z = (e) => {
+        let { message: t, children: a } = e;
+        return (0, i.jsxs)("div", {
+          className: "group relative inline-flex h-full",
+          children: [
+            a,
+            (0, i.jsx)("div", {
+              className:
+                "absolute left-1/2 -translate-x-1/2 top-full pointer-events-none opacity-0 group-hover:opacity-100 transition-opacity duration-200 z-10 mt-2",
+              children: (0, i.jsx)("div", {
+                className:
+                  "bg-[var(--color-10002B)] border border-purple-500/30 text-gray-300 text-xs py-1 px-3 tracking-widest uppercase font-medium shadow-lg shadow-purple-900/10 whitespace-nowrap",
+                children: t,
+              }),
+            }),
+          ],
+        });
+      };
+    },
+  },
+]);

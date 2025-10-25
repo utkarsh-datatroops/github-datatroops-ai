@@ -1,0 +1,18 @@
+{
+  "/_not-found/page": "app/_not-found/page.js",
+  "/blog/[slug]/page": "app/blog/[slug]/page.js",
+  "/blogs/how-to-choose-perfect-ai-chatbot-for-your-business/page": "app/blogs/how-to-choose-perfect-ai-chatbot-for-your-business/page.js",
+  "/sitemap/sitemap.xml/route": "app/sitemap/sitemap.xml/route.js",
+  "/solutions/machine-learning/page": "app/solutions/machine-learning/page.js",
+  "/datatroops-blogs/page": "app/datatroops-blogs/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/page": "app/page.js",
+  "/about-us/page": "app/about-us/page.js",
+  "/ai-chatbot/page": "app/ai-chatbot/page.js",
+  "/healthcare-solutions/page": "app/healthcare-solutions/page.js",
+  "/contact-us/page": "app/contact-us/page.js",
+  "/solutions/workflow-automation/page": "app/solutions/workflow-automation/page.js",
+  "/solutions/generative-ai/page": "app/solutions/generative-ai/page.js",
+  "/solutions/page": "app/solutions/page.js",
+  "/technologies/page": "app/technologies/page.js"
+}

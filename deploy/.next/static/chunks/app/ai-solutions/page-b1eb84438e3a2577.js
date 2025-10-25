@@ -1,0 +1,1654 @@
+(self.webpackChunk_N_E = self.webpackChunk_N_E || []).push([
+  [548],
+  {
+    13116: function (e, t, i) {
+      Promise.resolve().then(i.bind(i, 67091));
+    },
+    67091: function (e, t, i) {
+      "use strict";
+      i.r(t),
+        i.d(t, {
+          default: function () {
+            return E;
+          },
+        });
+      var s = i(57437),
+        a = i(80383),
+        n = i(2265),
+        r = i(14950),
+        o = i(66648),
+        l = i(41942),
+        c = {
+          src: "/_next/static/media/hero-section-bg.7ea1de99.jpg",
+          height: 3e3,
+          width: 4200,
+          blurDataURL:
+            "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoKCgoKCgsMDAsPEA4QDxYUExMUFiIYGhgaGCIzICUgICUgMy03LCksNy1RQDg4QFFeT0pPXnFlZXGPiI+7u/sBCgoKCgoKCwwMCw8QDhAPFhQTExQWIhgaGBoYIjMgJSAgJSAzLTcsKSw3LVFAODhAUV5PSk9ecWVlcY+Ij7u7+//CABEIAAYACAMBIgACEQEDEQH/xAAoAAEBAAAAAAAAAAAAAAAAAAAABwEBAQAAAAAAAAAAAAAAAAAAAQX/2gAMAwEAAhADEAAAAJCKL//EABgQAAIDAAAAAAAAAAAAAAAAAAASAREh/9oACAEBAAE/AHlErD//xAAVEQEBAAAAAAAAAAAAAAAAAAARAP/aAAgBAgEBPwBb/8QAFhEBAQEAAAAAAAAAAAAAAAAAAQAx/9oACAEDAQE/AFXb/9k=",
+          blurWidth: 8,
+          blurHeight: 6,
+        };
+      function d() {
+        let e = [
+          {
+            id: 1,
+            text: "Intelligent Data Integration & Analytics",
+            icon: (0, s.jsx)(l.QJe, { className: "text-purple-300" }),
+            top: "15%",
+            left: "10%",
+          },
+          {
+            id: 2,
+            text: "Workflow Automation",
+            icon: (0, s.jsx)(l.QJe, { className: "text-purple-300" }),
+            top: "30%",
+            right: "8%",
+          },
+          {
+            id: 3,
+            text: "Predictive Analytics & Forecasting",
+            icon: (0, s.jsx)(l.QJe, { className: "text-purple-300" }),
+            bottom: "20%",
+            left: "5%",
+          },
+          {
+            id: 4,
+            text: "AI-Powered Customer Support & Chatbots",
+            icon: (0, s.jsx)(l.QJe, { className: "text-purple-300" }),
+            bottom: "10%",
+            right: "15%",
+          },
+          {
+            id: 5,
+            text: "AIOps (AI for IT Operations)",
+            icon: (0, s.jsx)(l.QJe, { className: "text-purple-300" }),
+            top: "5%",
+            left: "35%",
+          },
+          {
+            id: 6,
+            text: "Voice Assistants & Conversational AI",
+            icon: (0, s.jsx)(l.QJe, { className: "text-purple-300" }),
+            bottom: "30%",
+            right: "10%",
+          },
+        ];
+        return (0, s.jsxs)("section", {
+          className:
+            "relative w-full min-h-screen flex flex-col items-center justify-center text-white overflow-hidden p-4 md:p-8",
+          children: [
+            (0, s.jsx)(o.default, {
+              src: c,
+              alt: "Digital Marketing Background",
+              layout: "fill",
+              objectFit: "cover",
+              quality: 100,
+              className: "z-0",
+              priority: !0,
+            }),
+            (0, s.jsx)("div", {
+              className: "absolute inset-0 bg-black/40 z-10",
+            }),
+            (0, s.jsxs)("div", {
+              className:
+                "relative z-20 flex flex-col items-center justify-center text-center px-4 py-20 md:py-28 max-w-4xl mx-auto",
+              children: [
+                (0, s.jsxs)(r.E.h1, {
+                  initial: { opacity: 0, y: 20 },
+                  animate: { opacity: 1, y: 0 },
+                  transition: { duration: 0.6, delay: 0.2 },
+                  className:
+                    "text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight mb-4",
+                  children: [
+                    "Architect Your Future with",
+                    " ",
+                    (0, s.jsx)(r.E.span, {
+                      initial: { color: "#9D4EDD" },
+                      animate: {
+                        color: ["#9D4EDD", "#E0AAFF", "#C77DFF", "#9D4EDD"],
+                      },
+                      transition: {
+                        duration: 3,
+                        repeat: 1 / 0,
+                        repeatType: "reverse",
+                      },
+                      children: "AI",
+                    }),
+                    " ",
+                    "That Delivers",
+                  ],
+                }),
+                (0, s.jsx)(r.E.p, {
+                  initial: { opacity: 0, y: 20 },
+                  animate: { opacity: 1, y: 0 },
+                  transition: { duration: 0.6, delay: 0.4 },
+                  className: "text-lg md:text-xl text-gray-300 mb-8 max-w-3xl",
+                  children:
+                    "Smarter Automation. Faster Decisions. Measurable Impact.",
+                }),
+                (0, s.jsxs)(r.E.div, {
+                  initial: { opacity: 0, y: 20 },
+                  animate: { opacity: 1, y: 0 },
+                  transition: { duration: 0.6, delay: 0.8 },
+                  className: "flex flex-col sm:flex-row gap-4",
+                  children: [
+                    (0, s.jsx)("a", {
+                      href: "/contact-us",
+                      className:
+                        "inline-flex items-center justify-center px-8 py-4 rounded-full bg-white text-gray-900 font-semibold shadow-lg hover:bg-gray-200 transition-all duration-300",
+                      children: "Get In Touch",
+                    }),
+                    (0, s.jsx)("a", {
+                      href: "/solutions",
+                      className:
+                        "inline-flex items-center justify-center px-8 py-4 rounded-full border border-white text-white font-semibold shadow-lg hover:bg-white hover:text-gray-900 transition-all duration-300",
+                      children: "Learn More",
+                    }),
+                  ],
+                }),
+              ],
+            }),
+            e.map((e) =>
+              (0, s.jsxs)(
+                r.E.div,
+                {
+                  className:
+                    "absolute bg-gray-800/80 backdrop-blur-sm rounded-full px-4 py-2 text-sm flex items-center shadow-lg whitespace-nowrap text-purple-300 ".concat(
+                      3 !== e.id && 5 !== e.id && 1 !== e.id
+                        ? "hidden md:flex"
+                        : "",
+                    ),
+                  initial: { opacity: 0.8, scale: 1 },
+                  animate: { opacity: 1, scale: 1, y: [0, -2, 0] },
+                  transition: {
+                    duration: 2,
+                    delay: 1 + 0.1 * e.id,
+                    repeat: 1 / 0,
+                    repeatType: "reverse",
+                    ease: "easeInOut",
+                  },
+                  style: {
+                    top: e.top,
+                    left: e.left,
+                    right: e.right,
+                    bottom: e.bottom,
+                  },
+                  children: [
+                    (0, s.jsx)("span", {
+                      className: "mr-2 text-white",
+                      children: e.icon,
+                    }),
+                    e.text,
+                  ],
+                },
+                e.id,
+              ),
+            ),
+          ],
+        });
+      }
+      var m = i(71994),
+        u = i(32679);
+      let x = [
+        {
+          id: 1,
+          title: "Data Integration & Analytics",
+          description:
+            "Unifies and analyzes data from multiple sources for actionable insights.",
+          image: {
+            src: "/_next/static/media/integration-data.1da6c0e4.png",
+            height: 699,
+            width: 699,
+            blurDataURL:
+              "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAABE0lEQVR4nAEIAff+Af///wABAQEB3N/tBSMgEgAA+wD7eYN+FIZ/fzLj5OTMAb6poTEA+PRaLzhfjq6trSvDx85++gH87nmGaT4RDg5+Ad7L1oHu4vV48+jbb8rF7n8FEQUY4wDp+RghFgdZT0xQAXdNW0EXMDSkTVVTys/EzkUUFhQK/P/+/AIOAQPs7O0xAbGytXT9+/yL/AH+ADENMgDv7vIA+wb4ABsuFgAICwlxAdnJ3Pfq4uwIweXH+RP2FQU0FTAB9QL1/CxMJAUJCwn1Aebc6IQABAB75O7kAPDq8gAbCBwADiALABIWEAAA//+BAdi63wAlRR1L+/j8ZgECAST6/foABgQF2/z6/ZkCAwG3k/V3Kb0VkcgAAAAASUVORK5CYII=",
+            blurWidth: 8,
+            blurHeight: 8,
+          },
+          points: [
+            "Breaks down data silos and enables smarter, data-driven decisions.",
+            "Empowers cross-functional teams with a single source of truth.",
+          ],
+        },
+        {
+          id: 2,
+          title: "Workflow Automation",
+          description:
+            "Orchestrates multi-departmental processes from approvals to data sync.",
+          image: {
+            src: "/_next/static/media/workflow-automation.330927e5.png",
+            height: 729,
+            width: 729,
+            blurDataURL:
+              "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAABE0lEQVR4nAEIAff+Af///wDetNpFGCkd2EUkCu0jAAACf8HmHPXa5v4dQR/aAeXN4lkJFQum9ev9WNG7oCkA/v3vQ1ll8/z8BJjo6ugtAe3r7YAE/wR/38zhWMTYw3c/IjoJB/H2cQU0G38SEg95Af3//Tb36fWNCxMNFpqcmQQiHyb4Q0RBCuDT39IhMyFTAc7Q0mzg5uSIOzA0C7WsuQAmKCIAHSUdANff3fk0Ly56Aevr7PvV2NgECMgA+QQrAwQH+wgA9N/3/P47AwcuKCv9Af79/n0BAgCC5s7kAPzz/QD+/v4ADxsPABEmEwD7+vt/Af///wD29/ZDBAYEZvfx9yUCAwIABgwH2/35/ZsGBgW8cql+0Cu0IhoAAAAASUVORK5CYII=",
+            blurWidth: 8,
+            blurHeight: 8,
+          },
+          points: [
+            "Eliminates bottlenecks and manual intervention.",
+            "Speeds up execution and ensures compliance.",
+          ],
+        },
+        {
+          id: 3,
+          title: "Predictive Analytics & Forecasting",
+          description:
+            "Forecasts market trends, customer behavior, and demand.",
+          image: {
+            src: "/_next/static/media/prediction.038005ba.png",
+            height: 806,
+            width: 879,
+            blurDataURL:
+              "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAHCAYAAAA1WQxeAAAA8klEQVR4nAHnABj/AUAAWBkKAAFPERcW5zpBI/DsyPEs/EccVgoKCuolAPt0AXRNh3gaIR6HDAH9AP3z/wAdIg4ABCcUAPTw9wAI2vqFAbqk4yT18PLO/fLkDRssEv7q4vACMkAj1/8CB+aqttJ+AaGW0DQP/gW/BfbrBw4fBADz6PAF1Nbo5xX/DPZDRC+eAaJ+rGsX/QWUCikbAOjk8wATFBAA8+roAObc5ABjRUStAbv//wr3i7ws+jQhe/fD7+UWJBTV5L7KL8LLxETt7SQiAWv08wBHgLsAEs8FADtGCxPNBQRR9uvQLwUC6xioC9pYDh5nouTklRoAAAAASUVORK5CYII=",
+            blurWidth: 8,
+            blurHeight: 7,
+          },
+          points: [
+            "Drives proactive decision-making and resource optimization.",
+            "Reduces waste and enhances business agility.",
+          ],
+        },
+        {
+          id: 4,
+          title: "AI-Powered Customer Support & Chatbots",
+          description:
+            "24/7, personalized customer support using advanced NLP.",
+          image: {
+            src: "/_next/static/media/chatbots.98af82f6.png",
+            height: 613,
+            width: 716,
+            blurDataURL:
+              "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAHCAYAAAA1WQxeAAAA8klEQVR4nAHnABj/AdPq/QD4/AEp//79jAMDA+ALnAJr+WH4ERQUBwwG2bjjAdfv/yH59vejAvvz+v0DCQoJBAPgChIKluvc4B0r9K0UAd3x/2zr6+1hOG0A1AAq+/vhZugt8QUjIf7x3RUJExzAAafV/r/b6/XjzswJyBoS+f5kRARi7Oj6LCf+vAn2IUv1AWe9/7GZ3+WBALAX7UEv7wWbcxGF8fHzKLKsvS5TWlDyAbjc/tbp8PfIOiEH4fb3+wgICAU+6+rsOtTM0QA8RDzrAdPi70/z9vxC8/Hwxv/+/ggXGhk/6unwGPLt7vInKiD7P1p+zF68fuAAAAAASUVORK5CYII=",
+            blurWidth: 8,
+            blurHeight: 7,
+          },
+          points: [
+            "Handles queries, onboarding, and internal support autonomously.",
+            "Boosts satisfaction and reduces response times.",
+          ],
+        },
+        {
+          id: 5,
+          title: "AIOps (AI for IT Operations)",
+          description:
+            "Automates IT incident management and root cause analysis.",
+          image: {
+            src: "/_next/static/media/AI-it-ops.fb9d0271.png",
+            height: 787,
+            width: 821,
+            blurDataURL:
+              "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAABE0lEQVR4nAEIAff+AaOfsQD3+vsoRQs89MDhw0EVHhLfAOYF5KbhtIP6APulAaSusWD27vkd/7kByCFFGFkNBw242OvdEMvm05nm8evJAQBZUyiqQGc6NSQsJODe4y0TFBAI3e7i/bjQxUfu+ezCAdHb14H65vl7CugLA8fIzQAVERUAFxwSAJbDogDrAPbKAevo7P/z5/MA0cHT/ePW6gH17vcAOkwvABImEQL7CQD6AfPy8//m4On8057cAt3C3gEB+AAAI10h/zRZLP8YFxUDAfn5+dzS1NIjFA0WAOnK7gAEDQMAABn8AAYKBQAqKCjKAfn5+RDy8fJzCQsIUwIEAxoCAQH/8/L04f37/KUXGBiPWF6CNRM+GKQAAAAASUVORK5CYII=",
+            blurWidth: 8,
+            blurHeight: 8,
+          },
+          points: [
+            "Reduces downtime, accelerates issue resolution, and improves IT efficiency.",
+            "Ensures business continuity and operational resilience.",
+          ],
+        },
+        {
+          id: 6,
+          title: "Voice Assistants & Conversational AI",
+          description:
+            "Enables touch-free, conversational interactions across devices.",
+          image: {
+            src: "/_next/static/media/voicebots.0c318bbb.png",
+            height: 630,
+            width: 720,
+            blurDataURL:
+              "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAHCAYAAAA1WQxeAAAA8klEQVR4nAHnABj/Af39/Wj29vQS+PkBJgkLDT74+PyI/v36EgUFAgoKCAHgAf3+/ty5trgjFRAUADQ7NWJXZ4pGEQfoWDEyPwBgWk3TAf/+/M6QkaQx/gEaAHFpOGKTosBpFhQaNQD/9QBPSTrGAf///NC8wOIv3esGAGdVG1eXoLduJSIfO/n59QBFQDLHAf///NXW1fIq5uL0AEFGFbl4hKs8jL3iCp5oOAFhWkPNAff3+MLy490x//r28wQYJb98iZ1ZmIuZAZ+mlABgWUW1AePe3T4BAgQ/AQEBDQYICPvZ3+hG7+/tEBUVGb83MyeS6cVtGdW6p4QAAAAASUVORK5CYII=",
+            blurWidth: 8,
+            blurHeight: 7,
+          },
+          points: [
+            "Understands multiple languages and intents for seamless user experience.",
+            "Ideal for virtual reception, support, and smart office automation.",
+          ],
+        },
+      ];
+      function h() {
+        let e = (0, n.useRef)(null),
+          t = (0, n.useRef)(null),
+          [i, a] = (0, n.useState)(0),
+          [c, d] = (0, n.useState)(0),
+          [h, p] = (0, n.useState)(0),
+          g = {},
+          [A, f] = (0, n.useState)(!1);
+        (0, n.useEffect)(() => {
+          f(!0);
+          let e = () => {};
+          return (
+            window.addEventListener("resize", e),
+            () => window.removeEventListener("resize", e)
+          );
+        }, []),
+          (0, n.useLayoutEffect)(() => {
+            let i = () => {
+              t.current &&
+                e.current &&
+                (a(t.current.scrollWidth), d(t.current.offsetWidth));
+            };
+            return (
+              i(),
+              window.addEventListener("resize", i),
+              () => window.removeEventListener("resize", i)
+            );
+          }, []);
+        let { scrollYProgress: b } = (0, m.v)({
+          target: e,
+          offset: ["start start", "end end"],
+        });
+        b.onChange((e) => {
+          p(e);
+        });
+        let w = (0, u.H)(b, [0, 1], [0, -(i - c)]);
+        return (0, s.jsxs)("section", {
+          className: "w-full bg-[#10002B] text-white relative",
+          children: [
+            h > 0 &&
+              h < 1 &&
+              (0, s.jsx)("div", {
+                className: "fixed bottom-24 right-8 z-10",
+                children: (0, s.jsx)("button", {
+                  onClick: () => {
+                    var t;
+                    let i =
+                      null === (t = e.current) || void 0 === t
+                        ? void 0
+                        : t.parentElement;
+                    if (i) {
+                      let e = i.previousElementSibling;
+                      e && e.scrollIntoView({ behavior: "smooth" });
+                    }
+                  },
+                  className:
+                    "w-12 h-12 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center transition-all duration-300 backdrop-blur-sm border border-white/20",
+                  children: (0, s.jsx)(l.s$2, {
+                    className: "text-white text-lg",
+                  }),
+                }),
+              }),
+            (0, s.jsx)("div", {
+              ref: e,
+              className: "h-[400vh]",
+              children: (0, s.jsx)("div", {
+                className:
+                  "sticky top-0 h-screen flex items-center py-16 md:py-24 px-4",
+                children: (0, s.jsxs)("div", {
+                  className:
+                    "max-w-7xl mx-auto w-full flex flex-col lg:flex-row lg:items-center lg:justify-between gap-12",
+                  children: [
+                    (0, s.jsxs)("div", {
+                      className:
+                        "lg:w-1/3 flex flex-col items-center lg:items-start text-center lg:text-left",
+                      children: [
+                        (0, s.jsx)(r.E.h2, {
+                          initial: { opacity: 0, y: 20 },
+                          whileInView: { opacity: 1, y: 0 },
+                          viewport: { once: !0, amount: 0.3 },
+                          transition: { duration: 0.6 },
+                          className:
+                            "text-5xl lg:text-6xl font-normal mb-4 text-white",
+                          children: "Solutions We Deliver",
+                        }),
+                        (0, s.jsx)(r.E.p, {
+                          initial: { opacity: 0, y: 20 },
+                          whileInView: { opacity: 1, y: 0 },
+                          viewport: { once: !0, amount: 0.3 },
+                          transition: { duration: 0.6, delay: 0.2 },
+                          className:
+                            "text-lg md:text-xl text-gray-300 max-w-xl mb-8",
+                          children:
+                            "Explore how DataTroops.ai empowers your business with cutting-edge AI solutions that drive real impact.",
+                        }),
+                        (0, s.jsx)("div", {
+                          className: "mt-6 w-full max-w-xs",
+                          children: (0, s.jsx)("div", {
+                            className: "w-full bg-gray-700 rounded-full h-1",
+                            children: (0, s.jsx)("div", {
+                              className:
+                                "bg-gradient-to-r from-purple-500 to-indigo-500 h-1 rounded-full",
+                              style: { width: "".concat(100 * h, "%") },
+                            }),
+                          }),
+                        }),
+                      ],
+                    }),
+                    (0, s.jsx)("div", {
+                      className:
+                        "lg:w-2/3 overflow-hidden custom-scrollbar-hide",
+                      ref: t,
+                      children: (0, s.jsx)(r.E.div, {
+                        style: { x: w },
+                        className: "flex space-x-6 px-4 md:px-0 lg:ml-8 pb-4",
+                        children: x.map((e) =>
+                          (0, s.jsx)(
+                            r.E.div,
+                            {
+                              initial: { opacity: 1, y: 20 },
+                              whileInView: { opacity: 1, y: 0 },
+                              viewport: { once: !0, amount: 0.3 },
+                              transition: { duration: 0.2, delay: 0.1 },
+                              className:
+                                "flex-shrink-0 w-[320px] sm:w-[350px] md:w-[400px] lg:w-[400px] h-[400px] md:h-[480px] bg-[#21003D] text-white rounded-xl shadow-lg overflow-hidden flex flex-col border border-[#38106a] hover:border-purple-500 transition-all duration-300 cursor-grab relative",
+                              children:
+                                4 === e.id
+                                  ? (0, s.jsxs)("a", {
+                                      href: "/ai-chatbot",
+                                      target: "_blank",
+                                      rel: "noopener noreferrer",
+                                      className:
+                                        "absolute inset-0 flex flex-col justify-between p-5 group",
+                                      children: [
+                                        (0, s.jsxs)("div", {
+                                          className: "flex flex-col flex-grow",
+                                          children: [
+                                            (0, s.jsx)(o.default, {
+                                              src: e.image,
+                                              alt: e.title,
+                                              width: 210,
+                                              height: 210,
+                                              className:
+                                                "mx-auto mb-3 object-contain",
+                                              priority: e.id <= 2,
+                                            }),
+                                            (0, s.jsx)("h3", {
+                                              className:
+                                                "text-xl sm:text-2xl font-bold mb-2 text-white",
+                                              children: e.title,
+                                            }),
+                                            (0, s.jsxs)("div", {
+                                              className:
+                                                "flex-grow overflow-y-auto custom-scrollbar-hide pr-2 min-h-0",
+                                              children: [
+                                                (0, s.jsx)("p", {
+                                                  className:
+                                                    "text-base md:text-base text-gray-300 mb-2",
+                                                  children:
+                                                    A &&
+                                                    window.innerWidth < 768 &&
+                                                    !g[e.id] &&
+                                                    e.description.length > 150
+                                                      ? "".concat(
+                                                          e.description.substring(
+                                                            0,
+                                                            150,
+                                                          ),
+                                                          "...",
+                                                        )
+                                                      : e.description,
+                                                }),
+                                                (0, s.jsx)("ul", {
+                                                  className:
+                                                    "list-none space-y-0.5 text-base md:text-base text-gray-300 ".concat(
+                                                      A &&
+                                                        window.innerWidth <
+                                                          768 &&
+                                                        !g[e.id]
+                                                        ? "hidden"
+                                                        : "block",
+                                                    ),
+                                                  children: e.points.map(
+                                                    (e, t) =>
+                                                      (0, s.jsxs)(
+                                                        "li",
+                                                        {
+                                                          className:
+                                                            "flex items-start",
+                                                          children: [
+                                                            (0, s.jsx)("span", {
+                                                              className:
+                                                                "w-1.5 h-1.5 bg-blue-400 rounded-full mr-2 mt-1.5",
+                                                            }),
+                                                            e,
+                                                          ],
+                                                        },
+                                                        t,
+                                                      ),
+                                                  ),
+                                                }),
+                                              ],
+                                            }),
+                                          ],
+                                        }),
+                                        (0, s.jsx)(l.Dli, {
+                                          className:
+                                            "absolute top-4 right-4 text-white group-hover:text-purple-400 transition-colors duration-300 text-xl",
+                                        }),
+                                      ],
+                                    })
+                                  : (0, s.jsxs)("div", {
+                                      className: "p-5 flex flex-col flex-grow",
+                                      children: [
+                                        (0, s.jsx)(o.default, {
+                                          src: e.image,
+                                          alt: e.title,
+                                          width: 210,
+                                          height: 210,
+                                          className:
+                                            "mx-auto mb-3 object-contain",
+                                          priority: e.id <= 2,
+                                        }),
+                                        (0, s.jsx)("h3", {
+                                          className:
+                                            "text-xl sm:text-2xl font-bold mb-2 text-white",
+                                          children: e.title,
+                                        }),
+                                        (0, s.jsxs)("div", {
+                                          className:
+                                            "flex-grow overflow-y-auto custom-scrollbar-hide pr-2 min-h-0",
+                                          children: [
+                                            (0, s.jsx)("p", {
+                                              className:
+                                                "text-base md:text-base text-gray-300 mb-2",
+                                              children:
+                                                A &&
+                                                window.innerWidth < 768 &&
+                                                !g[e.id] &&
+                                                e.description.length > 150
+                                                  ? "".concat(
+                                                      e.description.substring(
+                                                        0,
+                                                        150,
+                                                      ),
+                                                      "...",
+                                                    )
+                                                  : e.description,
+                                            }),
+                                            (0, s.jsx)("ul", {
+                                              className:
+                                                "list-none space-y-0.5 text-base md:text-base text-gray-300 ".concat(
+                                                  A &&
+                                                    window.innerWidth < 768 &&
+                                                    !g[e.id]
+                                                    ? "hidden"
+                                                    : "block",
+                                                ),
+                                              children: e.points.map((e, t) =>
+                                                (0, s.jsxs)(
+                                                  "li",
+                                                  {
+                                                    className:
+                                                      "flex items-start",
+                                                    children: [
+                                                      (0, s.jsx)("span", {
+                                                        className:
+                                                          "w-1.5 h-1.5 bg-blue-400 rounded-full mr-2 mt-1.5",
+                                                      }),
+                                                      e,
+                                                    ],
+                                                  },
+                                                  t,
+                                                ),
+                                              ),
+                                            }),
+                                          ],
+                                        }),
+                                      ],
+                                    }),
+                            },
+                            e.id,
+                          ),
+                        ),
+                      }),
+                    }),
+                  ],
+                }),
+              }),
+            }),
+            h > 0 &&
+              h < 1 &&
+              (0, s.jsx)("div", {
+                className: "fixed bottom-8 right-8 z-10",
+                children: (0, s.jsx)("button", {
+                  onClick: () => {
+                    var t;
+                    let i =
+                      null === (t = e.current) || void 0 === t
+                        ? void 0
+                        : t.parentElement;
+                    if (i) {
+                      let e = i.nextElementSibling;
+                      e && e.scrollIntoView({ behavior: "smooth" });
+                    }
+                  },
+                  className:
+                    "w-12 h-12 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center transition-all duration-300 backdrop-blur-sm border border-white/20",
+                  children: (0, s.jsx)(l.RiI, {
+                    className: "text-white text-lg",
+                  }),
+                }),
+              }),
+          ],
+        });
+      }
+      var p = i(56726);
+      let g = [
+        {
+          id: 1,
+          title: "Global Fintech Transformation",
+          client: "Leading Digital Banking Platform",
+          industry: "Financial Services",
+          challenge:
+            "Fragmented data across 15+ systems hindering real-time decision making",
+          solution: "Intelligent Data Integration & Analytics (ML)",
+          icon: l.Op,
+          gradient: "from-blue-600 to-purple-600",
+          image:
+            "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+          results: [
+            {
+              metric: "Data Processing Time",
+              value: "85%",
+              description: "reduction (6hrs → 54min)",
+            },
+            {
+              metric: "Annual Savings",
+              value: "$2.3M",
+              description: "through automation",
+            },
+            {
+              metric: "Fraud Detection",
+              value: "40%",
+              description: "accuracy improvement",
+            },
+            {
+              metric: "Decision Speed",
+              value: "Real-time",
+              description: "instant credit decisions",
+            },
+          ],
+          details: [
+            "Real-time data harmonization from CRM, transaction systems, and external APIs",
+            "ML-powered anomaly detection and pattern recognition",
+            "Automated data reconciliation and validation processes",
+          ],
+        },
+        {
+          id: 2,
+          title: "Manufacturing Excellence",
+          client: "Fortune 500 Automotive Manufacturer",
+          industry: "Manufacturing",
+          challenge: "Unplanned equipment downtime costing $50K per hour",
+          solution: "Predictive Analytics & Workflow Automation",
+          icon: l.iNY,
+          gradient: "from-orange-500 to-red-600",
+          image:
+            "https://images.unsplash.com/photo-1565514020179-026b92b84bb6?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+          results: [
+            {
+              metric: "Downtime Reduction",
+              value: "72%",
+              description: "unplanned maintenance",
+            },
+            {
+              metric: "Annual Savings",
+              value: "$8.5M",
+              description: "predictive maintenance",
+            },
+            {
+              metric: "Workflow Speed",
+              value: "45%",
+              description: "faster execution",
+            },
+            {
+              metric: "Prediction Accuracy",
+              value: "94%",
+              description: "48hr advance warning",
+            },
+          ],
+          details: [
+            "IoT sensor integration with predictive maintenance algorithms",
+            "Automated workflow orchestration for maintenance scheduling",
+            "Real-time equipment health monitoring and alerts",
+          ],
+        },
+        {
+          id: 3,
+          title: "E-Commerce Support Revolution",
+          client: "Top 10 Global E-Commerce Platform",
+          industry: "E-Commerce",
+          challenge: "2M+ monthly support tickets overwhelming human agents",
+          solution: "AI-Powered Customer Support & Chatbots",
+          icon: l.Ov7,
+          gradient: "from-green-500 to-teal-600",
+          image:
+            "https://images.unsplash.com/photo-1556740738-b6a63e27c4df?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+          results: [
+            {
+              metric: "Query Resolution",
+              value: "89%",
+              description: "autonomous handling",
+            },
+            {
+              metric: "Response Time",
+              value: "65%",
+              description: "faster (4hrs → 1.4hrs)",
+            },
+            {
+              metric: "Cost Savings",
+              value: "$4.2M",
+              description: "annual operations",
+            },
+            {
+              metric: "Satisfaction",
+              value: "38%",
+              description: "increase in scores",
+            },
+          ],
+          details: [
+            "Multi-language conversational AI with sentiment analysis",
+            "Seamless human handoff for complex queries",
+            "24/7 automated support with contextual understanding",
+          ],
+        },
+      ];
+      function A() {
+        let [e, t] = (0, n.useState)(0);
+        return (0, s.jsx)("section", {
+          className:
+            "w-full bg-gradient-to-br from-[#10002B] to-[#240046] text-white py-20",
+          children: (0, s.jsxs)("div", {
+            className: "max-w-7xl mx-auto px-6",
+            children: [
+              (0, s.jsxs)(r.E.div, {
+                initial: { opacity: 0, y: 30 },
+                whileInView: { opacity: 1, y: 0 },
+                viewport: { once: !0, amount: 0.3 },
+                transition: { duration: 0.8 },
+                className: "text-center mb-16",
+                children: [
+                  (0, s.jsx)("h2", {
+                    className:
+                      "text-5xl md:text-6xl font-light mb-6 bg-gradient-to-r from-white to-purple-200 bg-clip-text text-transparent",
+                    children: "Real-World Results",
+                  }),
+                  (0, s.jsx)("p", {
+                    className: "text-xl text-gray-300 max-w-3xl mx-auto",
+                    children:
+                      "Discover how leading organizations transformed their operations with our AI solutions, achieving measurable impact and sustainable growth.",
+                  }),
+                ],
+              }),
+              (0, s.jsx)("div", {
+                className: "flex flex-wrap justify-center gap-4 mb-12",
+                children: g.map((i, a) =>
+                  (0, s.jsx)(
+                    "button",
+                    {
+                      onClick: () => t(a),
+                      className:
+                        "px-6 py-3 rounded-full font-semibold transition-all duration-300 ".concat(
+                          e === a
+                            ? "bg-white text-gray-900 shadow-lg"
+                            : "bg-white/10 text-white hover:bg-white/20",
+                        ),
+                      children: i.industry,
+                    },
+                    i.id,
+                  ),
+                ),
+              }),
+              (0, s.jsxs)(
+                r.E.div,
+                {
+                  initial: { opacity: 0, y: 20 },
+                  animate: { opacity: 1, y: 0 },
+                  transition: { duration: 0.5 },
+                  className: "grid lg:grid-cols-2 gap-12 items-center",
+                  children: [
+                    (0, s.jsxs)("div", {
+                      className: "space-y-8",
+                      children: [
+                        (0, s.jsx)("div", {
+                          className: "space-y-4",
+                          children: (0, s.jsxs)("div", {
+                            className: "flex items-center gap-4",
+                            children: [
+                              (0, s.jsx)("div", {
+                                className:
+                                  "p-3 rounded-lg bg-gradient-to-r ".concat(
+                                    g[e].gradient,
+                                  ),
+                              }),
+                              (0, s.jsxs)("div", {
+                                children: [
+                                  (0, s.jsx)("h3", {
+                                    className: "text-3xl font-bold",
+                                    children: g[e].title,
+                                  }),
+                                  (0, s.jsx)("p", {
+                                    className: "text-purple-300",
+                                    children: g[e].client,
+                                  }),
+                                ],
+                              }),
+                            ],
+                          }),
+                        }),
+                        (0, s.jsxs)("div", {
+                          className:
+                            "bg-white/5 rounded-xl p-6 border border-white/10",
+                          children: [
+                            (0, s.jsx)("h4", {
+                              className:
+                                "text-lg font-semibold mb-3 text-red-300",
+                              children: "Challenge",
+                            }),
+                            (0, s.jsx)("p", {
+                              className: "text-gray-300",
+                              children: g[e].challenge,
+                            }),
+                          ],
+                        }),
+                        (0, s.jsxs)("div", {
+                          className:
+                            "bg-white/5 rounded-xl p-6 border border-white/10",
+                          children: [
+                            (0, s.jsx)("h4", {
+                              className:
+                                "text-lg font-semibold mb-3 text-blue-300",
+                              children: "Solution",
+                            }),
+                            (0, s.jsx)("p", {
+                              className: "text-white font-medium mb-3",
+                              children: g[e].solution,
+                            }),
+                            (0, s.jsx)("ul", {
+                              className: "space-y-2",
+                              children: g[e].details.map((e, t) =>
+                                (0, s.jsxs)(
+                                  "li",
+                                  {
+                                    className: "flex items-start text-gray-300",
+                                    children: [
+                                      (0, s.jsx)("span", {
+                                        className:
+                                          "w-2 h-2 bg-purple-400 rounded-full mt-2 mr-3 flex-shrink-0",
+                                      }),
+                                      e,
+                                    ],
+                                  },
+                                  t,
+                                ),
+                              ),
+                            }),
+                          ],
+                        }),
+                        (0, s.jsx)(p.Z, {
+                          message: "Coming Soon",
+                          children: (0, s.jsxs)("button", {
+                            className:
+                              "flex items-center gap-3 bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 px-8 py-4 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg",
+                            children: [
+                              (0, s.jsx)("span", {
+                                children: "View Full Case Study",
+                              }),
+                              (0, s.jsx)(l.Z1Y, {}),
+                            ],
+                          }),
+                        }),
+                      ],
+                    }),
+                    (0, s.jsxs)("div", {
+                      className: "space-y-6",
+                      children: [
+                        (0, s.jsxs)("div", {
+                          className:
+                            "relative rounded-2xl overflow-hidden h-64 mb-8",
+                          children: [
+                            (0, s.jsx)("img", {
+                              src: g[e].image,
+                              alt: g[e].title,
+                              className: "w-full h-full object-cover",
+                            }),
+                            (0, s.jsx)("div", {
+                              className:
+                                "absolute inset-0 bg-gradient-to-t ".concat(
+                                  g[e].gradient,
+                                  " opacity-80",
+                                ),
+                            }),
+                            (0, s.jsxs)("div", {
+                              className: "absolute bottom-4 left-4 text-white",
+                              children: [
+                                (0, s.jsx)("p", {
+                                  className: "text-sm opacity-90",
+                                  children: "Industry",
+                                }),
+                                (0, s.jsx)("p", {
+                                  className: "text-xl font-bold",
+                                  children: g[e].industry,
+                                }),
+                              ],
+                            }),
+                          ],
+                        }),
+                        (0, s.jsx)("div", {
+                          className: "grid grid-cols-2 gap-4",
+                          children: g[e].results.map((e, t) =>
+                            (0, s.jsxs)(
+                              r.E.div,
+                              {
+                                initial: { opacity: 0, scale: 0.9 },
+                                animate: { opacity: 1, scale: 1 },
+                                transition: { duration: 0.5, delay: 0.1 * t },
+                                className:
+                                  "bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20 hover:bg-white/15 transition-all duration-300",
+                                children: [
+                                  (0, s.jsx)("div", {
+                                    className:
+                                      "text-3xl font-bold mb-2 bg-gradient-to-r from-white to-purple-200 bg-clip-text text-transparent",
+                                    children: e.value,
+                                  }),
+                                  (0, s.jsx)("div", {
+                                    className: "text-sm text-gray-300 mb-1",
+                                    children: e.metric,
+                                  }),
+                                  (0, s.jsx)("div", {
+                                    className: "text-xs text-purple-300",
+                                    children: e.description,
+                                  }),
+                                ],
+                              },
+                              t,
+                            ),
+                          ),
+                        }),
+                      ],
+                    }),
+                  ],
+                },
+                e,
+              ),
+            ],
+          }),
+        });
+      }
+      let f = [
+        {
+          id: 1,
+          icon: l.ef0,
+          title: "Future-Ready AI Technologies",
+          description:
+            "Purpose-built solutions that seamlessly integrate with your existing systems and evolve with your business needs.",
+          highlight: "Seamless Integration",
+        },
+        {
+          id: 2,
+          icon: l.I$,
+          title: "Deep AI Expertise",
+          description:
+            "Elite team of ML engineers and AI specialists with proven expertise across Machine Learning and Generative AI technologies.",
+          highlight: "Expert Team",
+        },
+        {
+          id: 3,
+          icon: l.rU2,
+          title: "Complete Solution Portfolio",
+          description:
+            "End-to-end AI capabilities from data integration to conversational AI, designed specifically for enterprise scale and complexity.",
+          highlight: "Full-Stack Solutions",
+        },
+        {
+          id: 4,
+          icon: l.Op,
+          title: "Guaranteed Measurable Results",
+          description:
+            "Average 40% cost reduction, 65% faster decision-making, and 8.5-month ROI across all implementations.",
+          highlight: "Proven ROI",
+        },
+        {
+          id: 5,
+          icon: l.bri,
+          title: "Enterprise-Grade Security",
+          description:
+            "Military-grade data protection, full regulatory compliance, and ethical AI practices built into every solution.",
+          highlight: "Bank-Level Security",
+        },
+        {
+          id: 6,
+          icon: l.MtH,
+          title: "Proven Track Record",
+          description:
+            "Over 500 successful AI implementations across diverse industries, delivering consistent results and exceeding client expectations.",
+          highlight: "500+ Success Stories",
+        },
+      ];
+      function b() {
+        return (0, s.jsxs)("section", {
+          className:
+            "w-full bg-gradient-to-br from-[#10002B] to-[#240046] text-white py-20 relative overflow-hidden",
+          children: [
+            (0, s.jsxs)("div", {
+              className: "absolute inset-0 opacity-5",
+              children: [
+                (0, s.jsx)("div", {
+                  className:
+                    "absolute top-0 left-0 w-full h-full bg-[radial-gradient(circle_at_30%_20%,rgba(255,255,255,0.1),transparent_50%)]",
+                }),
+                (0, s.jsx)("div", {
+                  className:
+                    "absolute bottom-0 right-0 w-full h-full bg-[radial-gradient(circle_at_70%_80%,rgba(255,255,255,0.05),transparent_50%)]",
+                }),
+              ],
+            }),
+            (0, s.jsxs)("div", {
+              className: "max-w-7xl mx-auto px-6 relative z-10",
+              children: [
+                (0, s.jsxs)(r.E.div, {
+                  initial: { opacity: 0, y: 30 },
+                  whileInView: { opacity: 1, y: 0 },
+                  viewport: { once: !0, amount: 0.3 },
+                  transition: { duration: 0.8 },
+                  className: "text-center mb-16",
+                  children: [
+                    (0, s.jsx)("h2", {
+                      className:
+                        "text-5xl md:text-6xl font-light mb-6 text-white",
+                      children: "Why Choose DataTroops?",
+                    }),
+                    (0, s.jsxs)("p", {
+                      className:
+                        "text-xl text-gray-300 max-w-4xl mx-auto leading-relaxed",
+                      children: [
+                        "We don't just implement AI—we engineer intelligent ecosystems that deliver",
+                        (0, s.jsxs)("span", {
+                          className: "text-white font-semibold",
+                          children: [" ", "measurable business impact"],
+                        }),
+                        ". Our solutions tackle the most critical challenges of modern enterprises, driving automation, security, and innovation at scale.",
+                      ],
+                    }),
+                  ],
+                }),
+                (0, s.jsx)("div", {
+                  className: "grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16",
+                  children: f.map((e, t) =>
+                    (0, s.jsxs)(
+                      r.E.div,
+                      {
+                        initial: { opacity: 0, y: 30 },
+                        whileInView: { opacity: 1, y: 0 },
+                        viewport: { once: !0, amount: 0.2 },
+                        transition: { duration: 0, delay: 0.1 * t },
+                        className:
+                          "group relative bg-white/5 backdrop-blur-sm rounded-2xl p-8 border border-white/10 hover:border-white/30 hover:bg-white/1 transition-all duration-500 hover:transform hover:scale-105",
+                        children: [
+                          (0, s.jsx)("div", {
+                            className:
+                              "inline-flex p-4 rounded-xl bg-white/10 mb-6 group-hover:bg-white/20 group-hover:scale-110 transition-all duration-300",
+                            children: (0, s.jsx)(e.icon, {
+                              className: "text-2xl text-white",
+                            }),
+                          }),
+                          (0, s.jsx)("div", {
+                            className: "absolute top-4 right-4",
+                            children: (0, s.jsx)("span", {
+                              className:
+                                "px-3 py-1 text-xs font-semibold rounded-full bg-white/20 text-white",
+                              children: e.highlight,
+                            }),
+                          }),
+                          (0, s.jsx)("h3", {
+                            className:
+                              "text-xl font-bold mb-4 text-white group-hover:text-gray-100 transition-colors duration-300",
+                            children: e.title,
+                          }),
+                          (0, s.jsx)("p", {
+                            className:
+                              "text-gray-300 leading-relaxed group-hover:text-gray-200 transition-colors duration-300",
+                            children: e.description,
+                          }),
+                          (0, s.jsx)("div", {
+                            className:
+                              "absolute inset-0 bg-white/0 group-hover:bg-white/5 rounded-2xl transition-all duration-500",
+                          }),
+                        ],
+                      },
+                      e.id,
+                    ),
+                  ),
+                }),
+              ],
+            }),
+          ],
+        });
+      }
+      function w() {
+        return (0, s.jsx)("section", {
+          className:
+            "w-full bg-gradient-to-br from-[#10002B] to-[#240046] text-white py-10 relative overflow-hidden",
+          children: (0, s.jsxs)(r.E.div, {
+            initial: { opacity: 0, y: 30 },
+            whileInView: { opacity: 1, y: 0 },
+            viewport: { once: !0, amount: 0.3 },
+            transition: { duration: 0.8 },
+            className: "text-center mt-2",
+            children: [
+              (0, s.jsx)("h3", {
+                className: "text-3xl font-bold mb-4 text-white",
+                children: "Ready to Transform Your Business?",
+              }),
+              (0, s.jsx)("p", {
+                className: "text-gray-300 mb-8 max-w-2xl mx-auto",
+                children:
+                  "Experience the DataTroops difference. Let's discuss how our AI solutions can drive measurable impact for your organization.",
+              }),
+              (0, s.jsx)("div", {
+                className: "flex flex-wrap justify-center gap-4",
+                children: (0, s.jsx)("a", {
+                  href: "/contact-us",
+                  className:
+                    "inline-flex bg-white text-[#10002B] hover:bg-gray-100 px-8 py-4 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg",
+                  children: "Schedule a Strategy Session",
+                }),
+              }),
+            ],
+          }),
+        });
+      }
+      var v = i(96164);
+      let y = [
+        {
+          id: 1,
+          number: "01",
+          title: "Discover",
+          subtitle: "Align & Assess",
+          description:
+            "We align with your business goals, identify high-impact use cases, and assess your tech landscape.",
+          icon: l.U41,
+          keyFeatures: [
+            "Business goal alignment and stakeholder interviews",
+            "High-impact AI use case identification",
+            "Technology readiness assessment",
+            "ROI potential analysis and timeline planning",
+          ],
+        },
+        {
+          id: 2,
+          number: "02",
+          title: "Design",
+          subtitle: "Craft & Architect",
+          description:
+            "Our experts craft a custom AI solution—choosing the right models, data pipelines, and system architecture.",
+          icon: l.T7P,
+          keyFeatures: [
+            "Custom AI model selection and architecture",
+            "Data pipeline and workflow optimization",
+            "System integration blueprint creation",
+            "Scalability and performance planning",
+          ],
+        },
+        {
+          id: 3,
+          number: "03",
+          title: "Integrate",
+          subtitle: "Connect & Sync",
+          description:
+            "We plug AI into your existing platforms (CRM, ERP, cloud, APIs) with minimal disruption.",
+          icon: l.eKD,
+          keyFeatures: [
+            "Seamless CRM, ERP, and cloud integration",
+            "Custom API development and connectivity",
+            "Minimal disruption deployment strategy",
+            "Real-time data synchronization setup",
+          ],
+        },
+        {
+          id: 4,
+          number: "04",
+          title: "Secure",
+          subtitle: "Protect & Govern",
+          description:
+            "Your data stays protected. We embed enterprise-grade security, governance, and compliance by default.",
+          icon: l.bri,
+          keyFeatures: [
+            "Enterprise-grade security implementation",
+            "Data governance and privacy protocols",
+            "Regulatory compliance validation",
+            "Ethical AI framework establishment",
+          ],
+        },
+        {
+          id: 5,
+          number: "05",
+          title: "Deploy",
+          subtitle: "Launch & Activate",
+          description:
+            "We roll out the solution in your environment—tested, tuned, and ready to perform from day one.",
+          icon: l.ef0,
+          keyFeatures: [
+            "Comprehensive testing and validation",
+            "Performance tuning and optimization",
+            "User training and knowledge transfer",
+            "Go-live support and monitoring",
+          ],
+        },
+        {
+          id: 6,
+          number: "06",
+          title: "Optimize",
+          subtitle: "Monitor & Improve",
+          description:
+            "With real-time monitoring, feedback loops, and retraining, your AI keeps learning—and improving.",
+          icon: l.Op,
+          keyFeatures: [
+            "Real-time performance monitoring",
+            "Continuous feedback loop implementation",
+            "Model retraining and enhancement",
+            "Ongoing optimization and scaling",
+          ],
+        },
+      ];
+      function j() {
+        let e = (0, n.useRef)(null),
+          t = (0, n.useRef)(null),
+          [i, a] = (0, n.useState)(0),
+          [o, c] = (0, n.useState)(0);
+        (0, n.useLayoutEffect)(() => {
+          let i = () => {
+            t.current && e.current && console.log("running if");
+          };
+          return (
+            i(),
+            window.addEventListener("resize", i),
+            () => window.removeEventListener("resize", i)
+          );
+        }, []);
+        let { scrollYProgress: d } = (0, m.v)({
+          target: e,
+          offset: ["start start", "end end"],
+        });
+        d.onChange((e) => {
+          a(e),
+            c(Math.max(0, Math.min(Math.floor(e * y.length), y.length - 1)));
+        });
+        let u = (t) => {
+            if (e.current) {
+              let i = e.current.getBoundingClientRect().top + window.scrollY,
+                s = e.current.offsetHeight,
+                a = window.innerHeight,
+                n = s / y.length;
+              window.scrollTo({
+                top: i + n * t - a / 2 + n / 2,
+                behavior: "smooth",
+              });
+            }
+          },
+          x = y[o].icon;
+        return (0, s.jsxs)("section", {
+          className:
+            "w-full bg-gradient-to-br from-[#10002B] to-[#240046] text-white relative",
+          children: [
+            i > 0 &&
+              i < 1 &&
+              (0, s.jsx)("div", {
+                className: "fixed bottom-24 right-8 z-10",
+                children: (0, s.jsx)("button", {
+                  onClick: () => {
+                    var t;
+                    let i =
+                      null === (t = e.current) || void 0 === t
+                        ? void 0
+                        : t.parentElement;
+                    if (i) {
+                      let e = i.previousElementSibling;
+                      e && e.scrollIntoView({ behavior: "smooth" });
+                    }
+                  },
+                  className:
+                    "w-12 h-12 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center transition-all duration-300 backdrop-blur-sm border border-white/20",
+                  children: (0, s.jsx)(l.s$2, {
+                    className: "text-white text-lg",
+                  }),
+                }),
+              }),
+            (0, s.jsx)("div", {
+              ref: e,
+              className: "h-[500vh]",
+              children: (0, s.jsx)("div", {
+                className:
+                  "sticky top-0 h-screen flex items-center py-8 md:py-16 px-4 sm:px-6 lg:px-8",
+                children: (0, s.jsxs)("div", {
+                  className:
+                    "max-w-7xl mx-auto w-full grid lg:grid-cols-3 gap-8 lg:gap-12 items-start",
+                  children: [
+                    (0, s.jsxs)("div", {
+                      className: "lg:col-span-2",
+                      children: [
+                        (0, s.jsxs)(r.E.div, {
+                          initial: { opacity: 0, y: 20 },
+                          whileInView: { opacity: 1, y: 0 },
+                          viewport: { once: !0, amount: 0.3 },
+                          transition: { duration: 0.6 },
+                          className: "text-center lg:text-left mb-4 lg:mb-12",
+                          children: [
+                            (0, s.jsx)("h2", {
+                              className:
+                                "text-4xl md:text-4xl lg:text-5xl font-light mb-3 text-white leading-tight",
+                              children: "Seamless AI Integration",
+                            }),
+                            (0, s.jsx)("p", {
+                              className:
+                                "text-base md:text-lg text-gray-300 max-w-2xl lg:mx-0 mx-auto",
+                              children:
+                                "Step by step — here's how we bring AI into your business",
+                            }),
+                          ],
+                        }),
+                        (0, s.jsxs)(
+                          r.E.div,
+                          {
+                            initial: { opacity: 0, y: 20 },
+                            animate: { opacity: 1, y: 0 },
+                            transition: { duration: 0.6 },
+                            className: "space-y-3 md:space-y-6",
+                            children: [
+                              (0, s.jsxs)("div", {
+                                className:
+                                  "flex items-center gap-3 md:gap-6 flex-wrap justify-center lg:justify-start",
+                                children: [
+                                  (0, s.jsx)("div", {
+                                    className:
+                                      "flex items-center justify-center w-14 h-14 md:w-16 md:h-16 bg-white/10 rounded-xl flex-shrink-0",
+                                    children: (0, s.jsx)(x, {
+                                      className:
+                                        "text-xl md:text-2xl text-white",
+                                    }),
+                                  }),
+                                  (0, s.jsxs)("div", {
+                                    className:
+                                      "flex-1 min-w-[180px] text-center lg:text-left",
+                                    children: [
+                                      (0, s.jsxs)("div", {
+                                        className:
+                                          "flex items-baseline gap-2 md:gap-3 mb-1",
+                                        children: [
+                                          (0, s.jsx)("div", {
+                                            className:
+                                              "text-3xl md:text-4xl font-light text-white",
+                                            children: y[o].number,
+                                          }),
+                                          (0, s.jsx)("h3", {
+                                            className:
+                                              "text-2xl md:text-3xl font-light text-white",
+                                            children: y[o].title,
+                                          }),
+                                        ],
+                                      }),
+                                      (0, s.jsx)("p", {
+                                        className:
+                                          "text-sm text-purple-400 text-left",
+                                        children: y[o].subtitle,
+                                      }),
+                                    ],
+                                  }),
+                                ],
+                              }),
+                              (0, s.jsx)("p", {
+                                className:
+                                  "text-base md:text-lg text-gray-300 leading-relaxed text-center lg:text-left",
+                                children: y[o].description,
+                              }),
+                              (0, s.jsxs)(
+                                r.E.div,
+                                {
+                                  initial: { opacity: 0, y: 20 },
+                                  animate: { opacity: 1, y: 0 },
+                                  transition: { duration: 0.6, delay: 0.2 },
+                                  className:
+                                    "bg-white/5 backdrop-blur-sm rounded-xl p-3 md:p-6 border border-white/10",
+                                  children: [
+                                    (0, s.jsx)("h4", {
+                                      className:
+                                        "text-base md:text-lg font-medium mb-2 md:mb-4 text-white",
+                                      children: "Key Activities",
+                                    }),
+                                    (0, s.jsx)("div", {
+                                      className:
+                                        "grid sm:grid-cols-2 gap-2 md:gap-3",
+                                      children: y[o].keyFeatures.map((e, t) =>
+                                        (0, s.jsxs)(
+                                          r.E.div,
+                                          {
+                                            initial: { opacity: 0, x: -10 },
+                                            animate: { opacity: 1, x: 0 },
+                                            transition: {
+                                              duration: 0.4,
+                                              delay: 0.1 * t,
+                                            },
+                                            className:
+                                              "flex items-start gap-2 md:gap-3",
+                                            children: [
+                                              (0, s.jsx)(l.FJM, {
+                                                className:
+                                                  "text-purple-300 mt-1 flex-shrink-0 text-xs md:text-sm",
+                                              }),
+                                              (0, s.jsx)("span", {
+                                                className:
+                                                  "text-gray-300 text-sm md:text-base",
+                                                children: e,
+                                              }),
+                                            ],
+                                          },
+                                          t,
+                                        ),
+                                      ),
+                                    }),
+                                  ],
+                                },
+                                "features-".concat(o),
+                              ),
+                              o === y.length - 1 &&
+                                (0, s.jsx)(r.E.div, {
+                                  initial: { opacity: 0, y: 10 },
+                                  animate: { opacity: 1, y: 0 },
+                                  transition: { duration: 0.6, delay: 0.3 },
+                                  className:
+                                    "pt-3 md:pt-4 text-center lg:text-left",
+                                  children: (0, s.jsxs)("a", {
+                                    href: "/contact-us",
+                                    className:
+                                      "inline-flex bg-white text-[#10002B] hover:bg-gray-100 px-5 py-2 md:px-6 md:py-3 rounded-lg font-medium transition-all duration-300 transform hover:scale-105 flex items-center gap-2 mx-auto lg:mx-0",
+                                    children: [
+                                      (0, s.jsx)("span", {
+                                        children: "Start Your AI Journey",
+                                      }),
+                                      (0, s.jsx)(l.Z1Y, {
+                                        className: "text-sm",
+                                      }),
+                                    ],
+                                  }),
+                                }),
+                            ],
+                          },
+                          o,
+                        ),
+                      ],
+                    }),
+                    (0, s.jsxs)("div", {
+                      className: "lg:col-span-1 mt-4 lg:mt-0",
+                      children: [
+                        (0, s.jsx)("h3", {
+                          className:
+                            "text-lg md:text-xl font-semibold mb-4 md:mb-6 text-white text-center lg:text-left",
+                          children: "Integration Steps",
+                        }),
+                        (0, s.jsx)("nav", {
+                          className:
+                            "grid grid-cols-2 gap-x-2 md:gap-x-4 md:grid-cols-1 gap-y-1 md:gap-y-2",
+                          children: y.map((e, t) =>
+                            (0, s.jsxs)(
+                              "div",
+                              {
+                                onClick: () => u(t),
+                                className: (0, v.m6)(
+                                  "w-full text-left flex items-center gap-3 p-2 md:p-4 rounded-lg transition-all duration-300 cursor-pointer",
+                                  o === t
+                                    ? "bg-[#3F0071] shadow-lg border border-purple-600"
+                                    : "bg-transparent border border-white/10 hover:bg-white/10",
+                                ),
+                                children: [
+                                  (0, s.jsx)("div", {
+                                    className: (0, v.m6)(
+                                      "w-8 h-8 md:w-10 md:h-10 rounded-lg flex items-center justify-center transition-all duration-300",
+                                      o === t ? "bg-white/10" : "bg-white/5",
+                                    ),
+                                    children: (0, s.jsx)(e.icon, {
+                                      className: (0, v.m6)(
+                                        "text-xs md:text-sm transition-colors duration-300",
+                                        o === t
+                                          ? "text-white"
+                                          : "text-gray-400 group-hover:text-white",
+                                      ),
+                                    }),
+                                  }),
+                                  (0, s.jsxs)("div", {
+                                    className: "flex-1",
+                                    children: [
+                                      (0, s.jsxs)("div", {
+                                        className:
+                                          "flex items-center gap-1 md:gap-2 mb-1",
+                                        children: [
+                                          (0, s.jsx)("span", {
+                                            className: (0, v.m6)(
+                                              "text-xs font-medium transition-colors duration-300",
+                                              o === t
+                                                ? "text-white"
+                                                : "text-gray-400 group-hover:text-white",
+                                            ),
+                                            children: e.number,
+                                          }),
+                                          (0, s.jsx)("span", {
+                                            className: (0, v.m6)(
+                                              "text-sm font-medium transition-colors duration-300",
+                                              o === t
+                                                ? "text-white"
+                                                : "text-gray-400 group-hover:text-white",
+                                            ),
+                                            children: e.title,
+                                          }),
+                                        ],
+                                      }),
+                                      (0, s.jsx)("div", {
+                                        className: (0, v.m6)(
+                                          "w-full h-1 rounded-full transition-all duration-500",
+                                          o === t
+                                            ? "bg-purple-500"
+                                            : t < o
+                                              ? "bg-white/60"
+                                              : "bg-white/20",
+                                        ),
+                                      }),
+                                    ],
+                                  }),
+                                ],
+                              },
+                              e.id,
+                            ),
+                          ),
+                        }),
+                      ],
+                    }),
+                  ],
+                }),
+              }),
+            }),
+            i > 0 &&
+              i < 1 &&
+              (0, s.jsx)("div", {
+                className: "fixed bottom-8 right-8 z-10",
+                children: (0, s.jsx)("button", {
+                  onClick: () => {
+                    var t;
+                    let i =
+                      null === (t = e.current) || void 0 === t
+                        ? void 0
+                        : t.parentElement;
+                    if (i) {
+                      let e = i.nextElementSibling;
+                      e && e.scrollIntoView({ behavior: "smooth" });
+                    }
+                  },
+                  className:
+                    "w-12 h-12 rounded-full bg-white/10 hover:bg-white/20 flex items-center justify-center transition-all duration-300 backdrop-blur-sm border border-white/20",
+                  children: (0, s.jsx)(l.RiI, {
+                    className: "text-white text-lg",
+                  }),
+                }),
+              }),
+          ],
+        });
+      }
+      var N = i(44458);
+      let I = [
+        {
+          question: "What industries do your AI solutions support?",
+          answer:
+            "Our AI solutions are designed to serve diverse sectors including Retail, Healthcare, Finance, Education, Travel, and Media. We tailor each implementation to industry-specific needs and compliance standards.",
+        },
+        {
+          question: "Can your AI models integrate with our existing systems?",
+          answer:
+            "Yes. Our solutions are built with flexibility in mind, offering seamless integration via APIs, cloud services, or on-premise deployments—ensuring minimal disruption and faster adoption.",
+        },
+        {
+          question: "Do you offer custom AI solutions?",
+          answer:
+            "Absolutely. We specialize in creating bespoke AI systems aligned with your unique workflows, data requirements, and operational goals.",
+        },
+        {
+          question: "How secure is our data during development and deployment?",
+          answer:
+            "Data security is a top priority. We follow enterprise-grade best practices in data encryption, access control, and compliance with standards like GDPR and HIPAA.",
+        },
+        {
+          question:
+            "What is your approach to MLOps and model lifecycle management?",
+          answer:
+            "We offer full MLOps support—automating training pipelines, version control, continuous deployment, and performance monitoring to ensure your models stay accurate and production-ready.",
+        },
+        {
+          question: "How long does it take to implement an AI solution?",
+          answer:
+            "Timelines vary based on complexity, but most solutions go from design to deployment within 6–12 weeks. For rapid pilots, we offer fast-track options.",
+        },
+        {
+          question: "Do you provide post-deployment support?",
+          answer:
+            "Yes. We offer ongoing monitoring, optimization, and support to ensure your AI systems remain effective and aligned with evolving business needs.",
+        },
+        {
+          question:
+            "What types of tasks can be automated with DataTroops's AI solutions?",
+          answer:
+            "DataTroops automates a wide range of tasks, including fraud detection, customer support, document processing, workflow management, repetitive data entry, and equipment failure prediction. This allows your teams to focus on strategic, value-driven work.",
+        },
+      ];
+      function E() {
+        return (0, s.jsxs)(s.Fragment, {
+          children: [
+            (0, s.jsx)(d, {}),
+            (0, s.jsx)(h, {}),
+            (0, s.jsx)(a.Z, {}),
+            (0, s.jsx)(b, {}),
+            (0, s.jsx)(j, {}),
+            (0, s.jsx)(A, {}),
+            (0, s.jsx)(N.Z, {
+              title: "Got Questions? We've Got Answers.",
+              description:
+                "Find quick answers to common questions about our AI solutions.",
+              faqs: I,
+            }),
+            (0, s.jsx)(w, {}),
+          ],
+        });
+      }
+    },
+  },
+  function (e) {
+    e.O(0, [699, 648, 950, 164, 504, 987, 522, 971, 23, 744], function () {
+      return e((e.s = 13116));
+    }),
+      (_N_E = e.O());
+  },
+]);

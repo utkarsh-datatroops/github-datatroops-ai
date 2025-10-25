@@ -1,0 +1,1863 @@
+(self.webpackChunk_N_E = self.webpackChunk_N_E || []).push([
+  [185],
+  {
+    37394: function (e, t, s) {
+      "use strict";
+      var a,
+        r,
+        l,
+        o = s(4410);
+      function n() {
+        return (n = Object.assign
+          ? Object.assign.bind()
+          : function (e) {
+              for (var t = 1; t < arguments.length; t++) {
+                var s = arguments[t];
+                for (var a in s)
+                  ({}).hasOwnProperty.call(s, a) && (e[a] = s[a]);
+              }
+              return e;
+            }).apply(null, arguments);
+      }
+      t.Z = function (e) {
+        return o.createElement(
+          "svg",
+          n(
+            {
+              xmlns: "http://www.w3.org/2000/svg",
+              xmlSpace: "preserve",
+              id: "Layer_1",
+              x: 0,
+              y: 0,
+              viewBox: "0 0 2834.6 2834.6",
+            },
+            e,
+          ),
+          a || (a = o.createElement("style", null, ".st0{fill:#ffba08}")),
+          r ||
+            (r = o.createElement("path", {
+              d: "M1320.4 686.1c-52.6 10.5-105.3 10.5-217.5 70.5C989 817.3 943.1 896 983.1 984.9c41.4 91.9 122.4 110.2 248 55.9 163.6-70.7 342.3-41.2 464.7 76.6 142.8 137.5 165 361.4 53.2 535.8-104.9 163.6-325 219.3-528.5 133.9-115.2-48.4-189.9-31.7-233.4 52.1-44 84.8-8 174.2 97.7 229.3 143.8 75 298.1 94.8 455.4 61.9 71.4-14.9 108.6 4.8 140.2 66.7 48.8 95.7 103 188.8 157.6 281.4 57.6 97.8 144.2 126.5 226.4 78.8 78.4-45.6 98.9-130.3 47.8-227.1-53.5-101.3-109.8-201.4-170.8-298.3-33.1-52.5-30.9-86.2 10.4-136.2 247-299.7 246.4-660.1-1.9-959.7-42.6-51.4-38.9-85.3-7.3-136.4 62.1-100.3 120.4-203.2 175-307.8 47.2-90.5 24.8-167.7-54.5-216.5-73.8-45.4-158.9-23.5-213.9 62-43.1 67-82.3 137-116.7 208.8-80.5 192.6-148.9 171.5-227.9 155.7-5-3.6-110.5-31.5-184.2-15.7",
+              className: "st0",
+            })),
+          l ||
+            (l = o.createElement("path", {
+              d: "M540.8 1571.7c-93.7 0-187.5 2.1-281.1-.6-99-2.8-165-62.9-168.7-147.8-3.8-89.6 63.1-160.8 165-162.6 190.8-3.4 381.8-3.3 572.6.4 98 1.9 161.4 67 163 153.4 1.7 91.8-62.7 151.6-169.7 157.4-3.5.2-6.9.1-10.4.1H540.8zM2743.5 1429.4c-5.9 102.4-100.5 186.7-203.7 181.6-105.2-5.2-187.6-95.7-183.7-201.7 4.1-110.8 98.1-194.6 209-186.2 104.1 7.8 184.5 100.8 178.4 206.3M1602.4 1414.2c.8 103-87.4 193.9-190.4 196.4-110.6 2.6-199.1-85.2-198.4-196.8.6-105.9 86.9-190.5 193.9-190.2 105.9.3 194.1 86.5 194.9 190.6M834.7 2601.8c-101-1.1-191.3-91.8-192.3-193-.9-103.9 84.9-190.2 191-192.1 110.9-2 200.7 87.3 197.2 196-3.2 103.6-92.9 190.2-195.9 189.1M1030.3 426.7c-.8 105.8-84.8 188.5-192.6 189.6-110.2 1.1-196.9-87.7-193.5-198.3 3.3-105.3 90.5-187.2 197-185 105.2 2.1 189.9 88.9 189.1 193.7",
+              className: "st0",
+            })),
+        );
+      };
+    },
+    60574: function (e, t, s) {
+      Promise.resolve().then(s.t.bind(s, 53054, 23)),
+        Promise.resolve().then(s.t.bind(s, 26200, 23)),
+        Promise.resolve().then(s.t.bind(s, 72964, 23)),
+        Promise.resolve().then(s.t.bind(s, 21748, 23)),
+        Promise.resolve().then(s.t.bind(s, 35448, 23)),
+        Promise.resolve().then(s.t.bind(s, 98855, 23)),
+        Promise.resolve().then(s.t.bind(s, 73955, 23)),
+        Promise.resolve().then(s.bind(s, 50922)),
+        Promise.resolve().then(s.bind(s, 16733)),
+        Promise.resolve().then(s.bind(s, 61485)),
+        Promise.resolve().then(s.bind(s, 55214));
+    },
+    78030: function (e, t, s) {
+      "use strict";
+      s.d(t, {
+        Z: function () {
+          return m;
+        },
+      });
+      var a = s(2265);
+      let r = (e) => e.replace(/([a-z0-9])([A-Z])/g, "$1-$2").toLowerCase(),
+        l = (e) =>
+          e.replace(/^([A-Z])|[\s-_]+(\w)/g, (e, t, s) =>
+            s ? s.toUpperCase() : t.toLowerCase(),
+          ),
+        o = (e) => {
+          let t = l(e);
+          return t.charAt(0).toUpperCase() + t.slice(1);
+        },
+        n = function () {
+          for (var e = arguments.length, t = Array(e), s = 0; s < e; s++)
+            t[s] = arguments[s];
+          return t
+            .filter((e, t, s) => !!e && "" !== e.trim() && s.indexOf(e) === t)
+            .join(" ")
+            .trim();
+        },
+        i = (e) => {
+          for (let t in e)
+            if (t.startsWith("aria-") || "role" === t || "title" === t)
+              return !0;
+        };
+      var c = {
+        xmlns: "http://www.w3.org/2000/svg",
+        width: 24,
+        height: 24,
+        viewBox: "0 0 24 24",
+        fill: "none",
+        stroke: "currentColor",
+        strokeWidth: 2,
+        strokeLinecap: "round",
+        strokeLinejoin: "round",
+      };
+      let d = (0, a.forwardRef)((e, t) => {
+          let {
+            color: s = "currentColor",
+            size: r = 24,
+            strokeWidth: l = 2,
+            absoluteStrokeWidth: o,
+            className: d = "",
+            children: m,
+            iconNode: h,
+            ...x
+          } = e;
+          return (0, a.createElement)(
+            "svg",
+            {
+              ref: t,
+              ...c,
+              width: r,
+              height: r,
+              stroke: s,
+              strokeWidth: o ? (24 * Number(l)) / Number(r) : l,
+              className: n("lucide", d),
+              ...(!m && !i(x) && { "aria-hidden": "true" }),
+              ...x,
+            },
+            [
+              ...h.map((e) => {
+                let [t, s] = e;
+                return (0, a.createElement)(t, s);
+              }),
+              ...(Array.isArray(m) ? m : [m]),
+            ],
+          );
+        }),
+        m = (e, t) => {
+          let s = (0, a.forwardRef)((s, l) => {
+            let { className: i, ...c } = s;
+            return (0, a.createElement)(d, {
+              ref: l,
+              iconNode: t,
+              className: n("lucide-".concat(r(o(e))), "lucide-".concat(e), i),
+              ...c,
+            });
+          });
+          return (s.displayName = o(e)), s;
+        };
+    },
+    49590: function (e, t, s) {
+      "use strict";
+      s.d(t, {
+        Z: function () {
+          return a;
+        },
+      });
+      let a = (0, s(78030).Z)("rotate-ccw", [
+        [
+          "path",
+          {
+            d: "M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8",
+            key: "1357e3",
+          },
+        ],
+        ["path", { d: "M3 3v5h5", key: "1xhq8a" }],
+      ]);
+    },
+    37830: function (e, t) {
+      "use strict";
+      var s = Symbol.for("react.element"),
+        a =
+          (Symbol.for("react.portal"),
+          Symbol.for("react.fragment"),
+          Symbol.for("react.strict_mode"),
+          Symbol.for("react.profiler"),
+          Symbol.for("react.provider"),
+          Symbol.for("react.context"),
+          Symbol.for("react.forward_ref"),
+          Symbol.for("react.suspense"),
+          Symbol.for("react.memo"),
+          Symbol.for("react.lazy"),
+          {
+            isMounted: function () {
+              return !1;
+            },
+            enqueueForceUpdate: function () {},
+            enqueueReplaceState: function () {},
+            enqueueSetState: function () {},
+          }),
+        r = Object.assign,
+        l = {};
+      function o(e, t, s) {
+        (this.props = e),
+          (this.context = t),
+          (this.refs = l),
+          (this.updater = s || a);
+      }
+      function n() {}
+      function i(e, t, s) {
+        (this.props = e),
+          (this.context = t),
+          (this.refs = l),
+          (this.updater = s || a);
+      }
+      (o.prototype.isReactComponent = {}),
+        (o.prototype.setState = function (e, t) {
+          if ("object" != typeof e && "function" != typeof e && null != e)
+            throw Error(
+              "setState(...): takes an object of state variables to update or a function which returns an object of state variables.",
+            );
+          this.updater.enqueueSetState(this, e, t, "setState");
+        }),
+        (o.prototype.forceUpdate = function (e) {
+          this.updater.enqueueForceUpdate(this, e, "forceUpdate");
+        }),
+        (n.prototype = o.prototype);
+      var c = (i.prototype = new n());
+      (c.constructor = i), r(c, o.prototype), (c.isPureReactComponent = !0);
+      var d = Object.prototype.hasOwnProperty,
+        m = { key: !0, ref: !0, __self: !0, __source: !0 };
+      t.createElement = function (e, t, a) {
+        var r,
+          l = {},
+          o = null,
+          n = null;
+        if (null != t)
+          for (r in (void 0 !== t.ref && (n = t.ref),
+          void 0 !== t.key && (o = "" + t.key),
+          t))
+            d.call(t, r) && !m.hasOwnProperty(r) && (l[r] = t[r]);
+        var i = arguments.length - 2;
+        if (1 === i) l.children = a;
+        else if (1 < i) {
+          for (var c = Array(i), h = 0; h < i; h++) c[h] = arguments[h + 2];
+          l.children = c;
+        }
+        if (e && e.defaultProps)
+          for (r in (i = e.defaultProps)) void 0 === l[r] && (l[r] = i[r]);
+        return { $$typeof: s, type: e, key: o, ref: n, props: l, _owner: null };
+      };
+    },
+    4410: function (e, t, s) {
+      "use strict";
+      e.exports = s(37830);
+    },
+    12098: function (e, t, s) {
+      "use strict";
+      s.d(t, {
+        z: function () {
+          return l;
+        },
+      });
+      var a = s(57437);
+      let r = (0, s(13027).j)(
+          [
+            "text-xs tracking-wildest uppercase font-bold h-10 px-6 rounded-lg ",
+          ],
+          {
+            variants: {
+              block: { true: "w-full" },
+              variant: {
+                primary: "border-gradient",
+                secondary:
+                  "bg-gray-100 text-gray-950 hover:bg-gray-200 hover:text-gray-900",
+                tertiary:
+                  "bg-white text-gray-800 hover:bg-gray-200 hover:text-gray-900",
+              },
+            },
+            defaultVariants: { variant: "primary", block: !1 },
+          },
+        ),
+        l = (e) => {
+          let { className: t = "", children: s, ...l } = e;
+          return (0, a.jsx)("button", {
+            className: r({ ...l, className: t }),
+            style: { borderRadius: "50px" },
+            type: l.type || "button",
+            children: s,
+          });
+        };
+    },
+    50922: function (e, t, s) {
+      "use strict";
+      s.d(t, {
+        default: function () {
+          return n;
+        },
+      });
+      var a = s(57437),
+        r = s(2265),
+        l = s(45079),
+        o = s(6920);
+      function n() {
+        let [e, t] = (0, r.useState)(!1),
+          [s, n] = (0, r.useState)(""),
+          [i, c] = (0, r.useState)(""),
+          [d, m] = (0, r.useState)(""),
+          [h, x] = (0, r.useState)(null);
+        return (0, a.jsx)("section", {
+          className:
+            "w-full bg-gradient-to-r from-[#10002B] to-[#240046] py-8 md:py-12 lg:py-16 px-4",
+          children: (0, a.jsxs)("div", {
+            className: "max-w-6xl w-full mx-auto",
+            children: [
+              (0, a.jsxs)("div", {
+                className: "text-center mb-12",
+                children: [
+                  (0, a.jsx)("h2", {
+                    className: "text-4xl md:text-5xl font-bold text-white mb-4",
+                    children: "Get in Touch",
+                  }),
+                  (0, a.jsx)("div", {
+                    className:
+                      "w-24 h-1 bg-gradient-to-r from-[#7B2CBF] to-[#5A189A] mx-auto rounded-full",
+                  }),
+                ],
+              }),
+              (0, a.jsxs)("div", {
+                className: "grid grid-cols-1 md:grid-cols-2 gap-8",
+                children: [
+                  (0, a.jsxs)("div", {
+                    className: "space-y-8",
+                    children: [
+                      (0, a.jsxs)("div", {
+                        className:
+                          "bg-gradient-to-br from-[#23235B]/80 to-[#7B2CBF]/60 rounded-2xl p-8 border border-white/10 backdrop-blur-md",
+                        children: [
+                          (0, a.jsx)("h3", {
+                            className: "text-2xl font-bold text-white mb-6",
+                            children: "Contact Information",
+                          }),
+                          (0, a.jsxs)("div", {
+                            className: "space-y-6",
+                            children: [
+                              (0, a.jsxs)("div", {
+                                className: "flex items-start space-x-4",
+                                children: [
+                                  (0, a.jsx)("div", {
+                                    className:
+                                      "w-12 h-12 rounded-full bg-gradient-to-r from-[#7B2CBF] to-[#5A189A] flex items-center justify-center flex-shrink-0",
+                                    children: (0, a.jsx)(o.G, {
+                                      icon: l.FGq,
+                                      className: "text-white text-xl",
+                                    }),
+                                  }),
+                                  (0, a.jsxs)("div", {
+                                    children: [
+                                      (0, a.jsx)("h4", {
+                                        className:
+                                          "text-white font-semibold mb-1",
+                                        children: "Our Location",
+                                      }),
+                                      (0, a.jsxs)("a", {
+                                        href: "https://www.google.com/maps?q=DataTroops+LLP+E-257+Sector-74+Phase-8B+Industrial+Area+Mohali+Punjab+140308",
+                                        target: "_blank",
+                                        rel: "noopener noreferrer",
+                                        className: "text-gray-300 ",
+                                        children: [
+                                          "DataTroops LLP E-257, ",
+                                          (0, a.jsx)("br", {}),
+                                          "4th Floor, Sector-74, ",
+                                          (0, a.jsx)("br", {}),
+                                          "Phase-8B Industrial Area, ",
+                                          (0, a.jsx)("br", {}),
+                                          "Sahibzada Ajit Singh Nagar ",
+                                          (0, a.jsx)("br", {}),
+                                          "(Mohali Punjab 140308)",
+                                        ],
+                                      }),
+                                    ],
+                                  }),
+                                ],
+                              }),
+                              (0, a.jsxs)("div", {
+                                className: "flex items-start space-x-4",
+                                children: [
+                                  (0, a.jsx)("div", {
+                                    className:
+                                      "w-12 h-12 rounded-full bg-gradient-to-r from-[#7B2CBF] to-[#5A189A] flex items-center justify-center flex-shrink-0",
+                                    children: (0, a.jsx)(o.G, {
+                                      icon: l.j1w,
+                                      className: "text-white text-xl",
+                                    }),
+                                  }),
+                                  (0, a.jsxs)("div", {
+                                    children: [
+                                      (0, a.jsx)("h4", {
+                                        className:
+                                          "text-white font-semibold mb-1",
+                                        children: "Phone Numbers",
+                                      }),
+                                      (0, a.jsx)("a", {
+                                        href: "tel:+917837003009",
+                                        className: "text-gray-300 ",
+                                        children:
+                                          "Main Office: +91 783 700 3009",
+                                      }),
+                                    ],
+                                  }),
+                                ],
+                              }),
+                              (0, a.jsxs)("div", {
+                                className: "flex items-start space-x-4",
+                                children: [
+                                  (0, a.jsx)("div", {
+                                    className:
+                                      "w-12 h-12 rounded-full bg-gradient-to-r from-[#7B2CBF] to-[#5A189A] flex items-center justify-center flex-shrink-0",
+                                    children: (0, a.jsx)(o.G, {
+                                      icon: l.FU$,
+                                      className: "text-white text-xl",
+                                    }),
+                                  }),
+                                  (0, a.jsxs)("div", {
+                                    children: [
+                                      (0, a.jsx)("h4", {
+                                        className:
+                                          "text-white font-semibold mb-1",
+                                        children: "Email Address",
+                                      }),
+                                      (0, a.jsx)("a", {
+                                        href: "mailto:info@datatroops.io",
+                                        className: "text-gray-300",
+                                        children: "info@datatroops.io",
+                                      }),
+                                    ],
+                                  }),
+                                ],
+                              }),
+                            ],
+                          }),
+                        ],
+                      }),
+                      (0, a.jsxs)("div", {
+                        className:
+                          "bg-gradient-to-br from-[#23235B]/80 to-[#7B2CBF]/60 rounded-2xl p-8 border border-white/10 backdrop-blur-md",
+                        children: [
+                          (0, a.jsx)("h3", {
+                            className: "text-2xl font-bold text-white mb-4",
+                            children: "Why Choose Us?",
+                          }),
+                          (0, a.jsx)("p", {
+                            className: "text-gray-300",
+                            children:
+                              "We're committed to providing exceptional service and support. Our team is always ready to help you with any questions or concerns you may have.",
+                          }),
+                        ],
+                      }),
+                    ],
+                  }),
+                  (0, a.jsxs)("div", {
+                    className:
+                      "bg-gradient-to-br from-[#23235B]/80 to-[#7B2CBF]/60 rounded-2xl p-8 border border-white/10 backdrop-blur-md",
+                    children: [
+                      (0, a.jsx)("h3", {
+                        className: "text-2xl font-bold text-white mb-6",
+                        children: "Send us a Message",
+                      }),
+                      (0, a.jsxs)("form", {
+                        onSubmit: async (e) => {
+                          e.preventDefault(), t(!1), x(null);
+                          try {
+                            let e = await fetch(
+                              "https://formsubmit.co/ajax/info@datatroops.io",
+                              {
+                                method: "POST",
+                                headers: {
+                                  "Content-Type": "application/json",
+                                  Accept: "application/json",
+                                },
+                                body: JSON.stringify({
+                                  name: s,
+                                  email: i,
+                                  message: d,
+                                }),
+                              },
+                            );
+                            if (e.ok)
+                              t(!0),
+                                n(""),
+                                c(""),
+                                m(""),
+                                setTimeout(() => t(!1), 3e3);
+                            else {
+                              let t = await e.json();
+                              x(
+                                t.message ||
+                                  "Something went wrong. Please try again.",
+                              );
+                            }
+                          } catch (e) {
+                            x(
+                              "Failed to send message. Please try later. ".concat(
+                                e,
+                              ),
+                            );
+                          }
+                        },
+                        className: "space-y-6",
+                        children: [
+                          (0, a.jsxs)("div", {
+                            children: [
+                              (0, a.jsx)("label", {
+                                className: "block text-white font-medium mb-2",
+                                children: "Full Name*",
+                              }),
+                              (0, a.jsx)("input", {
+                                type: "text",
+                                required: !0,
+                                value: s,
+                                onChange: (e) => n(e.target.value),
+                                className:
+                                  "w-full px-4 py-3 rounded-lg bg-[#18183a]/80 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#7B2CBF] transition-all duration-300",
+                                placeholder: "Enter your full name",
+                              }),
+                            ],
+                          }),
+                          (0, a.jsxs)("div", {
+                            children: [
+                              (0, a.jsx)("label", {
+                                className: "block text-white font-medium mb-2",
+                                children: "Email Address*",
+                              }),
+                              (0, a.jsx)("input", {
+                                type: "email",
+                                required: !0,
+                                value: i,
+                                onChange: (e) => c(e.target.value),
+                                className:
+                                  "w-full px-4 py-3 rounded-lg bg-[#18183a]/80 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#7B2CBF] transition-all duration-300",
+                                placeholder: "Enter your email address",
+                              }),
+                            ],
+                          }),
+                          (0, a.jsxs)("div", {
+                            children: [
+                              (0, a.jsx)("label", {
+                                className: "block text-white font-medium mb-2",
+                                children: "Your Message*",
+                              }),
+                              (0, a.jsx)("textarea", {
+                                required: !0,
+                                rows: 5,
+                                value: d,
+                                onChange: (e) => m(e.target.value),
+                                className:
+                                  "w-full px-4 py-3 rounded-lg bg-[#18183a]/80 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#7B2CBF] transition-all duration-300 resize-none",
+                                placeholder: "Type your message",
+                              }),
+                            ],
+                          }),
+                          (0, a.jsxs)("button", {
+                            type: "submit",
+                            className:
+                              "w-full py-4 text-lg rounded-lg bg-gradient-to-r from-[#5A189A] to-[#7B2CBF] text-white font-bold shadow-lg hover:scale-105 active:scale-95 transition-all duration-200 flex items-center justify-center space-x-2",
+                            children: [
+                              (0, a.jsx)("span", {
+                                children: e ? "Message Sent!" : "Send Message",
+                              }),
+                              (0, a.jsx)(o.G, {
+                                icon: l.XCy,
+                                className: "text-white",
+                              }),
+                            ],
+                          }),
+                          h &&
+                            (0, a.jsx)("p", {
+                              className: "text-red-400 text-center mt-2",
+                              children: h,
+                            }),
+                          e &&
+                            (0, a.jsx)("p", {
+                              className: "text-green-400 text-center mt-2",
+                              children: "Your message has been sent!",
+                            }),
+                        ],
+                      }),
+                    ],
+                  }),
+                ],
+              }),
+            ],
+          }),
+        });
+      }
+    },
+    16733: function (e, t, s) {
+      "use strict";
+      var a = s(57437),
+        r = s(30568),
+        l = s(45079),
+        o = s(6920);
+      s(2265),
+        (t.default = () =>
+          (0, a.jsxs)("footer", {
+            className:
+              "bg-gradient-to-r from-[#10002B] to-[#240046] text-white",
+            children: [
+              (0, a.jsx)("div", {
+                className: "max-w-7xl mx-auto px-4 py-12",
+                children: (0, a.jsxs)("div", {
+                  className:
+                    "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8",
+                  children: [
+                    (0, a.jsxs)("div", {
+                      className: "space-y-4",
+                      children: [
+                        (0, a.jsx)("h3", {
+                          className:
+                            "text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#7B2CBF] to-[#5A189A]",
+                          children: "DataTroops.ai",
+                        }),
+                        (0, a.jsx)("p", {
+                          className: "text-gray-300",
+                          children:
+                            "Empowering businesses with cutting-edge AI solutions and innovative technology services.",
+                        }),
+                        (0, a.jsxs)("div", {
+                          className: "flex space-x-4",
+                          children: [
+                            (0, a.jsx)("a", {
+                              href: "https://x.com/Datatroops_ai",
+                              className:
+                                "text-gray-400 hover:text-white transition-colors",
+                              children: (0, a.jsx)(o.G, {
+                                icon: r.mdU,
+                                className: "w-6 h-6",
+                              }),
+                            }),
+                            (0, a.jsx)("a", {
+                              href: "https://www.linkedin.com/company/datatroops-ai",
+                              className:
+                                "text-gray-400 hover:text-white transition-colors",
+                              children: (0, a.jsx)(o.G, {
+                                icon: r.D9H,
+                                className: "w-6 h-6",
+                              }),
+                            }),
+                            (0, a.jsx)("a", {
+                              href: "https://www.instagram.com/datatroops.ai",
+                              className:
+                                "text-gray-400 hover:text-white transition-colors",
+                              children: (0, a.jsx)(o.G, {
+                                icon: r.Zzi,
+                                className: "w-6 h-6",
+                              }),
+                            }),
+                            (0, a.jsx)("a", {
+                              href: "https://www.threads.com/@datatroops.ai",
+                              className:
+                                "text-gray-400 hover:text-white transition-colors",
+                              children: (0, a.jsx)(o.G, {
+                                icon: r.LW1,
+                                className: "w-6 h-6",
+                              }),
+                            }),
+                            (0, a.jsx)("a", {
+                              href: "https://www.youtube.com/@Datatroops_ai",
+                              className:
+                                "text-gray-400 hover:text-white transition-colors",
+                              children: (0, a.jsx)(o.G, {
+                                icon: r.opf,
+                                className: "w-6 h-6",
+                              }),
+                            }),
+                          ],
+                        }),
+                      ],
+                    }),
+                    (0, a.jsxs)("div", {
+                      children: [
+                        (0, a.jsx)("h4", {
+                          className: "text-lg font-semibold mb-4",
+                          children: "Quick Links",
+                        }),
+                        (0, a.jsxs)("ul", {
+                          className: "space-y-2",
+                          children: [
+                            (0, a.jsx)("li", {
+                              children: (0, a.jsx)("a", {
+                                href: "/",
+                                className:
+                                  "text-gray-300 hover:text-white transition-colors",
+                                children: "Home",
+                              }),
+                            }),
+                            (0, a.jsx)("li", {
+                              children: (0, a.jsx)("a", {
+                                href: "/about-us",
+                                className:
+                                  "text-gray-300 hover:text-white transition-colors",
+                                children: "About Us",
+                              }),
+                            }),
+                            (0, a.jsx)("li", {
+                              children: (0, a.jsx)("a", {
+                                href: "/solutions",
+                                className:
+                                  "text-gray-300 hover:text-white transition-colors",
+                                children: "Solutions",
+                              }),
+                            }),
+                            (0, a.jsx)("li", {
+                              children: (0, a.jsx)("a", {
+                                href: "/contact-us",
+                                className:
+                                  "text-gray-300 hover:text-white transition-colors",
+                                children: "Contact",
+                              }),
+                            }),
+                            (0, a.jsx)("li", {
+                              children: (0, a.jsx)("a", {
+                                href: "/technologies",
+                                className:
+                                  "text-gray-300 hover:text-white transition-colors",
+                                children: "Technologies",
+                              }),
+                            }),
+                            (0, a.jsx)("li", {
+                              children: (0, a.jsx)("a", {
+                                href: "/ai-chatbot",
+                                className:
+                                  "text-gray-300 hover:text-white transition-colors",
+                                children: "AI ChatBot",
+                              }),
+                            }),
+                            (0, a.jsx)("li", {
+                              children: (0, a.jsx)("a", {
+                                href: "/solutions/generative-ai",
+                                className:
+                                  "text-gray-300 hover:text-white transition-colors",
+                                children: "Generative AI",
+                              }),
+                            }),
+                          ],
+                        }),
+                      ],
+                    }),
+                    (0, a.jsxs)("div", {
+                      children: [
+                        (0, a.jsx)("h4", {
+                          className: "text-lg font-semibold mb-4",
+                          children: "Our Services",
+                        }),
+                        (0, a.jsxs)("ul", {
+                          className: "space-y-2",
+                          children: [
+                            (0, a.jsx)("li", {
+                              children: (0, a.jsx)("a", {
+                                href: "#",
+                                className:
+                                  "text-gray-300 hover:text-white transition-colors cursor-default pointer-events-none select-none",
+                                children: "Bespoke AI Systems",
+                              }),
+                            }),
+                            (0, a.jsx)("li", {
+                              children: (0, a.jsx)("a", {
+                                href: "#",
+                                className:
+                                  "text-gray-300 hover:text-white transition-colors cursor-default pointer-events-none select-none",
+                                children: "Advanced Data Analytics",
+                              }),
+                            }),
+                            (0, a.jsx)("li", {
+                              children: (0, a.jsx)("a", {
+                                href: "#",
+                                className:
+                                  "text-gray-300 hover:text-white transition-colors cursor-default pointer-events-none select-none",
+                                children: "Cloud AI Integration",
+                              }),
+                            }),
+                            (0, a.jsx)("li", {
+                              children: (0, a.jsx)("a", {
+                                href: "#",
+                                className:
+                                  "text-gray-300 hover:text-white transition-colors cursor-default pointer-events-none select-none",
+                                children: "Strategic AI Consulting",
+                              }),
+                            }),
+                          ],
+                        }),
+                      ],
+                    }),
+                    (0, a.jsxs)("div", {
+                      children: [
+                        (0, a.jsx)("h4", {
+                          className: "text-lg font-semibold mb-4",
+                          children: "Contact Info",
+                        }),
+                        (0, a.jsxs)("ul", {
+                          className: "space-y-3",
+                          children: [
+                            (0, a.jsxs)("li", {
+                              className: "flex items-start space-x-3",
+                              children: [
+                                (0, a.jsx)(o.G, {
+                                  icon: l.FGq,
+                                  className: "text-[#7B2CBF] mt-1",
+                                }),
+                                (0, a.jsx)("span", {
+                                  className: "text-gray-300",
+                                  children:
+                                    "DataTroops LLP E-257, 4th Floor, Sector-74, Phase-8B Industrial Area, Sahibzada Ajit Singh Nagar (Mohali Punjab 140308)",
+                                }),
+                              ],
+                            }),
+                            (0, a.jsxs)("li", {
+                              className: "flex items-start space-x-3",
+                              children: [
+                                (0, a.jsx)(o.G, {
+                                  icon: l.j1w,
+                                  className: "text-[#7B2CBF] mt-1",
+                                }),
+                                (0, a.jsx)("span", {
+                                  className: "text-gray-300",
+                                  children: "+91 783 700 3009",
+                                }),
+                              ],
+                            }),
+                            (0, a.jsxs)("li", {
+                              className: "flex items-start space-x-3",
+                              children: [
+                                (0, a.jsx)(o.G, {
+                                  icon: l.FU$,
+                                  className: "text-[#7B2CBF] mt-1",
+                                }),
+                                (0, a.jsx)("span", {
+                                  className: "text-gray-300",
+                                  children: "info@datatroops.io",
+                                }),
+                              ],
+                            }),
+                          ],
+                        }),
+                      ],
+                    }),
+                  ],
+                }),
+              }),
+              (0, a.jsx)("div", {
+                className: "border-t border-gray-800",
+                children: (0, a.jsx)("div", {
+                  className:
+                    "max-w-7xl mx-auto px-4 py-6 flex flex-col md:flex-row justify-between items-center",
+                  children: (0, a.jsxs)("p", {
+                    className: "text-gray-400 text-sm",
+                    children: [
+                      "\xa9 ",
+                      new Date().getFullYear(),
+                      " DataTroops. All rights reserved.",
+                    ],
+                  }),
+                }),
+              }),
+            ],
+          }));
+    },
+    61485: function (e, t, s) {
+      "use strict";
+      s.d(t, {
+        default: function () {
+          return h;
+        },
+      });
+      var a = s(57437),
+        r = s(2265),
+        l = s(96164),
+        o = s(87138),
+        n = s(12098);
+      let i = (e) =>
+        (0, a.jsx)("div", {
+          className: (0, l.m6)(
+            "size-[200px] border border-gray-200/30 rounded-full",
+            e.className,
+          ),
+        });
+      var c = s(37394);
+      let d = [
+          { name: "Solutions", href: "/solutions" },
+          { name: "Technologies", href: "/technologies" },
+          { name: "About Us", href: "/about-us" },
+        ],
+        m = [
+          {
+            buttonVariant: "tertiary",
+            name: "Contact Us",
+            href: "/contact-us",
+          },
+        ];
+      var h = () => {
+        let [e, t] = (0, r.useState)(!1),
+          [s, h] = (0, r.useState)(!0),
+          [x, u] = (0, r.useState)(0);
+        return (
+          (0, r.useEffect)(() => {
+            let e = () => {
+              let e = window.scrollY;
+              e > x ? h(!1) : h(!0), u(e);
+            };
+            return (
+              window.addEventListener("scroll", e),
+              () => {
+                window.removeEventListener("scroll", e);
+              }
+            );
+          }, [x]),
+          (0, a.jsxs)(a.Fragment, {
+            children: [
+              (0, a.jsx)("div", {
+                className: "relative h-18 lg:h-20",
+                children: (0, a.jsx)("header", {
+                  className: (0, l.m6)(
+                    "border-b border-gray-200/20 bg-[--color-10002B] w-full fixed top-0 left-0 right-0 z-50 transition-transform duration-300",
+                    !s && "-translate-y-full",
+                  ),
+                  children: (0, a.jsx)("div", {
+                    className: "container",
+                    children: (0, a.jsxs)("div", {
+                      className:
+                        "h-18 lg:h-20 flex justify-between items-center",
+                      children: [
+                        (0, a.jsxs)("div", {
+                          className: "flex gap-4 items-center",
+                          children: [
+                            (0, a.jsx)("div", {
+                              className: "size-10",
+                              children: (0, a.jsx)(o.default, {
+                                href: "/",
+                                "aria-label": "Go to home page",
+                                legacyBehavior: !0,
+                                passHref: !0,
+                                children: (0, a.jsx)("a", {
+                                  children: (0, a.jsx)(c.Z, {
+                                    className: "h-full w-full cursor-pointer",
+                                  }),
+                                }),
+                              }),
+                            }),
+                            (0, a.jsx)(o.default, {
+                              href: "/",
+                              className: "font-extrabold text-2xl",
+                              children: "DataTroops.ai",
+                            }),
+                          ],
+                        }),
+                        (0, a.jsx)("div", {
+                          className: "h-full hidden lg:block",
+                          children: (0, a.jsx)("nav", {
+                            className: "h-full",
+                            children: d.map((e) => {
+                              let { name: t, href: s } = e;
+                              return (0, a.jsx)(
+                                o.default,
+                                {
+                                  href: s,
+                                  className:
+                                    "h-full px-10 relative font-bold text-s tracking-wildest text-white uppercase inline-flex items-center before:content-[''] before:absolute before:bottom-0 before:h-2 before:w-px before:bg-gray-200/20 before:left-0 last:after:absolute last:after:bottom-0 last:after:h-2 last:after:w-px last:after:bg-gray-200/20 last:after:right-0",
+                                  children: t,
+                                },
+                                t,
+                              );
+                            }),
+                          }),
+                        }),
+                        (0, a.jsx)("div", {
+                          className: "hidden lg:flex gap-4",
+                          children: m.map((e) => {
+                            let { buttonVariant: t, name: s, href: r } = e;
+                            return (0, a.jsx)(
+                              o.default,
+                              {
+                                href: r,
+                                children: (0, a.jsxs)(n.z, {
+                                  variant: t,
+                                  children: [" ", s, " "],
+                                }),
+                              },
+                              s,
+                            );
+                          }),
+                        }),
+                        (0, a.jsx)("div", {
+                          className: "flex items-center lg:hidden",
+                          children: (0, a.jsxs)("button", {
+                            onClick: () => t((e) => !e),
+                            className:
+                              "size-10 rounded-lg border-2 relative flex flex-col justify-center items-center gap-1",
+                            children: [
+                              (0, a.jsx)("div", {
+                                className:
+                                  "absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2",
+                                children: (0, a.jsx)("div", {
+                                  className: (0, l.m6)(
+                                    "w-4 h-0.5 bg-gray-100 -translate-y-1 transition duration-300",
+                                    e && "translate-y-0 rotate-45",
+                                  ),
+                                }),
+                              }),
+                              (0, a.jsx)("div", {
+                                className:
+                                  "absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2",
+                                children: (0, a.jsx)("div", {
+                                  className: (0, l.m6)(
+                                    "w-4 h-0.5 bg-gray-100 translate-y-1 transition duration-300",
+                                    e && "translate-y-0 rotate-135",
+                                  ),
+                                }),
+                              }),
+                            ],
+                          }),
+                        }),
+                      ],
+                    }),
+                  }),
+                }),
+              }),
+              e &&
+                (0, a.jsxs)("div", {
+                  className:
+                    "fixed top-18 left-0 bottom-0 right-0 bg-[var(--color-10002B)] z-30 overflow-hidden",
+                  children: [
+                    (0, a.jsx)("div", {
+                      className: "absolute-center isolate -z-10",
+                      children: (0, a.jsx)(i, {}),
+                    }),
+                    (0, a.jsx)("div", {
+                      className: "absolute-center isolate -z-10",
+                      children: (0, a.jsx)(i, { className: "size-[350px]" }),
+                    }),
+                    (0, a.jsx)("div", {
+                      className: "absolute-center isolate -z-10",
+                      children: (0, a.jsx)(i, { className: "size-[500px]" }),
+                    }),
+                    (0, a.jsx)("div", {
+                      className: "absolute-center isolate -z-10",
+                      children: (0, a.jsx)(i, { className: "size-[650px]" }),
+                    }),
+                    (0, a.jsx)("div", {
+                      className: "absolute-center isolate -z-10",
+                      children: (0, a.jsx)(i, { className: "size-[800px]" }),
+                    }),
+                    (0, a.jsx)("div", {
+                      className: "container h-full",
+                      children: (0, a.jsxs)("nav", {
+                        className:
+                          "flex flex-col items-center gap-4 py-8 h-full justify-center",
+                        children: [
+                          d.map((e) => {
+                            let { name: t, href: s } = e;
+                            return (0, a.jsx)(
+                              o.default,
+                              {
+                                href: s,
+                                className:
+                                  "text-gray-400 uppercase tracking-wildest font-bold text-s h-10",
+                                children: t,
+                              },
+                              t,
+                            );
+                          }),
+                          m.map((e) => {
+                            let { buttonVariant: t, name: s, href: r } = e;
+                            return (0, a.jsx)(
+                              o.default,
+                              {
+                                href: r,
+                                className: "w-full max-w-xs",
+                                children: (0, a.jsxs)(n.z, {
+                                  block: !0,
+                                  variant: t,
+                                  children: [" ", s, " "],
+                                }),
+                              },
+                              s,
+                            );
+                          }),
+                        ],
+                      }),
+                    }),
+                  ],
+                }),
+            ],
+          })
+        );
+      };
+    },
+    55214: function (e, t, s) {
+      "use strict";
+      s.d(t, {
+        default: function () {
+          return x;
+        },
+      });
+      var a = s(57437),
+        r = s(2265),
+        l = s(78030);
+      let o = (0, l.Z)("x", [
+        ["path", { d: "M18 6 6 18", key: "1bl5f8" }],
+        ["path", { d: "m6 6 12 12", key: "d8bk6v" }],
+      ]);
+      var n = s(49590);
+      let i = (0, l.Z)("refresh-cw", [
+          [
+            "path",
+            {
+              d: "M3 12a9 9 0 0 1 9-9 9.75 9.75 0 0 1 6.74 2.74L21 8",
+              key: "v9h5vc",
+            },
+          ],
+          ["path", { d: "M21 3v5h-5", key: "1q7to0" }],
+          [
+            "path",
+            {
+              d: "M21 12a9 9 0 0 1-9 9 9.75 9.75 0 0 1-6.74-2.74L3 16",
+              key: "3uifl3",
+            },
+          ],
+          ["path", { d: "M8 16H3v5", key: "1cv678" }],
+        ]),
+        c = (0, l.Z)("send", [
+          [
+            "path",
+            {
+              d: "M14.536 21.686a.5.5 0 0 0 .937-.024l6.5-19a.496.496 0 0 0-.635-.635l-19 6.5a.5.5 0 0 0-.024.937l7.93 3.18a2 2 0 0 1 1.112 1.11z",
+              key: "1ffxy3",
+            },
+          ],
+          ["path", { d: "m21.854 2.147-10.94 10.939", key: "12cjpa" }],
+        ]);
+      var d = s(53833),
+        m = {
+          src: "/_next/static/media/chatbot-avatar.75f82f45.svg",
+          height: 800,
+          width: 800,
+          blurWidth: 0,
+          blurHeight: 0,
+        },
+        h = s(66648),
+        x = () => {
+          let [e, t] = (0, r.useState)(!1),
+            [s, l] = (0, r.useState)([]),
+            [x, u] = (0, r.useState)(""),
+            [f, p] = (0, r.useState)(!0),
+            [g, b] = (0, r.useState)(!1),
+            [y, v] = (0, r.useState)("normal"),
+            [j, w] = (0, r.useState)(!1),
+            [N, _] = (0, r.useState)(!1),
+            [S, k] = (0, r.useState)(""),
+            A = "https://datatrooops-ai-chatbot.onrender.com",
+            C = (0, r.useRef)(null),
+            B = (0, r.useRef)(null),
+            I = () =>
+              "dt_session_"
+                .concat(Date.now(), "_")
+                .concat(Math.random().toString(36).substr(2, 9)),
+            D = (e) => {
+              try {
+                localStorage.setItem(
+                  "datatroops_chat_session",
+                  JSON.stringify(e),
+                ),
+                  localStorage.setItem("datatroops_session_id", e.sessionId);
+              } catch (e) {
+                console.error("Error saving session to localStorage:", e);
+              }
+            },
+            F = () => {
+              try {
+                let e = localStorage.getItem("datatroops_chat_session");
+                if (e) {
+                  let t = JSON.parse(e);
+                  if (Date.now() - new Date(t.createdAt).getTime() < 864e5)
+                    return t;
+                  E();
+                }
+              } catch (e) {
+                console.error("Error loading session from localStorage:", e);
+              }
+              return null;
+            },
+            E = () => {
+              try {
+                localStorage.removeItem("datatroops_chat_session"),
+                  localStorage.removeItem("datatroops_session_id");
+              } catch (e) {
+                console.error("Error clearing session storage:", e);
+              }
+            },
+            T = () => {
+              let e = F();
+              e &&
+                ((e.lastActivity = new Date().toISOString()),
+                (e.messages = s),
+                (e.chatState = y),
+                D(e));
+            },
+            O = () => {
+              let e = F();
+              if (e)
+                k(e.sessionId),
+                  l(e.messages),
+                  v(e.chatState),
+                  console.log("Session restored:", e.sessionId);
+              else {
+                let e = I();
+                k(e),
+                  D({
+                    sessionId: e,
+                    messages: [],
+                    chatState: "normal",
+                    createdAt: new Date().toISOString(),
+                    lastActivity: new Date().toISOString(),
+                  }),
+                  console.log("New session created:", e);
+              }
+            },
+            P = async (e) => {
+              try {
+                await fetch("".concat(A, "/reset"), {
+                  method: "POST",
+                  headers: { "Content-Type": "application/json" },
+                  body: JSON.stringify({ sessionId: e }),
+                });
+              } catch (e) {
+                console.error("Error sending reset to backend:", e);
+              }
+            },
+            z = () =>
+              new Date().toLocaleTimeString("en-US", {
+                hour: "2-digit",
+                minute: "2-digit",
+                hour12: !0,
+              }),
+            L = (e) =>
+              e
+                .replace(
+                  /(https?:\/\/[^\s<>"{}|\\^`[\]]+)/gi,
+                  '<a href="$1" target="_blank" rel="noopener noreferrer" style="color: #7c3aed; text-decoration: underline; font-weight: 500;" onmouseover="this.style.color=\'#5b21b6\'" onmouseout="this.style.color=\'#7c3aed\'">$1</a>',
+                )
+                .replace(
+                  /([a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+\.[a-zA-Z0-9_-]+)/gi,
+                  '<a href="mailto:$1" style="color: #7c3aed; text-decoration: underline; font-weight: 500;" onmouseover="this.style.color=\'#5b21b6\'" onmouseout="this.style.color=\'#7c3aed\'">$1</a>',
+                );
+          (0, r.useEffect)(() => {
+            O();
+          }, []),
+            (0, r.useEffect)(() => {
+              let e = setTimeout(() => {
+                _(!0);
+                let e = setTimeout(() => {
+                  _(!1);
+                }, 4e3);
+                return () => clearTimeout(e);
+              }, 1e3);
+              return () => clearTimeout(e);
+            }, []),
+            (0, r.useEffect)(() => {
+              0 === s.length &&
+                S &&
+                setTimeout(() => {
+                  b(!0),
+                    setTimeout(() => {
+                      let e = {
+                        id: Date.now(),
+                        text: "Hi there! Nice to see you \uD83D\uDE0A I'm DataTroops AI assistant. How can I help you today?",
+                        sender: "bot",
+                        timestamp: z(),
+                        options: [
+                          { id: "connect", text: "Connect with team!" },
+                          { id: "about", text: "Learn about our services." },
+                        ],
+                        hideOptions: !1,
+                      };
+                      l([e]),
+                        b(!1),
+                        D({
+                          sessionId: S,
+                          messages: [e],
+                          chatState: "normal",
+                          createdAt: new Date().toISOString(),
+                          lastActivity: new Date().toISOString(),
+                        });
+                    }, 1500);
+                }, 1e3);
+            }, [S, s.length]),
+            (0, r.useEffect)(() => {
+              S && s.length > 0 && T();
+            }, [s, y, S]),
+            (0, r.useEffect)(() => {
+              G();
+            }, [s]),
+            (0, r.useEffect)(() => {
+              M();
+            }, []);
+          let M = async () => {
+              try {
+                let e = await fetch("".concat(A, "/status"));
+                if (e.ok) {
+                  let t = await e.json();
+                  p(t.knowledge_loaded);
+                } else p(!1);
+              } catch (e) {
+                console.error("Backend connection failed:", e), p(!1);
+              }
+            },
+            G = () => {
+              var e;
+              null === (e = C.current) ||
+                void 0 === e ||
+                e.scrollIntoView({ behavior: "smooth" });
+            },
+            W = () => {
+              t(!e),
+                e ||
+                  setTimeout(() => {
+                    var e;
+                    null === (e = B.current) || void 0 === e || e.focus();
+                  }, 100);
+            },
+            Z = async (e) => {
+              try {
+                w(!0);
+                let t = await fetch("".concat(A, "/chat"), {
+                  method: "POST",
+                  headers: { "Content-Type": "application/json" },
+                  body: JSON.stringify({
+                    message: e,
+                    sessionId: S,
+                    chatHistory: s.slice(-10),
+                  }),
+                });
+                if (!t.ok) throw Error("HTTP error! status: ".concat(t.status));
+                return await t.json();
+              } catch (e) {
+                return (
+                  console.error("Error sending message to backend:", e),
+                  {
+                    response:
+                      "I'm sorry, right now we're offline. Please try again in a moment.",
+                    state: "normal",
+                    status: "error",
+                  }
+                );
+              } finally {
+                w(!1);
+              }
+            },
+            U = async function () {
+              let e =
+                arguments.length > 0 && void 0 !== arguments[0]
+                  ? arguments[0]
+                  : x;
+              if (!e.trim() || j) return;
+              let t = [
+                ...s.map((e) => ({ ...e, hideOptions: !0 })),
+                { id: Date.now(), text: e, sender: "user", timestamp: z() },
+              ];
+              l(t), u(""), b(!0);
+              let a = await Z(e);
+              setTimeout(() => {
+                l([
+                  ...t,
+                  {
+                    id: Date.now(),
+                    text: a.response,
+                    sender: "bot",
+                    timestamp: z(),
+                    options: a.options,
+                    hideOptions: !1,
+                  },
+                ]),
+                  v(a.state || "normal"),
+                  b(!1);
+              }, 1e3);
+            },
+            q = (e) => {
+              U(e);
+            };
+          return (0, a.jsxs)("div", {
+            className:
+              "fixed bottom-[calc(env(safe-area-inset-bottom)+1rem)] right-4 sm:bottom-4 sm:right-4 z-50 flex flex-col items-end max-h-[calc(100vh-2rem)]",
+            children: [
+              N &&
+                !e &&
+                (0, a.jsxs)("div", {
+                  className:
+                    "mb-4 bg-white rounded-lg shadow-xl border border-gray-200 p-3 sm:p-4 w-72 sm:w-80 relative animate-bounce",
+                  style: {
+                    animationDuration: "1s",
+                    animationIterationCount: "3",
+                  },
+                  children: [
+                    (0, a.jsx)("button", {
+                      onClick: () => {
+                        _(!1);
+                      },
+                      className:
+                        "absolute top-2 right-2 text-gray-400 hover:text-gray-600",
+                      "aria-label": "Close popup",
+                      children: (0, a.jsx)(o, { size: 16 }),
+                    }),
+                    (0, a.jsxs)("div", {
+                      className: "flex items-center mb-2",
+                      children: [
+                        (0, a.jsx)(h.default, {
+                          src: m,
+                          alt: "DataTroops AI",
+                          width: 48,
+                          height: 48,
+                          className: "mr-2",
+                        }),
+                        (0, a.jsx)("span", {
+                          className:
+                            "font-semibold text-gray-800 text-sm sm:text-base",
+                          children: "DataTroops AI",
+                        }),
+                      ],
+                    }),
+                    (0, a.jsx)("p", {
+                      className: "text-xs sm:text-sm text-gray-600",
+                      children:
+                        "Hi, I'm the DataTroops AI Agent — here to assist you with anything related to our services. How can I help you today?",
+                    }),
+                  ],
+                }),
+              e &&
+                (0, a.jsxs)("div", {
+                  className:
+                    "bg-white rounded-lg shadow-xl w-[calc(100vw-2rem)] sm:w-96 md:w-[400px] lg:w-[420px] xl:w-[24vw] mb-4 flex flex-col h-[calc(100vh-14rem)] sm:h-[calc(100vh-10rem)] md:h-[75vh] lg:h-[70vh] overflow-hidden max-w-[500px]",
+                  children: [
+                    (0, a.jsxs)("div", {
+                      className:
+                        "bg-purple-600 p-3 sm:p-4 border-b flex items-center justify-between",
+                      children: [
+                        (0, a.jsxs)("div", {
+                          className: "flex items-center min-w-0 flex-1",
+                          children: [
+                            (0, a.jsx)("div", {
+                              className:
+                                "w-8 h-8 sm:w-10 sm:h-10 bg-white rounded-full flex items-center justify-center mr-2 sm:mr-3 flex-shrink-0",
+                              children: (0, a.jsx)(h.default, {
+                                unoptimized: !0,
+                                src: d.Z,
+                                alt: "DataTroops Logo",
+                                width: 24,
+                                height: 24,
+                                className: "sm:w-7 sm:h-7",
+                              }),
+                            }),
+                            (0, a.jsxs)("div", {
+                              className: "min-w-0 flex-1",
+                              children: [
+                                (0, a.jsx)("div", {
+                                  className:
+                                    "text-white font-semibold text-sm sm:text-base truncate",
+                                  children: "DataTroops AI Assistant",
+                                }),
+                                (0, a.jsx)("div", {
+                                  className:
+                                    "text-xs sm:text-sm text-purple-200",
+                                  children: new Date().toLocaleDateString(
+                                    "en-US",
+                                    {
+                                      month: "long",
+                                      day: "numeric",
+                                      year: "numeric",
+                                    },
+                                  ),
+                                }),
+                              ],
+                            }),
+                          ],
+                        }),
+                        (0, a.jsxs)("div", {
+                          className: "flex items-center",
+                          children: [
+                            (0, a.jsx)("button", {
+                              onClick: () => {
+                                E(), l([]), v("normal"), u(""), b(!1);
+                                let e = I();
+                                k(e),
+                                  D({
+                                    sessionId: e,
+                                    messages: [],
+                                    chatState: "normal",
+                                    createdAt: new Date().toISOString(),
+                                    lastActivity: new Date().toISOString(),
+                                  }),
+                                  P(e),
+                                  console.log(
+                                    "Chat session reset, new session:",
+                                    e,
+                                  );
+                              },
+                              className: "text-white mr-2",
+                              "aria-label": "Reset chat",
+                              title: "Reset conversation",
+                              children: (0, a.jsx)(n.Z, { size: 22 }),
+                            }),
+                            (0, a.jsx)("button", {
+                              onClick: W,
+                              className: "text-white",
+                              "aria-label": "Close chat",
+                              children: (0, a.jsx)(o, { size: 24 }),
+                            }),
+                          ],
+                        }),
+                      ],
+                    }),
+                    (0, a.jsx)("div", {
+                      className:
+                        "px-3 sm:px-4 py-2 text-xs sm:text-sm bg-green-50 text-green-600 border-b flex justify-between items-center",
+                      children: (0, a.jsx)("span", {
+                        children: f
+                          ? "waiting_email" === y
+                            ? "Waiting for email address..."
+                            : "waiting_phone" === y
+                              ? "Waiting for phone number..."
+                              : "We're online ..."
+                          : "We're Online",
+                      }),
+                    }),
+                    (0, a.jsxs)("div", {
+                      className:
+                        "flex-1 p-3 sm:p-4 overflow-y-auto bg-gray-50 chat-container",
+                      children: [
+                        s.map((e) =>
+                          (0, a.jsxs)(
+                            "div",
+                            {
+                              className:
+                                "w-fit max-w-[90%] sm:max-w-[85%] md:max-w-[80%] mb-3 sm:mb-4 ".concat(
+                                  "user" === e.sender ? "ml-auto" : "mr-auto",
+                                ),
+                              children: [
+                                (0, a.jsx)("div", {
+                                  className:
+                                    "p-2 sm:p-3 rounded-lg whitespace-pre-line text-sm sm:text-base break-words ".concat(
+                                      "user" === e.sender
+                                        ? "bg-purple-600 text-white rounded-br-none"
+                                        : "bg-gray-200 text-gray-800 rounded-bl-none",
+                                    ),
+                                  dangerouslySetInnerHTML: {
+                                    __html:
+                                      "bot" === e.sender ? L(e.text) : e.text,
+                                  },
+                                }),
+                                (0, a.jsx)("div", {
+                                  className: "text-xs mt-1 ".concat(
+                                    "user" === e.sender
+                                      ? "text-gray-500 text-right"
+                                      : "text-gray-500 text-left",
+                                  ),
+                                  children: e.timestamp,
+                                }),
+                                e.options &&
+                                  e.options.length > 0 &&
+                                  !e.hideOptions &&
+                                  (0, a.jsx)("div", {
+                                    className:
+                                      "mt-2 flex flex-wrap gap-1 sm:gap-2",
+                                    children: e.options.map((e) =>
+                                      (0, a.jsx)(
+                                        "button",
+                                        {
+                                          onClick: () => q(e.text),
+                                          disabled: j,
+                                          className:
+                                            "bg-white border border-purple-300 text-purple-600 rounded-full px-2 py-1 sm:px-3 sm:py-1 text-xs sm:text-sm hover:bg-purple-50 transition-colors disabled:opacity-50 disabled:cursor-not-allowed break-words",
+                                          children: e.text,
+                                        },
+                                        e.id,
+                                      ),
+                                    ),
+                                  }),
+                              ],
+                            },
+                            e.id,
+                          ),
+                        ),
+                        g &&
+                          (0, a.jsx)("div", {
+                            className:
+                              "max-w-[90%] sm:max-w-[85%] md:max-w-[80%] mr-auto",
+                            children: (0, a.jsx)("div", {
+                              className:
+                                "bg-gray-200 text-gray-800 p-2 sm:p-3 rounded-lg rounded-bl-none inline-block",
+                              children: (0, a.jsxs)("div", {
+                                className: "flex space-x-1",
+                                children: [
+                                  (0, a.jsx)("div", {
+                                    className:
+                                      "w-2 h-2 bg-gray-500 rounded-full animate-bounce",
+                                    style: { animationDelay: "0ms" },
+                                  }),
+                                  (0, a.jsx)("div", {
+                                    className:
+                                      "w-2 h-2 bg-gray-500 rounded-full animate-bounce",
+                                    style: { animationDelay: "200ms" },
+                                  }),
+                                  (0, a.jsx)("div", {
+                                    className:
+                                      "w-2 h-2 bg-gray-500 rounded-full animate-bounce",
+                                    style: { animationDelay: "400ms" },
+                                  }),
+                                ],
+                              }),
+                            }),
+                          }),
+                        (0, a.jsx)("div", { ref: C }),
+                      ],
+                    }),
+                    (0, a.jsx)("div", {
+                      className: "border-t p-1 sm:p-2 bg-white border-gray-200",
+                      children: (0, a.jsxs)("div", {
+                        className:
+                          "flex items-center rounded-lg bg-gray-100 px-3 py-2 sm:py-3",
+                        children: [
+                          (0, a.jsx)("input", {
+                            ref: B,
+                            type: "text",
+                            value: x,
+                            onChange: (e) => {
+                              u(e.target.value);
+                            },
+                            onKeyPress: (e) => {
+                              "Enter" !== e.key || j || U();
+                            },
+                            placeholder:
+                              "waiting_email" === y
+                                ? "Enter your email address..."
+                                : "waiting_phone" === y
+                                  ? "Enter your phone number..."
+                                  : "Type your message...",
+                            className:
+                              "flex-1 bg-transparent outline-none text-gray-700 text-sm sm:text-base placeholder:text-xs sm:placeholder:text-sm",
+                            disabled: j,
+                          }),
+                          (0, a.jsx)("button", {
+                            onClick: () => U(),
+                            disabled: !x.trim() || j,
+                            className: "ml-2 p-1 transition-colors ".concat(
+                              !x.trim() || j
+                                ? "text-gray-300"
+                                : "text-purple-600 hover:text-purple-700",
+                            ),
+                            "aria-label": "Send message",
+                            children: j
+                              ? (0, a.jsx)(i, {
+                                  size: 18,
+                                  className: "animate-spin",
+                                })
+                              : (0, a.jsx)(c, { size: 18 }),
+                          }),
+                        ],
+                      }),
+                    }),
+                    (0, a.jsx)("div", {
+                      className:
+                        "bg-purple-600 text-center py-2 sm:py-3 border-t",
+                      children: (0, a.jsxs)("p", {
+                        className: "text-white text-xs sm:text-sm",
+                        children: [
+                          "Powered by",
+                          " ",
+                          (0, a.jsx)("span", {
+                            className: "font-bold",
+                            children: (0, a.jsx)("a", {
+                              href: "https://datatroops.ai",
+                              children: " DataTroops.ai",
+                            }),
+                          }),
+                        ],
+                      }),
+                    }),
+                  ],
+                }),
+              !e &&
+                (0, a.jsx)("button", {
+                  onClick: W,
+                  className:
+                    "flex items-center justify-center w-16 h-16 sm:w-16 sm:h-16 md:w-16 md:h-16 rounded-full text-white ".concat(
+                      f ? "bg-white shadow-lg" : "bg-gray-100 shadow-md",
+                      " transition-all duration-300 hover:scale-110 relative",
+                    ),
+                  "aria-label": "Open chat",
+                  children: (0, a.jsx)(h.default, {
+                    src: m,
+                    alt: "DataTroops Logo",
+                    width: 48,
+                    height: 48,
+                    className: "w-12 h-12 rounded-full object-cover",
+                  }),
+                }),
+            ],
+          });
+        };
+    },
+    53054: function () {},
+    53833: function (e, t) {
+      "use strict";
+      t.Z = {
+        src: "/_next/static/media/datatroopsLogo.1e6a1c95.svg",
+        height: 2835,
+        width: 2835,
+        blurWidth: 0,
+        blurHeight: 0,
+      };
+    },
+    26200: function (e) {
+      e.exports = {
+        style: {
+          fontFamily: "'__barlow_fe6c3b', '__barlow_Fallback_fe6c3b'",
+          fontWeight: 600,
+          fontStyle: "normal",
+        },
+        className: "__className_fe6c3b",
+        variable: "__variable_fe6c3b",
+      };
+    },
+    72964: function (e) {
+      e.exports = {
+        style: {
+          fontFamily:
+            "'__barlowSemiCondensed_d86c34', '__barlowSemiCondensed_Fallback_d86c34'",
+          fontWeight: 400,
+          fontStyle: "normal",
+        },
+        className: "__className_d86c34",
+        variable: "__variable_d86c34",
+      };
+    },
+    21748: function (e) {
+      e.exports = {
+        style: { fontFamily: "'__inter_bce42f', '__inter_Fallback_bce42f'" },
+        className: "__className_bce42f",
+        variable: "__variable_bce42f",
+      };
+    },
+    35448: function (e) {
+      e.exports = {
+        style: {
+          fontFamily: "'__khula_a0dc02', '__khula_Fallback_a0dc02'",
+          fontWeight: 400,
+          fontStyle: "normal",
+        },
+        className: "__className_a0dc02",
+      };
+    },
+    98855: function (e) {
+      e.exports = {
+        style: {
+          fontFamily: "'__soraFont_7a96f8', '__soraFont_Fallback_7a96f8'",
+          fontStyle: "normal",
+        },
+        className: "__className_7a96f8",
+        variable: "__variable_7a96f8",
+      };
+    },
+    73955: function (e) {
+      e.exports = {
+        style: {
+          fontFamily:
+            "'__spaceGroteskFont_374334', '__spaceGroteskFont_Fallback_374334'",
+          fontStyle: "normal",
+        },
+        className: "__className_374334",
+        variable: "__variable_374334",
+      };
+    },
+    13027: function (e, t, s) {
+      "use strict";
+      s.d(t, {
+        j: function () {
+          return o;
+        },
+      });
+      var a = s(44839);
+      let r = (e) => ("boolean" == typeof e ? "".concat(e) : 0 === e ? "0" : e),
+        l = a.W,
+        o = (e, t) => (s) => {
+          var a;
+          if ((null == t ? void 0 : t.variants) == null)
+            return l(
+              e,
+              null == s ? void 0 : s.class,
+              null == s ? void 0 : s.className,
+            );
+          let { variants: o, defaultVariants: n } = t,
+            i = Object.keys(o).map((e) => {
+              let t = null == s ? void 0 : s[e],
+                a = null == n ? void 0 : n[e];
+              if (null === t) return null;
+              let l = r(t) || r(a);
+              return o[e][l];
+            }),
+            c =
+              s &&
+              Object.entries(s).reduce((e, t) => {
+                let [s, a] = t;
+                return void 0 === a || (e[s] = a), e;
+              }, {});
+          return l(
+            e,
+            i,
+            null == t
+              ? void 0
+              : null === (a = t.compoundVariants) || void 0 === a
+                ? void 0
+                : a.reduce((e, t) => {
+                    let { class: s, className: a, ...r } = t;
+                    return Object.entries(r).every((e) => {
+                      let [t, s] = e;
+                      return Array.isArray(s)
+                        ? s.includes({ ...n, ...c }[t])
+                        : { ...n, ...c }[t] === s;
+                    })
+                      ? [...e, s, a]
+                      : e;
+                  }, []),
+            null == s ? void 0 : s.class,
+            null == s ? void 0 : s.className,
+          );
+        };
+    },
+    44839: function (e, t, s) {
+      "use strict";
+      function a() {
+        for (var e, t, s = 0, a = ""; s < arguments.length; )
+          (e = arguments[s++]) &&
+            (t = (function e(t) {
+              var s,
+                a,
+                r = "";
+              if ("string" == typeof t || "number" == typeof t) r += t;
+              else if ("object" == typeof t) {
+                if (Array.isArray(t))
+                  for (s = 0; s < t.length; s++)
+                    t[s] && (a = e(t[s])) && (r && (r += " "), (r += a));
+                else for (s in t) t[s] && (r && (r += " "), (r += s));
+              }
+              return r;
+            })(e)) &&
+            (a && (a += " "), (a += t));
+        return a;
+      }
+      s.d(t, {
+        W: function () {
+          return a;
+        },
+      });
+    },
+  },
+  function (e) {
+    e.O(
+      0,
+      [141, 681, 2, 676, 958, 648, 138, 920, 164, 971, 23, 744],
+      function () {
+        return e((e.s = 60574));
+      },
+    ),
+      (_N_E = e.O());
+  },
+]);

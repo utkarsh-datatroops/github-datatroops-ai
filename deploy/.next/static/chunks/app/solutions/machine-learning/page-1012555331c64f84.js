@@ -1,0 +1,1117 @@
+(self.webpackChunk_N_E = self.webpackChunk_N_E || []).push([
+  [840],
+  {
+    42284: function (e, t, r) {
+      Promise.resolve().then(r.bind(r, 41657));
+    },
+    41657: function (e, t, r) {
+      "use strict";
+      r.r(t),
+        r.d(t, {
+          default: function () {
+            return M;
+          },
+        });
+      var n = r(57437),
+        i = r(2265),
+        s = (e) => {
+          let { children: t } = e;
+          return (0, n.jsx)("main", {
+            id: "background",
+            className: "flex-none min-h-screen -z-10",
+            children: t,
+          });
+        },
+        a = r(14950),
+        o = r(16349),
+        l = (e) => {
+          let {
+            children: t,
+            className: r,
+            delay: i = 0.2,
+            reverse: s,
+            simple: l,
+          } = e;
+          return (0, n.jsx)(a.E.div, {
+            className: (0, o.cn)("w-full h-full", r),
+            initial: { opacity: 0, y: s ? -20 : 20 },
+            whileInView: { opacity: 1, y: 0 },
+            viewport: { once: !1 },
+            transition: {
+              delay: i,
+              duration: l ? 0.2 : 0.4,
+              type: l ? "keyframes" : "spring",
+              stiffness: l && 100,
+            },
+            children: t,
+          });
+        },
+        c = (e) => {
+          let {
+            children: t,
+            className: r,
+            size: i = "lg",
+            padding: s = "md",
+          } = e;
+          return (0, n.jsx)("div", {
+            className: (0, o.cn)(
+              "w-full mx-auto",
+              {
+                sm: "max-w-3xl",
+                md: "max-w-5xl",
+                lg: "max-w-7xl",
+                xl: "max-w-7xl",
+                full: "max-w-full",
+              }[i],
+              {
+                none: "",
+                sm: "px-4 sm:px-6",
+                md: "px-4 sm:px-6 lg:px-8",
+                lg: "px-4 sm:px-6 lg:px-12",
+                xl: "px-4 sm:px-8 lg:px-16",
+              }[s],
+              r,
+            ),
+            children: t,
+          });
+        };
+      let d = (e) => {
+        let {
+            className: t = "",
+            quantity: r = 100,
+            staticity: s = 50,
+            ease: a = 50,
+            size: o = 0.4,
+            refresh: l = !1,
+            color: c = "#ffffff",
+            vx: d = 0,
+            vy: m = 0,
+          } = e,
+          u = (0, i.useRef)(null),
+          h = (0, i.useRef)(null),
+          p = (0, i.useRef)(null),
+          x = (0, i.useRef)([]),
+          g = (function () {
+            let [e, t] = (0, i.useState)({ x: 0, y: 0 });
+            return (
+              (0, i.useEffect)(() => {
+                let e = (e) => {
+                  t({ x: e.clientX, y: e.clientY });
+                };
+                return (
+                  window.addEventListener("mousemove", e),
+                  () => {
+                    window.removeEventListener("mousemove", e);
+                  }
+                );
+              }, []),
+              e
+            );
+          })(),
+          f = (0, i.useRef)({ x: 0, y: 0 }),
+          v = (0, i.useRef)({ w: 0, h: 0 }),
+          w = window.devicePixelRatio;
+        (0, i.useEffect)(
+          () => (
+            u.current && (p.current = u.current.getContext("2d")),
+            y(),
+            z(),
+            window.addEventListener("resize", y),
+            () => {
+              window.removeEventListener("resize", y);
+            }
+          ),
+          [c],
+        ),
+          (0, i.useEffect)(() => {
+            b();
+          }, [g.x, g.y]),
+          (0, i.useEffect)(() => {
+            y();
+          }, [l]);
+        let y = () => {
+            j(), C();
+          },
+          b = () => {
+            if (u.current) {
+              let e = u.current.getBoundingClientRect(),
+                { w: t, h: r } = v.current,
+                n = g.x - e.left - t / 2,
+                i = g.y - e.top - r / 2;
+              n < t / 2 &&
+                n > -t / 2 &&
+                i < r / 2 &&
+                i > -r / 2 &&
+                ((f.current.x = n), (f.current.y = i));
+            }
+          },
+          j = () => {
+            h.current &&
+              u.current &&
+              p.current &&
+              ((x.current.length = 0),
+              (v.current.w = h.current.offsetWidth),
+              (v.current.h = h.current.offsetHeight),
+              (u.current.width = v.current.w * w),
+              (u.current.height = v.current.h * w),
+              (u.current.style.width = "".concat(v.current.w, "px")),
+              (u.current.style.height = "".concat(v.current.h, "px")),
+              p.current.scale(w, w));
+          },
+          N = () => {
+            let e = Math.floor(Math.random() * v.current.w);
+            return {
+              x: e,
+              y: Math.floor(Math.random() * v.current.h),
+              translateX: 0,
+              translateY: 0,
+              size: Math.floor(2 * Math.random()) + o,
+              alpha: 0,
+              targetAlpha: parseFloat((0.6 * Math.random() + 0.1).toFixed(1)),
+              dx: (Math.random() - 0.5) * 0.1,
+              dy: (Math.random() - 0.5) * 0.1,
+              magnetism: 0.1 + 4 * Math.random(),
+            };
+          },
+          k = (function (e) {
+            3 === (e = e.replace("#", "")).length &&
+              (e = e
+                .split("")
+                .map((e) => e + e)
+                .join(""));
+            let t = parseInt(e, 16);
+            return [(t >> 16) & 255, (t >> 8) & 255, 255 & t];
+          })(c),
+          M = function (e) {
+            let t =
+              arguments.length > 1 && void 0 !== arguments[1] && arguments[1];
+            if (p.current) {
+              let {
+                x: r,
+                y: n,
+                translateX: i,
+                translateY: s,
+                size: a,
+                alpha: o,
+              } = e;
+              p.current.translate(i, s),
+                p.current.beginPath(),
+                p.current.arc(r, n, a, 0, 2 * Math.PI),
+                (p.current.fillStyle = "rgba("
+                  .concat(k.join(", "), ", ")
+                  .concat(o, ")")),
+                p.current.fill(),
+                p.current.setTransform(w, 0, 0, w, 0, 0),
+                t || x.current.push(e);
+            }
+          },
+          L = () => {
+            p.current && p.current.clearRect(0, 0, v.current.w, v.current.h);
+          },
+          C = () => {
+            L();
+            for (let e = 0; e < r; e++) M(N());
+          },
+          q = (e, t, r, n, i) => {
+            let s = ((e - t) * (i - n)) / (r - t) + n;
+            return s > 0 ? s : 0;
+          },
+          z = () => {
+            L(),
+              x.current.forEach((e, t) => {
+                let r = parseFloat(
+                  q(
+                    [
+                      e.x + e.translateX - e.size,
+                      v.current.w - e.x - e.translateX - e.size,
+                      e.y + e.translateY - e.size,
+                      v.current.h - e.y - e.translateY - e.size,
+                    ].reduce((e, t) => Math.min(e, t)),
+                    0,
+                    20,
+                    0,
+                    1,
+                  ).toFixed(2),
+                );
+                r > 1
+                  ? ((e.alpha += 0.02),
+                    e.alpha > e.targetAlpha && (e.alpha = e.targetAlpha))
+                  : (e.alpha = e.targetAlpha * r),
+                  (e.x += e.dx + d),
+                  (e.y += e.dy + m),
+                  (e.translateX +=
+                    (f.current.x / (s / e.magnetism) - e.translateX) / a),
+                  (e.translateY +=
+                    (f.current.y / (s / e.magnetism) - e.translateY) / a),
+                  M(e, !0),
+                  (e.x < -e.size ||
+                    e.x > v.current.w + e.size ||
+                    e.y < -e.size ||
+                    e.y > v.current.h + e.size) &&
+                    (x.current.splice(t, 1), M(N()));
+              }),
+              window.requestAnimationFrame(z);
+          };
+        return (0, n.jsx)("div", {
+          className: t,
+          ref: h,
+          "aria-hidden": "true",
+          children: (0, n.jsx)("canvas", { ref: u, className: "size-full" }),
+        });
+      };
+      var m = r(87138);
+      let u = () =>
+          (0, n.jsxs)("svg", {
+            xmlns: "http://www.w3.org/2000/svg",
+            width: "48",
+            height: "48",
+            viewBox: "0 0 24 24",
+            fill: "none",
+            stroke: "currentColor",
+            strokeWidth: "2",
+            strokeLinecap: "round",
+            strokeLinejoin: "round",
+            className: "text-purple-400",
+            children: [
+              (0, n.jsx)("path", {
+                d: "M9.5 2A2.5 2.5 0 0 1 12 4.5v15a2.5 2.5 0 0 1-4.96.44A2.5 2.5 0 0 1 2 17.5v-11a2.5 2.5 0 0 1 2.81-2.5L9.5 2Z",
+              }),
+              (0, n.jsx)("path", {
+                d: "M14.5 2A2.5 2.5 0 0 0 12 4.5v15a2.5 2.5 0 0 0 4.96.44A2.5 2.5 0 0 0 22 17.5v-11a2.5 2.5 0 0 0-2.81-2.5L14.5 2Z",
+              }),
+            ],
+          }),
+        h = () =>
+          (0, n.jsxs)("svg", {
+            xmlns: "http://www.w3.org/2000/svg",
+            width: "32",
+            height: "32",
+            viewBox: "0 0 24 24",
+            fill: "none",
+            stroke: "currentColor",
+            strokeWidth: "2",
+            strokeLinecap: "round",
+            strokeLinejoin: "round",
+            className: "text-purple-400",
+            children: [
+              (0, n.jsx)("path", { d: "M3 3v18h18" }),
+              (0, n.jsx)("path", { d: "m19 9-5 5-4-4-3 3" }),
+            ],
+          }),
+        p = () =>
+          (0, n.jsxs)("svg", {
+            xmlns: "http://www.w3.org/2000/svg",
+            width: "32",
+            height: "32",
+            viewBox: "0 0 24 24",
+            fill: "none",
+            stroke: "currentColor",
+            strokeWidth: "2",
+            strokeLinecap: "round",
+            strokeLinejoin: "round",
+            className: "text-purple-400",
+            children: [
+              (0, n.jsx)("circle", { cx: "12", cy: "12", r: "10" }),
+              (0, n.jsx)("circle", { cx: "12", cy: "12", r: "6" }),
+              (0, n.jsx)("circle", { cx: "12", cy: "12", r: "2" }),
+            ],
+          }),
+        x = () =>
+          (0, n.jsxs)("svg", {
+            xmlns: "http://www.w3.org/2000/svg",
+            width: "32",
+            height: "32",
+            viewBox: "0 0 24 24",
+            fill: "none",
+            stroke: "currentColor",
+            strokeWidth: "2",
+            strokeLinecap: "round",
+            strokeLinejoin: "round",
+            className: "text-purple-400",
+            children: [
+              (0, n.jsx)("ellipse", { cx: "12", cy: "5", rx: "9", ry: "3" }),
+              (0, n.jsx)("path", { d: "M3 5v14a9 3 0 0 0 18 0V5" }),
+              (0, n.jsx)("path", { d: "M3 12a9 3 0 0 0 18 0" }),
+            ],
+          }),
+        g = () =>
+          (0, n.jsxs)("svg", {
+            xmlns: "http://www.w3.org/2000/svg",
+            width: "32",
+            height: "32",
+            viewBox: "0 0 24 24",
+            fill: "none",
+            stroke: "currentColor",
+            strokeWidth: "2",
+            strokeLinecap: "round",
+            strokeLinejoin: "round",
+            className: "text-purple-400",
+            children: [
+              (0, n.jsx)("path", {
+                d: "M12 20a8 8 0 1 0 0-16 8 8 0 0 0 0 16Z",
+              }),
+              (0, n.jsx)("path", { d: "m9 12 2 2 4-4" }),
+            ],
+          }),
+        f = () =>
+          (0, n.jsxs)("svg", {
+            xmlns: "http://www.w3.org/2000/svg",
+            width: "32",
+            height: "32",
+            viewBox: "0 0 24 24",
+            fill: "none",
+            stroke: "currentColor",
+            strokeWidth: "2",
+            strokeLinecap: "round",
+            strokeLinejoin: "round",
+            className: "text-purple-400",
+            children: [
+              (0, n.jsx)("polyline", {
+                points: "22,7 13.5,15.5 8.5,10.5 2,17",
+              }),
+              (0, n.jsx)("polyline", { points: "16,7 22,7 22,13" }),
+            ],
+          }),
+        v = () =>
+          (0, n.jsx)("div", {
+            className: "text-center py-20 px-4",
+            children: (0, n.jsxs)("div", {
+              className: "max-w-4xl mx-auto",
+              children: [
+                (0, n.jsx)("div", {
+                  className: "mb-8",
+                  children: (0, n.jsx)(u, {}),
+                }),
+                (0, n.jsxs)("h1", {
+                  className:
+                    "text-5xl md:text-6xl font-bold text-white mb-6 leading-tight",
+                  children: [
+                    "Machine Learning",
+                    (0, n.jsx)("span", {
+                      className:
+                        "block text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-400",
+                      children: "Solutions",
+                    }),
+                  ],
+                }),
+                (0, n.jsx)("p", {
+                  className:
+                    "text-xl text-gray-300 mb-8 max-w-3xl mx-auto leading-relaxed",
+                  children:
+                    "Harness the power of machine learning to transform your data into actionable insights. Our advanced ML algorithms enable predictive analytics, pattern recognition, and intelligent decision-making that drives business growth.",
+                }),
+                (0, n.jsxs)("div", {
+                  className: "flex flex-col sm:flex-row gap-4 justify-center",
+                  children: [
+                    (0, n.jsx)(m.default, {
+                      href: "/contact-us",
+                      children: (0, n.jsx)("button", {
+                        className:
+                          "bg-gradient-to-r from-purple-600 to-pink-600 text-white px-8 py-4 rounded-lg font-semibold hover:from-purple-700 hover:to-pink-700 transition-all duration-300 transform hover:scale-105",
+                        children: "Get Started",
+                      }),
+                    }),
+                    (0, n.jsx)("button", {
+                      className:
+                        "border border-purple-400 text-purple-400 px-8 py-4 rounded-lg font-semibold hover:bg-purple-400 hover:text-white transition-all duration-300",
+                      children: "Learn More",
+                    }),
+                  ],
+                }),
+              ],
+            }),
+          }),
+        w = () => {
+          let e = [
+            {
+              icon: h,
+              title: "Predictive Analytics",
+              description:
+                "Forecast future trends and outcomes with advanced statistical models and machine learning algorithms.",
+            },
+            {
+              icon: p,
+              title: "Pattern Recognition",
+              description:
+                "Identify hidden patterns and relationships in your data to uncover valuable business insights.",
+            },
+            {
+              icon: x,
+              title: "Data Processing",
+              description:
+                "Handle large-scale data processing and feature engineering for optimal model performance.",
+            },
+            {
+              icon: g,
+              title: "Model Optimization",
+              description:
+                "Fine-tune machine learning models for maximum accuracy and efficiency in real-world applications.",
+            },
+            {
+              icon: f,
+              title: "Performance Monitoring",
+              description:
+                "Continuously monitor and improve model performance with automated tracking and alerts.",
+            },
+            {
+              icon: u,
+              title: "Custom Algorithms",
+              description:
+                "Develop tailored machine learning solutions specific to your industry and business requirements.",
+            },
+          ];
+          return (0, n.jsx)("div", {
+            className: "py-20 px-4",
+            children: (0, n.jsxs)("div", {
+              className: "max-w-6xl mx-auto",
+              children: [
+                (0, n.jsxs)("div", {
+                  className: "text-center mb-16",
+                  children: [
+                    (0, n.jsx)("h2", {
+                      className: "text-4xl font-bold text-white mb-4",
+                      children: "Our ML Capabilities",
+                    }),
+                    (0, n.jsx)("div", {
+                      className:
+                        "w-40 h-1 bg-gradient-to-r from-purple-400 to-pink-400 mx-auto mb-6",
+                    }),
+                    (0, n.jsx)("p", {
+                      className: "text-gray-300 max-w-3xl mx-auto text-lg",
+                      children:
+                        "From data preprocessing to model deployment, we provide end-to-end machine learning solutions that transform your business operations.",
+                    }),
+                  ],
+                }),
+                (0, n.jsx)("div", {
+                  className:
+                    "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8",
+                  children: e.map((e, t) =>
+                    (0, n.jsxs)(
+                      "div",
+                      {
+                        className:
+                          "bg-gray-900 bg-opacity-50 rounded-lg p-8 border border-gray-800 hover:border-purple-500 transition-all duration-300 hover:transform hover:scale-105",
+                        children: [
+                          (0, n.jsx)("div", {
+                            className: "mb-6",
+                            children: (0, n.jsx)(e.icon, {}),
+                          }),
+                          (0, n.jsx)("h3", {
+                            className: "text-xl font-bold text-white mb-4",
+                            children: e.title,
+                          }),
+                          (0, n.jsx)("p", {
+                            className: "text-gray-300",
+                            children: e.description,
+                          }),
+                        ],
+                      },
+                      t,
+                    ),
+                  ),
+                }),
+              ],
+            }),
+          });
+        },
+        y = () =>
+          (0, n.jsx)("div", {
+            className: "py-20 px-4 bg-gray-900 bg-opacity-30",
+            children: (0, n.jsxs)("div", {
+              className: "max-w-6xl mx-auto",
+              children: [
+                (0, n.jsxs)("div", {
+                  className: "text-center mb-16",
+                  children: [
+                    (0, n.jsx)("h2", {
+                      className: "text-4xl font-bold text-white mb-4",
+                      children: "Industry Applications",
+                    }),
+                    (0, n.jsx)("div", {
+                      className:
+                        "w-40 h-1 bg-gradient-to-r from-purple-400 to-pink-400 mx-auto mb-6",
+                    }),
+                    (0, n.jsx)("p", {
+                      className: "text-gray-300 max-w-3xl mx-auto text-lg",
+                      children:
+                        "Our machine learning solutions are tailored for various industries, delivering measurable results across different business domains.",
+                    }),
+                  ],
+                }),
+                (0, n.jsx)("div", {
+                  className: "grid grid-cols-1 md:grid-cols-2 gap-8",
+                  children: [
+                    {
+                      title: "Financial Services",
+                      description:
+                        "Risk assessment, fraud detection, algorithmic trading, and credit scoring solutions.",
+                      applications: [
+                        "Credit Risk Modeling",
+                        "Fraud Detection",
+                        "Portfolio Optimization",
+                        "Regulatory Compliance",
+                      ],
+                    },
+                    {
+                      title: "Healthcare",
+                      description:
+                        "Medical diagnosis, drug discovery, patient outcome prediction, and treatment optimization.",
+                      applications: [
+                        "Medical Imaging Analysis",
+                        "Drug Discovery",
+                        "Patient Risk Assessment",
+                        "Treatment Personalization",
+                      ],
+                    },
+                    {
+                      title: "E-commerce",
+                      description:
+                        "Recommendation systems, demand forecasting, price optimization, and customer segmentation.",
+                      applications: [
+                        "Product Recommendations",
+                        "Demand Forecasting",
+                        "Dynamic Pricing",
+                        "Customer Lifetime Value",
+                      ],
+                    },
+                    {
+                      title: "Manufacturing",
+                      description:
+                        "Predictive maintenance, quality control, supply chain optimization, and process automation.",
+                      applications: [
+                        "Predictive Maintenance",
+                        "Quality Assurance",
+                        "Supply Chain Optimization",
+                        "Process Control",
+                      ],
+                    },
+                  ].map((e, t) =>
+                    (0, n.jsxs)(
+                      "div",
+                      {
+                        className:
+                          "bg-gray-800 bg-opacity-50 rounded-lg p-8 border border-gray-700",
+                        children: [
+                          (0, n.jsx)("h3", {
+                            className: "text-2xl font-bold text-white mb-4",
+                            children: e.title,
+                          }),
+                          (0, n.jsx)("p", {
+                            className: "text-gray-300 mb-6",
+                            children: e.description,
+                          }),
+                          (0, n.jsx)("div", {
+                            className: "space-y-2",
+                            children: e.applications.map((e, t) =>
+                              (0, n.jsxs)(
+                                "div",
+                                {
+                                  className: "flex items-center",
+                                  children: [
+                                    (0, n.jsx)("div", {
+                                      className:
+                                        "w-2 h-2 bg-purple-400 rounded-full mr-3",
+                                    }),
+                                    (0, n.jsx)("span", {
+                                      className: "text-gray-300",
+                                      children: e,
+                                    }),
+                                  ],
+                                },
+                                t,
+                              ),
+                            ),
+                          }),
+                        ],
+                      },
+                      t,
+                    ),
+                  ),
+                }),
+              ],
+            }),
+          }),
+        b = () =>
+          (0, n.jsx)("div", {
+            className: "py-20 px-4",
+            children: (0, n.jsxs)("div", {
+              className: "max-w-4xl mx-auto text-center",
+              children: [
+                (0, n.jsx)("h2", {
+                  className: "text-4xl font-bold text-white mb-6",
+                  children:
+                    "Ready to Transform Your Business with Machine Learning?",
+                }),
+                (0, n.jsx)("p", {
+                  className: "text-xl text-gray-300 mb-8",
+                  children:
+                    "Let our experts help you implement cutting-edge machine learning solutions that drive real business value and competitive advantage.",
+                }),
+                (0, n.jsxs)("div", {
+                  className: "flex flex-col sm:flex-row gap-4 justify-center",
+                  children: [
+                    (0, n.jsx)(m.default, {
+                      href: "/contact-us",
+                      children: (0, n.jsx)("button", {
+                        className:
+                          "bg-gradient-to-r from-purple-600 to-pink-600 text-white px-8 py-4 rounded-lg font-semibold hover:from-purple-700 hover:to-pink-700 transition-all duration-300 transform hover:scale-105",
+                        children: "Start Your ML Journey",
+                      }),
+                    }),
+                    (0, n.jsx)(m.default, {
+                      href: "/about-us",
+                      children: (0, n.jsx)("button", {
+                        className:
+                          "border border-purple-400 text-purple-400 px-8 py-4 rounded-lg font-semibold hover:bg-purple-400 hover:text-white transition-all duration-300",
+                        children: "Learn About Our Team",
+                      }),
+                    }),
+                  ],
+                }),
+              ],
+            }),
+          }),
+        j = () =>
+          (0, n.jsx)("div", {
+            className: "py-20 px-4",
+            children: (0, n.jsxs)("div", {
+              className: "max-w-6xl mx-auto",
+              children: [
+                (0, n.jsxs)("div", {
+                  className: "text-center mb-16",
+                  children: [
+                    (0, n.jsx)("h2", {
+                      className: "text-4xl font-bold text-white mb-4",
+                      children: "What Our Clients Say",
+                    }),
+                    (0, n.jsx)("div", {
+                      className:
+                        "w-40 h-1 bg-gradient-to-r from-purple-400 to-pink-400 mx-auto mb-6",
+                    }),
+                    (0, n.jsx)("p", {
+                      className: "text-gray-300 max-w-3xl mx-auto text-lg",
+                      children:
+                        "Hear from organizations that have transformed their operations with our machine learning solutions.",
+                    }),
+                  ],
+                }),
+                (0, n.jsx)("div", {
+                  className: "grid grid-cols-1 md:grid-cols-2 gap-8",
+                  children: [
+                    {
+                      name: "Dr. Sarah Chen",
+                      position: "Data Science Director, FinTech Solutions",
+                      quote:
+                        "The machine learning models developed by DataTroops have transformed our ability to detect fraud patterns, saving us millions in potential losses.",
+                      image: "https://randomuser.me/api/portraits/women/32.jpg",
+                    },
+                    {
+                      name: "Michael Rodriguez",
+                      position: "CTO, HealthTech Innovations",
+                      quote:
+                        "Implementing predictive analytics for patient outcomes has been a game-changer for our hospital network. The accuracy of these models exceeds anything we've used before.",
+                      image: "https://randomuser.me/api/portraits/men/45.jpg",
+                    },
+                    {
+                      name: "Priya Sharma",
+                      position: "VP of Engineering, RetailX",
+                      quote:
+                        "The custom recommendation engine has increased our customer engagement by 40%. The ROI on this machine learning solution has been exceptional.",
+                      image: "https://randomuser.me/api/portraits/women/68.jpg",
+                    },
+                    {
+                      name: "James Wilson",
+                      position: "Head of Operations, LogiTech",
+                      quote:
+                        "Our supply chain optimization has reached new levels of efficiency with these ML algorithms. We've reduced costs while improving delivery times.",
+                      image: "https://randomuser.me/api/portraits/men/22.jpg",
+                    },
+                  ].map((e, t) =>
+                    (0, n.jsxs)(
+                      "div",
+                      {
+                        className:
+                          "bg-gray-800 bg-opacity-50 rounded-lg p-8 border border-gray-700 hover:border-purple-500 transition-all duration-300",
+                        children: [
+                          (0, n.jsxs)("div", {
+                            className: "flex items-center mb-6",
+                            children: [
+                              (0, n.jsx)("div", {
+                                className:
+                                  "w-16 h-16 rounded-full overflow-hidden mr-4 border-2 border-purple-400",
+                                children: (0, n.jsx)("img", {
+                                  src: e.image,
+                                  alt: e.name,
+                                  className: "w-full h-full object-cover",
+                                }),
+                              }),
+                              (0, n.jsxs)("div", {
+                                children: [
+                                  (0, n.jsx)("h3", {
+                                    className: "text-xl font-bold text-white",
+                                    children: e.name,
+                                  }),
+                                  (0, n.jsx)("p", {
+                                    className: "text-purple-400",
+                                    children: e.position,
+                                  }),
+                                ],
+                              }),
+                            ],
+                          }),
+                          (0, n.jsx)("p", {
+                            className: "text-gray-300 italic",
+                            children: e.quote,
+                          }),
+                        ],
+                      },
+                      t,
+                    ),
+                  ),
+                }),
+              ],
+            }),
+          }),
+        N = () =>
+          (0, n.jsx)("div", {
+            className: "py-20 px-4 bg-gray-900 bg-opacity-30",
+            children: (0, n.jsxs)("div", {
+              className: "max-w-6xl mx-auto",
+              children: [
+                (0, n.jsxs)("div", {
+                  className: "text-center mb-16",
+                  children: [
+                    (0, n.jsx)("h2", {
+                      className: "text-4xl font-bold text-white mb-4",
+                      children: "Success Stories",
+                    }),
+                    (0, n.jsx)("div", {
+                      className:
+                        "w-40 h-1 bg-gradient-to-r from-purple-400 to-pink-400 mx-auto mb-6",
+                    }),
+                    (0, n.jsx)("p", {
+                      className: "text-gray-300 max-w-3xl mx-auto text-lg",
+                      children:
+                        "Real-world examples of how our machine learning solutions have delivered measurable business impact.",
+                    }),
+                  ],
+                }),
+                (0, n.jsx)("div", {
+                  className: "space-y-12",
+                  children: [
+                    {
+                      title: "Predictive Maintenance for Manufacturing",
+                      company: "Global Motors Inc.",
+                      challenge:
+                        "Frequent unexpected equipment failures leading to costly downtime",
+                      solution:
+                        "Implemented IoT sensors and ML algorithms to predict maintenance needs",
+                      results: [
+                        "85% reduction in unplanned downtime",
+                        "$2.3M annual maintenance cost savings",
+                        "Extended equipment lifespan by 30%",
+                      ],
+                      image:
+                        "https://images.unsplash.com/photo-1581092921461-7031e8fbc93e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+                    },
+                    {
+                      title: "Customer Churn Prediction for Telecom",
+                      company: "ConnectNet Services",
+                      challenge:
+                        "High customer attrition rate with limited visibility into causes",
+                      solution:
+                        "Developed ML models to identify at-risk customers and intervention opportunities",
+                      results: [
+                        "42% reduction in customer churn",
+                        "$5.7M increase in annual recurring revenue",
+                        "Improved customer satisfaction scores by 28%",
+                      ],
+                      image:
+                        "https://images.unsplash.com/photo-1556155092-490a1ba16284?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+                    },
+                  ].map((e, t) =>
+                    (0, n.jsxs)(
+                      "div",
+                      {
+                        className:
+                          "grid grid-cols-1 lg:grid-cols-2 gap-8 items-center",
+                        children: [
+                          (0, n.jsx)("div", {
+                            className:
+                              "rounded-lg overflow-hidden h-64 ".concat(
+                                t % 2 == 1 ? "lg:order-2" : "",
+                              ),
+                            children: (0, n.jsx)("img", {
+                              src: e.image,
+                              alt: e.title,
+                              className: "w-full h-full object-cover",
+                            }),
+                          }),
+                          (0, n.jsxs)("div", {
+                            className:
+                              "bg-gray-800 bg-opacity-50 rounded-lg p-8 border border-gray-700",
+                            children: [
+                              (0, n.jsx)("h3", {
+                                className: "text-2xl font-bold text-white mb-2",
+                                children: e.title,
+                              }),
+                              (0, n.jsx)("p", {
+                                className: "text-purple-400 mb-4",
+                                children: e.company,
+                              }),
+                              (0, n.jsxs)("div", {
+                                className: "mb-4",
+                                children: [
+                                  (0, n.jsx)("h4", {
+                                    className:
+                                      "text-lg font-semibold text-white mb-2",
+                                    children: "Challenge:",
+                                  }),
+                                  (0, n.jsx)("p", {
+                                    className: "text-gray-300",
+                                    children: e.challenge,
+                                  }),
+                                ],
+                              }),
+                              (0, n.jsxs)("div", {
+                                className: "mb-4",
+                                children: [
+                                  (0, n.jsx)("h4", {
+                                    className:
+                                      "text-lg font-semibold text-white mb-2",
+                                    children: "Solution:",
+                                  }),
+                                  (0, n.jsx)("p", {
+                                    className: "text-gray-300",
+                                    children: e.solution,
+                                  }),
+                                ],
+                              }),
+                              (0, n.jsxs)("div", {
+                                children: [
+                                  (0, n.jsx)("h4", {
+                                    className:
+                                      "text-lg font-semibold text-white mb-2",
+                                    children: "Results:",
+                                  }),
+                                  (0, n.jsx)("ul", {
+                                    className:
+                                      "text-gray-300 list-disc pl-5 space-y-1",
+                                    children: e.results.map((e, t) =>
+                                      (0, n.jsx)("li", { children: e }, t),
+                                    ),
+                                  }),
+                                ],
+                              }),
+                            ],
+                          }),
+                        ],
+                      },
+                      t,
+                    ),
+                  ),
+                }),
+              ],
+            }),
+          }),
+        k = () => {
+          let [e, t] = i.useState(null),
+            r = (r) => {
+              t(e === r ? null : r);
+            };
+          return (0, n.jsx)("div", {
+            className: "py-20 px-4",
+            children: (0, n.jsxs)("div", {
+              className: "max-w-4xl mx-auto",
+              children: [
+                (0, n.jsxs)("div", {
+                  className: "text-center mb-16",
+                  children: [
+                    (0, n.jsx)("h2", {
+                      className: "text-4xl font-bold text-white mb-4",
+                      children: "Frequently Asked Questions",
+                    }),
+                    (0, n.jsx)("div", {
+                      className:
+                        "w-40 h-1 bg-gradient-to-r from-purple-400 to-pink-400 mx-auto mb-6",
+                    }),
+                    (0, n.jsx)("p", {
+                      className: "text-gray-300 max-w-3xl mx-auto text-lg",
+                      children:
+                        "Get answers to common questions about our machine learning solutions and services.",
+                    }),
+                  ],
+                }),
+                (0, n.jsx)("div", {
+                  className: "space-y-4",
+                  children: [
+                    {
+                      question:
+                        "What types of machine learning models do you specialize in?",
+                      answer:
+                        "We specialize in a wide range of machine learning models including supervised learning (regression, classification), unsupervised learning (clustering, dimensionality reduction), reinforcement learning, and deep learning architectures. Our expertise spans traditional statistical models to cutting-edge neural networks.",
+                    },
+                    {
+                      question:
+                        "How much data is required to build an effective machine learning solution?",
+                      answer:
+                        "The data requirements vary based on the complexity of the problem and the type of model. Generally, more complex problems require larger datasets. However, we have techniques to work with limited data, including transfer learning, data augmentation, and synthetic data generation. We'll assess your specific needs during the consultation phase.",
+                    },
+                    {
+                      question:
+                        "How long does it take to develop and deploy a machine learning solution?",
+                      answer:
+                        "Timeline varies based on project scope, data readiness, and complexity. Simple models might be deployed in 4-6 weeks, while complex enterprise solutions could take 3-6 months. We follow an agile methodology with regular milestones and deliverables to ensure transparency throughout the development process.",
+                    },
+                    {
+                      question:
+                        "How do you ensure the security and privacy of our data?",
+                      answer:
+                        "We implement industry-standard security protocols including encryption, secure access controls, and anonymization techniques. We're compliant with regulations like GDPR and HIPAA where applicable. All data handling follows strict privacy policies, and we can work within your existing security infrastructure.",
+                    },
+                    {
+                      question:
+                        "Can your machine learning solutions integrate with our existing systems?",
+                      answer:
+                        "Yes, our solutions are designed with integration in mind. We develop APIs and connectors for seamless integration with your existing infrastructure, whether it's cloud-based or on-premises. We have experience integrating with various databases, CRMs, ERPs, and custom systems.",
+                    },
+                  ].map((t, i) =>
+                    (0, n.jsxs)(
+                      "div",
+                      {
+                        className: "border ".concat(
+                          e === i ? "border-purple-500" : "border-gray-700",
+                          " rounded-lg overflow-hidden transition-all duration-300",
+                        ),
+                        children: [
+                          (0, n.jsxs)("button", {
+                            className:
+                              "flex justify-between items-center w-full p-6 text-left bg-gray-800 bg-opacity-50 hover:bg-opacity-70 transition-all duration-300",
+                            onClick: () => r(i),
+                            children: [
+                              (0, n.jsx)("h3", {
+                                className: "text-lg font-semibold text-white",
+                                children: t.question,
+                              }),
+                              (0, n.jsx)("svg", {
+                                className:
+                                  "w-6 h-6 text-purple-400 transform transition-transform duration-300 ".concat(
+                                    e === i ? "rotate-180" : "",
+                                  ),
+                                fill: "none",
+                                viewBox: "0 0 24 24",
+                                stroke: "currentColor",
+                                children: (0, n.jsx)("path", {
+                                  strokeLinecap: "round",
+                                  strokeLinejoin: "round",
+                                  strokeWidth: 2,
+                                  d: "M19 9l-7 7-7-7",
+                                }),
+                              }),
+                            ],
+                          }),
+                          (0, n.jsx)("div", {
+                            className:
+                              "overflow-hidden transition-all duration-300 ".concat(
+                                e === i
+                                  ? "max-h-96 opacity-100"
+                                  : "max-h-0 opacity-0",
+                              ),
+                            children: (0, n.jsx)("p", {
+                              className: "p-6 text-gray-300",
+                              children: t.answer,
+                            }),
+                          }),
+                        ],
+                      },
+                      i,
+                    ),
+                  ),
+                }),
+              ],
+            }),
+          });
+        };
+      var M = function () {
+        return (0, n.jsx)("div", {
+          className: "min-h-screen",
+          children: (0, n.jsxs)(s, {
+            children: [
+              (0, n.jsx)(d, {
+                refresh: !0,
+                ease: 80,
+                color: "#d4d4d8",
+                quantity: 100,
+                className: "absolute inset-0 w-full h-full",
+              }),
+              (0, n.jsx)(c, {
+                className: "relative",
+                children: (0, n.jsxs)(l, {
+                  children: [
+                    (0, n.jsx)(v, {}),
+                    (0, n.jsx)(w, {}),
+                    (0, n.jsx)(y, {}),
+                    (0, n.jsx)(j, {}),
+                    (0, n.jsx)(N, {}),
+                    (0, n.jsx)(k, {}),
+                    (0, n.jsx)(b, {}),
+                  ],
+                }),
+              }),
+            ],
+          }),
+        });
+      };
+    },
+    16349: function (e, t, r) {
+      "use strict";
+      r.d(t, {
+        cn: function () {
+          return s;
+        },
+      });
+      var n = r(20030),
+        i = r(96164);
+      function s() {
+        for (var e = arguments.length, t = Array(e), r = 0; r < e; r++)
+          t[r] = arguments[r];
+        return (0, i.m6)((0, n.W)(t));
+      }
+    },
+    20030: function (e, t, r) {
+      "use strict";
+      function n() {
+        for (var e, t, r = 0, n = ""; r < arguments.length; )
+          (e = arguments[r++]) &&
+            (t = (function e(t) {
+              var r,
+                n,
+                i = "";
+              if ("string" == typeof t || "number" == typeof t) i += t;
+              else if ("object" == typeof t) {
+                if (Array.isArray(t))
+                  for (r = 0; r < t.length; r++)
+                    t[r] && (n = e(t[r])) && (i && (i += " "), (i += n));
+                else for (r in t) t[r] && (i && (i += " "), (i += r));
+              }
+              return i;
+            })(e)) &&
+            (n && (n += " "), (n += t));
+        return n;
+      }
+      r.d(t, {
+        W: function () {
+          return n;
+        },
+      }),
+        (t.Z = n);
+    },
+  },
+  function (e) {
+    e.O(0, [138, 950, 164, 971, 23, 744], function () {
+      return e((e.s = 42284));
+    }),
+      (_N_E = e.O());
+  },
+]);

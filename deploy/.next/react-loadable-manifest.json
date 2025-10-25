@@ -1,0 +1,28 @@
+{
+  "../node_modules/react-player/lib/ReactPlayer.js -> ./Preview": {
+    "id": 56147,
+    "files": [
+      "static/chunks/reactPlayerPreview.bf92c2d478ff3c8c.js"
+    ]
+  },
+  "app/solutions/generative-ai/marketing/hero.tsx -> react-player/youtube": {
+    "id": 23910,
+    "files": [
+      "static/chunks/3910.fa8a50001bbe9f83.js",
+      "static/chunks/1448.0b58fecc46968cdb.js"
+    ]
+  },
+  "components/solutions/components/HealthCareVideoSection.tsx -> react-player/youtube": {
+    "id": 23910,
+    "files": [
+      "static/chunks/3910.fa8a50001bbe9f83.js"
+    ]
+  },
+  "sections/CTA.tsx -> framer-motion": {
+    "id": 40463,
+    "files": [
+      "static/chunks/8987-8f6a92cc37022cae.js",
+      "static/chunks/463.67d156a5f8d715b8.js"
+    ]
+  }
+}

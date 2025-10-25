@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-10002B: #10002b;
+    --color-240046: #240046;
+    --color-3C096C: #3c096c;
+    --color-5A189A: #5a189a;
+    --color-7B2CBF: #7b2cbf;
+    --color-9D4EDD: #9d4edd;
+    --color-C77DFF: #c77dff;
+    --color-E0AAFF: #e0aaff;
+    --color-border: theme("colors.gray.200/20%");
+
+    --color-primary: #5a189a; /* Vibrant Purple */
+    --color-secondary: #7b2cbf; /* Lighter Purple */
+    --color-accent: #c77dff; /* Soft Accent Purple */
+    --color-background: #f8f8f8; /* Light Background */
+    --color-card: #ffffff; /* White Card Color */
+    --color-border: rgba(209, 213, 219, 0.2); /* Light Gray Border */
+    --color-text-dark: #10002b; /* Dark Text Color */
+    --color-text-light: #f5f5f5; /* Light Text Color */
+    --color-hover: #c77dff; /* Hover Color for Buttons and Cards */
+    --color-active: #9d4edd; /* Active Button Color */
+  }
+
+  .border-gradient {
+    @apply border-2 hover:border-gray-500;
+  }
+
+  .absolute-center {
+    @apply absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2;
+  }
+
+  /* Additional custom states for hover/focus */
+  .hover-bg {
+    @apply hover:bg-[var(--color-accent)];
+  }
+
+  .active-bg {
+    @apply bg-[var(--color-active)];
+  }
+
+  .focus-border {
+    @apply focus:ring-2 focus:ring-[var(--color-primary)] focus:outline-none;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+}
