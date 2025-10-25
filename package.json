@@ -1,4 +1,5 @@
 {
+  "homepage": "https://github.com/utkarsh-datatroops/github-datatroops-ai",
   "name": "datatroops-ai",
   "version": "0.1.0",
   "private": true,
@@ -6,6 +7,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "deploy": "gh-pages -d build",
     "lint": "next lint",
     "format": "prettier --check --ignore-path .gitignore .",
     "format:fix": "prettier --write --ignore-path .gitignore .",
