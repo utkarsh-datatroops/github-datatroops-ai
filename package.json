@@ -54,6 +54,7 @@
     "eslint": "^8.57.1",
     "eslint-config-next": "14.2.12",
     "eslint-config-prettier": "^10.1.5",
+    "gh-pages": "^6.3.0",
     "json-loader": "^0.5.7",
     "postcss": "^8",
     "prettier": "^3.5.3",
