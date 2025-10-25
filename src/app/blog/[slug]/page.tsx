@@ -1,10 +1,22 @@
-"use client";
+import { blogPosts } from "@/sections/Blogs/blogPosts";
 import BlogPostDetail from "@/sections/Blogs/BlogPostDetail";
-import { useParams } from "next/navigation";
 
-const Blog = () => {
-  const { slug } = useParams();
-  return <BlogPostDetail title={slug} />;
+export async function generateStaticParams() {
+  return blogPosts.map((post) => ({
+    slug: post.slug,
+  }));
+}
+
+interface BlogPageProps {
+  params: { slug: string };
+}
+
+const BlogPage = ({ params }: BlogPageProps) => {
+  const post = blogPosts.find((p) => p.slug === params.slug);
+
+  if (!post) return <div>Post Not Found</div>;
+
+  return <BlogPostDetail post={post} />;
 };
 
-export default Blog;
+export default BlogPage;

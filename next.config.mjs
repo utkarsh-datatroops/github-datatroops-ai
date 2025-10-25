@@ -1,15 +1,71 @@
+// /** @type {import('next').NextConfig} */
+// const nextConfig = {
+//   trailingSlash: true,
+
+//     // Enable static export
+//   output: 'export',
+
+//   // Prevent image optimization (for static export)
+//   images: {
+//     unoptimized: true,
+//   },
+//   webpack(config) {
+//     // Grab the existing rule that handles SVG imports
+//     const fileLoaderRule = config.module.rules.find((rule) =>
+//       rule.test?.test?.(".svg"),
+//     );
+
+//     config.module.rules.push(
+//       // Reapply the existing rule, but only for svg imports ending in ?url
+//       {
+//         ...fileLoaderRule,
+//         test: /\.svg$/i,
+//         resourceQuery: /url/, // *.svg?url
+//       },
+//       // Convert all other *.svg imports to React components
+//       {
+//         test: /\.svg$/i,
+//         issuer: fileLoaderRule.issuer,
+//         resourceQuery: { not: [...fileLoaderRule.resourceQuery.not, /url/] }, // exclude if *.svg?url
+//         use: ["@svgr/webpack"],
+//       },
+//     );
+
+//     // Modify the file loader rule to ignore *.svg, since we have it handled now.
+//     fileLoaderRule.exclude = /\.svg$/i;
+
+//     // Add JSON loader (if necessary, although Next.js handles it automatically)
+//     config.module.rules.push({
+//       test: /\.json$/,
+//       use: "json-loader",
+//       exclude: /node_modules/,
+//     });
+
+//     return config;
+//   },
+
+//   // ...other config
+// };
+
+// export default nextConfig;
+
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   trailingSlash: true,
 
-  // Prevent image optimization (for static export)
+  // Enable static export
+  output: 'export',
+
+  // Prevent image optimization (required for static export)
   images: {
     unoptimized: true,
   },
+
   webpack(config) {
     // Grab the existing rule that handles SVG imports
     const fileLoaderRule = config.module.rules.find((rule) =>
-      rule.test?.test?.(".svg"),
+      rule.test?.test?.('.svg'),
     );
 
     config.module.rules.push(
@@ -23,8 +79,8 @@ const nextConfig = {
       {
         test: /\.svg$/i,
         issuer: fileLoaderRule.issuer,
-        resourceQuery: { not: [...fileLoaderRule.resourceQuery.not, /url/] }, // exclude if *.svg?url
-        use: ["@svgr/webpack"],
+        resourceQuery: { not: [...fileLoaderRule.resourceQuery.not, /url/] },
+        use: ['@svgr/webpack'],
       },
     );
 
@@ -34,14 +90,12 @@ const nextConfig = {
     // Add JSON loader (if necessary, although Next.js handles it automatically)
     config.module.rules.push({
       test: /\.json$/,
-      use: "json-loader",
+      use: 'json-loader',
       exclude: /node_modules/,
     });
 
     return config;
   },
-
-  // ...other config
 };
 
 export default nextConfig;
