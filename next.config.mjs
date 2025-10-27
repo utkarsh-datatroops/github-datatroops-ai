@@ -66,7 +66,7 @@ const nextConfig = {
 
   // ✅ Add these for GitHub Pages
   basePath: '/github-datatroops-ai',   // repo name
-  assetPrefix: '/github-datatroops-ai', // load CSS/JS correctly
+  assetPrefix: '/github-datatroops-ai/', // load CSS/JS correctly
 
 
   webpack(config) {
