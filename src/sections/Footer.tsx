@@ -13,6 +13,7 @@ import {
   faPhone,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Link from "next/link";
 import React from "react";
 
 const Footer = () => {
@@ -67,60 +68,60 @@ const Footer = () => {
             <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
             <ul className="space-y-2">
               <li>
-                <a
+                <Link
                   href="/"
                   className="text-gray-300 hover:text-white transition-colors"
                 >
                   Home
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   href="/about-us"
                   className="text-gray-300 hover:text-white transition-colors"
                 >
                   About Us
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   href="/solutions"
                   className="text-gray-300 hover:text-white transition-colors"
                 >
                   Solutions
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   href="/contact-us"
                   className="text-gray-300 hover:text-white transition-colors"
                 >
                   Contact
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   href="/technologies"
                   className="text-gray-300 hover:text-white transition-colors"
                 >
                   Technologies
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   href="/ai-chatbot"
                   className="text-gray-300 hover:text-white transition-colors"
                 >
                   AI ChatBot
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   href="/solutions/generative-ai"
                   className="text-gray-300 hover:text-white transition-colors"
                 >
                   Generative AI
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -129,36 +130,36 @@ const Footer = () => {
             <h4 className="text-lg font-semibold mb-4">Our Services</h4>
             <ul className="space-y-2">
               <li>
-                <a
+                <Link
                   href="#"
                   className="text-gray-300 hover:text-white transition-colors cursor-default pointer-events-none select-none"
                 >
                   Bespoke AI Systems
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   href="#"
                   className="text-gray-300 hover:text-white transition-colors cursor-default pointer-events-none select-none"
                 >
                   Advanced Data Analytics
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   href="#"
                   className="text-gray-300 hover:text-white transition-colors cursor-default pointer-events-none select-none"
                 >
                   Cloud AI Integration
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   href="#"
                   className="text-gray-300 hover:text-white transition-colors cursor-default pointer-events-none select-none"
                 >
                   Strategic AI Consulting
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
